@@ -7,7 +7,7 @@ Pod::Spec.new do |spec|
 
   spec.description  = "RookMotion iOS sdk allows the implementation of the RookMotion functionalities required to add training measurement, tracking, and analysis to an iOS APP"
 
-  spec.homepage     = "https://github.com/RookeriesDevelopment/rook-ios-sdk-extraction-binary.git"
+  spec.homepage     = "https://github.com/RookeriesDevelopment/rook-ios-sdk-extraction-podspec.git"
 
 
 
@@ -22,9 +22,7 @@ Pod::Spec.new do |spec|
   spec.swift_version = '5.0'
 
 
-  spec.source       = { :git => "https://github.com/RookeriesDevelopment/rook-ios-sdk-extraction-binary.git", :tag => "1.0.0" }
-
-  spec.frameworks  = "SystemConfiguration", "CoreBluetooth", "UIKit", "CoreData"
+  spec.source       = { :git => "https://github.com/RookeriesDevelopment/rook-ios-sdk-extraction-podspec.git", :tag => "1.0.0" }
 
   spec.ios.vendored_frameworks = 'RookAppleHealth.xcframework'
 
