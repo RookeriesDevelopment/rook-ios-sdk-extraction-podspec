@@ -2,10 +2,10 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "RookAppleHealth"
-  spec.version      = "1.0.0"
+  spec.version      = "1.0.1"
   spec.summary      = "RookAppleHealth iOS Lib"
 
-  spec.description  = "RookMotion iOS sdk allows the implementation of the RookMotion functionalities required to add training measurement, tracking, and analysis to an iOS APP"
+  spec.description  = "RookAppleHealth iOS sdk allows to extract health data from health kit"
 
   spec.homepage     = "https://github.com/RookeriesDevelopment/rook-ios-sdk-extraction-podspec.git"
 
@@ -14,7 +14,7 @@ Pod::Spec.new do |spec|
    spec.license      = "MIT"
    spec.license      = { :type => "MIT", :file => "LICENSE" }
 
-  spec.author             = { "RookAppleHealth" => "cesar.vargas@rookmotion.com" }
+  spec.author             = { "RookAppleHealth" => "francisco.guerrero@tryrook.io" }
 
 
   spec.platform     = :ios
@@ -22,7 +22,7 @@ Pod::Spec.new do |spec|
   spec.swift_version = '5.0'
 
 
-  spec.source       = { :git => "https://github.com/RookeriesDevelopment/rook-ios-sdk-extraction-podspec.git", :tag => "1.0.0" }
+  spec.source       = { :git => "https://github.com/RookeriesDevelopment/rook-ios-sdk-extraction-podspec.git", :tag => "1.0.1" }
 
   spec.ios.vendored_frameworks = 'RookAppleHealth.xcframework'
 
