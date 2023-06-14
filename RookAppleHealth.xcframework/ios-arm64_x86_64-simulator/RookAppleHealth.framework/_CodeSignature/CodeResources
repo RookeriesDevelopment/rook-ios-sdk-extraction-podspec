@@ -18,7 +18,7 @@
 		</data>
 		<key>Modules/RookAppleHealth.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		vPpznUlYy3Ts87tOeTbSVS8DLJs=
+		4sI7EXK38oL0TvLADRDhBFaEWC8=
 		</data>
 		<key>Modules/RookAppleHealth.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/RookAppleHealth.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		SgyenUvFlDfGpyg6hXKK4ymYyj8=
+		0/N7bR1B9H/FI71P90AP4OuO9oQ=
 		</data>
 		<key>Modules/RookAppleHealth.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		vPpznUlYy3Ts87tOeTbSVS8DLJs=
+		4sI7EXK38oL0TvLADRDhBFaEWC8=
 		</data>
 		<key>Modules/RookAppleHealth.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Modules/RookAppleHealth.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		3Gf9mGkpuIETYxRVArugMwRhYzA=
+		i99iv0bpm2FplemGCu4isS6lzYg=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -81,7 +81,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			H+Plhv/HcWWVd7lvp2OLlm9WH1gWcrjbeeFFK8Hsk1w=
+			DM26v1QKSqPkqH90swsonnLFLg2BljRj1OYdTqWKOj8=
 			</data>
 		</dict>
 		<key>Modules/RookAppleHealth.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -109,14 +109,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			d7CuA+VtEJhVpQrIGmxZ6cmiBGMoW3A5UHnMx32H6k8=
+			OGJLpwPfHDgua5EOfzjL/dKv6f+w2flhytGXQXjXHDY=
 			</data>
 		</dict>
 		<key>Modules/RookAppleHealth.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			H+Plhv/HcWWVd7lvp2OLlm9WH1gWcrjbeeFFK8Hsk1w=
+			DM26v1QKSqPkqH90swsonnLFLg2BljRj1OYdTqWKOj8=
 			</data>
 		</dict>
 		<key>Modules/RookAppleHealth.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -144,7 +144,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			4Mukz/IzJGayOU/Hbw//vEl3uN/+CLzGx6erk6PIAas=
+			GFez508d3lguNuC5KomHjORLRo6JTRey2pRDEYpqRvk=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
