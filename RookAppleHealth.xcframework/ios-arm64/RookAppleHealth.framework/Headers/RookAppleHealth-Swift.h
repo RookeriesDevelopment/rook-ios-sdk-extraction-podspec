@@ -267,6 +267,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) RookAuthAppl
 /// Initializes the rook apple health sdk
 /// first you have to set your client uuid
 - (void)initRookAH SWIFT_METHOD_FAMILY(none);
+- (void)setUserIdWith:(NSString * _Nullable)id;
 - (BOOL)isAHAvailable SWIFT_WARN_UNUSED_RESULT;
 @end
 
