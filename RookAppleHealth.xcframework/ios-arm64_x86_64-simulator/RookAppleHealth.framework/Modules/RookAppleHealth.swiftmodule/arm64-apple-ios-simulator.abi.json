@@ -9346,8 +9346,8 @@
         "children": [
           {
             "kind": "Var",
-            "name": "meatadata",
-            "printedName": "meatadata",
+            "name": "metadata",
+            "printedName": "metadata",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -9357,8 +9357,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:15RookAppleHealth0A14HeartRateEventV9meatadataAA0a8MetaDataF0Vvp",
-            "mangledName": "$s15RookAppleHealth0A14HeartRateEventV9meatadataAA0a8MetaDataF0Vvp",
+            "usr": "s:15RookAppleHealth0A14HeartRateEventV8metadataAA0a8MetaDataF0Vvp",
+            "mangledName": "$s15RookAppleHealth0A14HeartRateEventV8metadataAA0a8MetaDataF0Vvp",
             "moduleName": "RookAppleHealth",
             "declAttributes": [
               "HasStorage",
@@ -9379,8 +9379,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:15RookAppleHealth0A14HeartRateEventV9meatadataAA0a8MetaDataF0Vvg",
-                "mangledName": "$s15RookAppleHealth0A14HeartRateEventV9meatadataAA0a8MetaDataF0Vvg",
+                "usr": "s:15RookAppleHealth0A14HeartRateEventV8metadataAA0a8MetaDataF0Vvg",
+                "mangledName": "$s15RookAppleHealth0A14HeartRateEventV8metadataAA0a8MetaDataF0Vvg",
                 "moduleName": "RookAppleHealth",
                 "implicit": true,
                 "accessorKind": "get"
@@ -9403,8 +9403,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:15RookAppleHealth0A14HeartRateEventV9meatadataAA0a8MetaDataF0Vvs",
-                "mangledName": "$s15RookAppleHealth0A14HeartRateEventV9meatadataAA0a8MetaDataF0Vvs",
+                "usr": "s:15RookAppleHealth0A14HeartRateEventV8metadataAA0a8MetaDataF0Vvs",
+                "mangledName": "$s15RookAppleHealth0A14HeartRateEventV8metadataAA0a8MetaDataF0Vvs",
                 "moduleName": "RookAppleHealth",
                 "implicit": true,
                 "accessorKind": "set"
@@ -9421,8 +9421,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:15RookAppleHealth0A14HeartRateEventV9meatadataAA0a8MetaDataF0VvM",
-                "mangledName": "$s15RookAppleHealth0A14HeartRateEventV9meatadataAA0a8MetaDataF0VvM",
+                "usr": "s:15RookAppleHealth0A14HeartRateEventV8metadataAA0a8MetaDataF0VvM",
+                "mangledName": "$s15RookAppleHealth0A14HeartRateEventV8metadataAA0a8MetaDataF0VvM",
                 "moduleName": "RookAppleHealth",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -9431,8 +9431,8 @@
           },
           {
             "kind": "Var",
-            "name": "hearRateData",
-            "printedName": "hearRateData",
+            "name": "heartRateData",
+            "printedName": "heartRateData",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -9442,8 +9442,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:15RookAppleHealth0A14HeartRateEventV04hearE4DataAA0adehF0Vvp",
-            "mangledName": "$s15RookAppleHealth0A14HeartRateEventV04hearE4DataAA0adehF0Vvp",
+            "usr": "s:15RookAppleHealth0A14HeartRateEventV05heartE4DataAA0adehF0Vvp",
+            "mangledName": "$s15RookAppleHealth0A14HeartRateEventV05heartE4DataAA0adehF0Vvp",
             "moduleName": "RookAppleHealth",
             "declAttributes": [
               "HasStorage",
@@ -9464,8 +9464,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:15RookAppleHealth0A14HeartRateEventV04hearE4DataAA0adehF0Vvg",
-                "mangledName": "$s15RookAppleHealth0A14HeartRateEventV04hearE4DataAA0adehF0Vvg",
+                "usr": "s:15RookAppleHealth0A14HeartRateEventV05heartE4DataAA0adehF0Vvg",
+                "mangledName": "$s15RookAppleHealth0A14HeartRateEventV05heartE4DataAA0adehF0Vvg",
                 "moduleName": "RookAppleHealth",
                 "implicit": true,
                 "accessorKind": "get"
@@ -9488,8 +9488,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:15RookAppleHealth0A14HeartRateEventV04hearE4DataAA0adehF0Vvs",
-                "mangledName": "$s15RookAppleHealth0A14HeartRateEventV04hearE4DataAA0adehF0Vvs",
+                "usr": "s:15RookAppleHealth0A14HeartRateEventV05heartE4DataAA0adehF0Vvs",
+                "mangledName": "$s15RookAppleHealth0A14HeartRateEventV05heartE4DataAA0adehF0Vvs",
                 "moduleName": "RookAppleHealth",
                 "implicit": true,
                 "accessorKind": "set"
@@ -9506,8 +9506,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:15RookAppleHealth0A14HeartRateEventV04hearE4DataAA0adehF0VvM",
-                "mangledName": "$s15RookAppleHealth0A14HeartRateEventV04hearE4DataAA0adehF0VvM",
+                "usr": "s:15RookAppleHealth0A14HeartRateEventV05heartE4DataAA0adehF0VvM",
+                "mangledName": "$s15RookAppleHealth0A14HeartRateEventV05heartE4DataAA0adehF0VvM",
                 "moduleName": "RookAppleHealth",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -18171,25 +18171,16 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "RookAppleHealth.RookMetaDataEvent?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "RookMetaDataEvent",
-                    "printedName": "RookAppleHealth.RookMetaDataEvent",
-                    "usr": "s:15RookAppleHealth0A13MetaDataEventV"
-                  }
-                ],
-                "usr": "s:Sq"
+                "name": "RookMetaDataEvent",
+                "printedName": "RookAppleHealth.RookMetaDataEvent",
+                "usr": "s:15RookAppleHealth0A13MetaDataEventV"
               }
             ],
             "declKind": "Var",
-            "usr": "s:15RookAppleHealth0A13ActivityEventV8metadataAA0a8MetaDataE0VSgvp",
-            "mangledName": "$s15RookAppleHealth0A13ActivityEventV8metadataAA0a8MetaDataE0VSgvp",
+            "usr": "s:15RookAppleHealth0A13ActivityEventV8metadataAA0a8MetaDataE0Vvp",
+            "mangledName": "$s15RookAppleHealth0A13ActivityEventV8metadataAA0a8MetaDataE0Vvp",
             "moduleName": "RookAppleHealth",
             "declAttributes": [
-              "HasInitialValue",
               "HasStorage",
               "AccessControl"
             ],
@@ -18202,22 +18193,14 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "RookAppleHealth.RookMetaDataEvent?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "RookMetaDataEvent",
-                        "printedName": "RookAppleHealth.RookMetaDataEvent",
-                        "usr": "s:15RookAppleHealth0A13MetaDataEventV"
-                      }
-                    ],
-                    "usr": "s:Sq"
+                    "name": "RookMetaDataEvent",
+                    "printedName": "RookAppleHealth.RookMetaDataEvent",
+                    "usr": "s:15RookAppleHealth0A13MetaDataEventV"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:15RookAppleHealth0A13ActivityEventV8metadataAA0a8MetaDataE0VSgvg",
-                "mangledName": "$s15RookAppleHealth0A13ActivityEventV8metadataAA0a8MetaDataE0VSgvg",
+                "usr": "s:15RookAppleHealth0A13ActivityEventV8metadataAA0a8MetaDataE0Vvg",
+                "mangledName": "$s15RookAppleHealth0A13ActivityEventV8metadataAA0a8MetaDataE0Vvg",
                 "moduleName": "RookAppleHealth",
                 "implicit": true,
                 "accessorKind": "get"
@@ -18234,22 +18217,14 @@
                   },
                   {
                     "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "RookAppleHealth.RookMetaDataEvent?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "RookMetaDataEvent",
-                        "printedName": "RookAppleHealth.RookMetaDataEvent",
-                        "usr": "s:15RookAppleHealth0A13MetaDataEventV"
-                      }
-                    ],
-                    "usr": "s:Sq"
+                    "name": "RookMetaDataEvent",
+                    "printedName": "RookAppleHealth.RookMetaDataEvent",
+                    "usr": "s:15RookAppleHealth0A13MetaDataEventV"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:15RookAppleHealth0A13ActivityEventV8metadataAA0a8MetaDataE0VSgvs",
-                "mangledName": "$s15RookAppleHealth0A13ActivityEventV8metadataAA0a8MetaDataE0VSgvs",
+                "usr": "s:15RookAppleHealth0A13ActivityEventV8metadataAA0a8MetaDataE0Vvs",
+                "mangledName": "$s15RookAppleHealth0A13ActivityEventV8metadataAA0a8MetaDataE0Vvs",
                 "moduleName": "RookAppleHealth",
                 "implicit": true,
                 "accessorKind": "set"
@@ -18266,8 +18241,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:15RookAppleHealth0A13ActivityEventV8metadataAA0a8MetaDataE0VSgvM",
-                "mangledName": "$s15RookAppleHealth0A13ActivityEventV8metadataAA0a8MetaDataE0VSgvM",
+                "usr": "s:15RookAppleHealth0A13ActivityEventV8metadataAA0a8MetaDataE0VvM",
+                "mangledName": "$s15RookAppleHealth0A13ActivityEventV8metadataAA0a8MetaDataE0VvM",
                 "moduleName": "RookAppleHealth",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -20146,8 +20121,8 @@
         "children": [
           {
             "kind": "Var",
-            "name": "meatadata",
-            "printedName": "meatadata",
+            "name": "metadata",
+            "printedName": "metadata",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -20157,8 +20132,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:15RookAppleHealth0A17OxigentationEventV9meatadataAA0a8MetaDataE0Vvp",
-            "mangledName": "$s15RookAppleHealth0A17OxigentationEventV9meatadataAA0a8MetaDataE0Vvp",
+            "usr": "s:15RookAppleHealth0A17OxigentationEventV8metadataAA0a8MetaDataE0Vvp",
+            "mangledName": "$s15RookAppleHealth0A17OxigentationEventV8metadataAA0a8MetaDataE0Vvp",
             "moduleName": "RookAppleHealth",
             "declAttributes": [
               "HasStorage",
@@ -20179,8 +20154,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:15RookAppleHealth0A17OxigentationEventV9meatadataAA0a8MetaDataE0Vvg",
-                "mangledName": "$s15RookAppleHealth0A17OxigentationEventV9meatadataAA0a8MetaDataE0Vvg",
+                "usr": "s:15RookAppleHealth0A17OxigentationEventV8metadataAA0a8MetaDataE0Vvg",
+                "mangledName": "$s15RookAppleHealth0A17OxigentationEventV8metadataAA0a8MetaDataE0Vvg",
                 "moduleName": "RookAppleHealth",
                 "implicit": true,
                 "accessorKind": "get"
@@ -20203,8 +20178,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:15RookAppleHealth0A17OxigentationEventV9meatadataAA0a8MetaDataE0Vvs",
-                "mangledName": "$s15RookAppleHealth0A17OxigentationEventV9meatadataAA0a8MetaDataE0Vvs",
+                "usr": "s:15RookAppleHealth0A17OxigentationEventV8metadataAA0a8MetaDataE0Vvs",
+                "mangledName": "$s15RookAppleHealth0A17OxigentationEventV8metadataAA0a8MetaDataE0Vvs",
                 "moduleName": "RookAppleHealth",
                 "implicit": true,
                 "accessorKind": "set"
@@ -20221,8 +20196,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:15RookAppleHealth0A17OxigentationEventV9meatadataAA0a8MetaDataE0VvM",
-                "mangledName": "$s15RookAppleHealth0A17OxigentationEventV9meatadataAA0a8MetaDataE0VvM",
+                "usr": "s:15RookAppleHealth0A17OxigentationEventV8metadataAA0a8MetaDataE0VvM",
+                "mangledName": "$s15RookAppleHealth0A17OxigentationEventV8metadataAA0a8MetaDataE0VvM",
                 "moduleName": "RookAppleHealth",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -43258,56 +43233,56 @@
     {
       "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/RookMotion\/SDK's\/RookAuthenticationSDK\/RookAppleHealth\/Source\/Extraction\/Data\/Event\/Entities\/RookOxigentationEvent.swift",
       "kind": "StringLiteral",
-      "offset": 730,
+      "offset": 729,
       "length": 27,
       "value": "\"saturation_avg_percentage\""
     },
     {
       "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/RookMotion\/SDK's\/RookAuthenticationSDK\/RookAppleHealth\/Source\/Extraction\/Data\/Event\/Entities\/RookOxigentationEvent.swift",
       "kind": "StringLiteral",
-      "offset": 802,
+      "offset": 801,
       "length": 37,
       "value": "\"saturation_granular_data_percentage\""
     },
     {
       "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/RookMotion\/SDK's\/RookAuthenticationSDK\/RookAppleHealth\/Source\/Extraction\/Data\/Event\/Entities\/RookOxigentationEvent.swift",
       "kind": "StringLiteral",
-      "offset": 871,
+      "offset": 870,
       "length": 26,
       "value": "\"vo2max_ml_per_min_per_kg\""
     },
     {
       "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/RookMotion\/SDK's\/RookAuthenticationSDK\/RookAppleHealth\/Source\/Extraction\/Data\/Event\/Entities\/RookOxigentationEvent.swift",
       "kind": "StringLiteral",
-      "offset": 936,
+      "offset": 935,
       "length": 33,
       "value": "\"vo2_granular_data_liter_per_min\""
     },
     {
       "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/RookMotion\/SDK's\/RookAuthenticationSDK\/RookAppleHealth\/Source\/Extraction\/Data\/Event\/Entities\/RookOxigentationEvent.swift",
       "kind": "StringLiteral",
-      "offset": 730,
+      "offset": 729,
       "length": 27,
       "value": "\"saturation_avg_percentage\""
     },
     {
       "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/RookMotion\/SDK's\/RookAuthenticationSDK\/RookAppleHealth\/Source\/Extraction\/Data\/Event\/Entities\/RookOxigentationEvent.swift",
       "kind": "StringLiteral",
-      "offset": 802,
+      "offset": 801,
       "length": 37,
       "value": "\"saturation_granular_data_percentage\""
     },
     {
       "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/RookMotion\/SDK's\/RookAuthenticationSDK\/RookAppleHealth\/Source\/Extraction\/Data\/Event\/Entities\/RookOxigentationEvent.swift",
       "kind": "StringLiteral",
-      "offset": 871,
+      "offset": 870,
       "length": 26,
       "value": "\"vo2max_ml_per_min_per_kg\""
     },
     {
       "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/RookMotion\/SDK's\/RookAuthenticationSDK\/RookAppleHealth\/Source\/Extraction\/Data\/Event\/Entities\/RookOxigentationEvent.swift",
       "kind": "StringLiteral",
-      "offset": 936,
+      "offset": 935,
       "length": 33,
       "value": "\"vo2_granular_data_liter_per_min\""
     },

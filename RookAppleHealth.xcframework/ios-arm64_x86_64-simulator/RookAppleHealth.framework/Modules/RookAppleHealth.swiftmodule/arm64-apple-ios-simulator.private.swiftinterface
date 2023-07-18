@@ -206,8 +206,8 @@ public struct RookTemperatureData : Swift.Codable {
   public init(from decoder: Swift.Decoder) throws
 }
 public struct RookHeartRateEvent : Swift.Codable {
-  public var meatadata: RookAppleHealth.RookMetaDataEvent
-  public var hearRateData: RookAppleHealth.RookHeartRateDataEvent
+  public var metadata: RookAppleHealth.RookMetaDataEvent
+  public var heartRateData: RookAppleHealth.RookHeartRateDataEvent
   public var dataEvent: Foundation.Data? {
     get
   }
@@ -414,7 +414,7 @@ public enum NetworkError : Swift.String, Swift.Error {
   }
 }
 public struct RookActivityEvent : Swift.Encodable {
-  public var metadata: RookAppleHealth.RookMetaDataEvent?
+  public var metadata: RookAppleHealth.RookMetaDataEvent
   public var activityData: RookAppleHealth.RookActivityDataEvent?
   public var caloriesData: RookAppleHealth.RookCaloriesDataEvent?
   public var distanceData: RookAppleHealth.RookDistanceData?
@@ -453,7 +453,7 @@ public enum HTTPMethod : Swift.String {
   }
 }
 public struct RookOxigentationEvent : Swift.Codable {
-  public var meatadata: RookAppleHealth.RookMetaDataEvent
+  public var metadata: RookAppleHealth.RookMetaDataEvent
   public var oxygenationData: RookAppleHealth.RookOxigenationDataEvent
   public var dataEvent: Foundation.Data? {
     get
