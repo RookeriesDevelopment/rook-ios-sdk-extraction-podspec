@@ -75,6 +75,11 @@ public enum RookDataType : Swift.String {
   case physicalSummary
   case bodySummary
   case userInformation
+  case heartRateBodyEvent
+  case heartRatePhysicalEvent
+  case oxygenationBodyEvent
+  case oxygenationPhysicalEvent
+  case activityEvent
   public init?(rawValue: Swift.String)
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
@@ -88,6 +93,7 @@ final public class RookExtractionEventManager {
   final public func getPhysicalOxygenationEvents(date: Foundation.Date, completion: @escaping (Swift.Result<[RookAppleHealth.RookOxigentationEvent], Swift.Error>) -> Swift.Void)
   final public func getBodyOxygenationEvents(date: Foundation.Date, completion: @escaping (Swift.Result<[RookAppleHealth.RookOxigentationEvent], Swift.Error>) -> Swift.Void)
   final public func getActivityEvents(date: Foundation.Date, completion: @escaping (Swift.Result<[RookAppleHealth.RookActivityEvent], Swift.Error>) -> Swift.Void)
+  final public func getLastExtractionDate(of summary: RookAppleHealth.RookDataType) -> Foundation.Date?
   @objc deinit
 }
 public struct RookUserInfoData : Swift.Codable {
@@ -278,6 +284,8 @@ public struct BreathingRelatedData : Swift.Codable {
   public let snoringDurationTotalSeconds: Swift.Int?
   public let snoringGranularDataSnores: [RookAppleHealth.SnoringGranularDataSnore]?
   public let saturationAvgPercentage: Swift.Int?
+  public let saturationMaxPercentage: Swift.Int?
+  public let saturationMiniPercentage: Swift.Int?
   public let saturationGranularDataPercentage: [RookAppleHealth.SaturationGranularDataPercentage]?
   public func encode(to encoder: Swift.Encoder) throws
   public init(from decoder: Swift.Decoder) throws
@@ -388,6 +396,8 @@ public struct TemperatureGranularDataCelsius : Swift.Codable {
   public init(from decoder: Swift.Decoder) throws
 }
 public struct RookTemperatureExtractionItem : Swift.Codable {
+  public let temperatureCelsius: Swift.Int
+  public let measurementType: Swift.String
   public init(temperatureCelsius: Swift.Int, measurementType: Swift.String)
   public func encode(to encoder: Swift.Encoder) throws
   public init(from decoder: Swift.Decoder) throws
