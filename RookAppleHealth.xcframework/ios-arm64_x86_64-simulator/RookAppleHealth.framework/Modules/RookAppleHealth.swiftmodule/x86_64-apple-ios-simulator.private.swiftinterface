@@ -550,19 +550,19 @@ public struct CaloriesData : Swift.Codable {
   public init(from decoder: Swift.Decoder) throws
 }
 public struct DistanceData : Swift.Codable {
-  public let stepsPerDayNumber: Swift.Int?
-  public let stepsGranularDataStepsPerHr: [RookAppleHealth.StepsGranularDataStepsPerHr]?
-  public let activeStepsPerDayNumber: Swift.Int?
-  public let activeStepsGranularDataStepsPerHr: [RookAppleHealth.StepsGranularDataStepsPerHr]?
-  public let walkedDistanceMeters: Swift.Int?, traveledDistanceMeters: Swift.Int?
-  public let traveledDistanceGranularDataMeters: [RookAppleHealth.TraveledDistanceGranularDataMeter]?
-  public let floorsClimbedNumber: Swift.Int?
-  public let floorsClimbedGranularDataFloors: [RookAppleHealth.FloorsClimbedGranularDataFloor]?
-  public let elevationAvgAltitudeMeters: Swift.Int?, elevationMinimumAltitudeMeters: Swift.Int?, elevationMaxAltitudeMeters: Swift.Int?, elevationLossActualAltitudeMeters: Swift.Int?
-  public let elevationGainActualAltitudeMeters: Swift.Int?, elevationPlannedGainMeters: Swift.Int?
-  public let elevationGranularDataMeters: [RookAppleHealth.ElevationGranularDataMeter]?
-  public let swimmingStrokesNumber: Swift.Int?, swimmingNumLapsNumber: Swift.Int?, swimmingPoolLengthMeters: Swift.Int?, swimmingTotalDistanceMeters: Swift.Int?
-  public let swimmingDistanceGranularDataMeters: [RookAppleHealth.SwimmingDistanceGranularDataMeter]?
+  public var stepsPerDayNumber: Swift.Int?
+  public var stepsGranularDataStepsPerHr: [RookAppleHealth.StepsGranularDataStepsPerHr]?
+  public var activeStepsPerDayNumber: Swift.Int?
+  public var activeStepsGranularDataStepsPerHr: [RookAppleHealth.StepsGranularDataStepsPerHr]?
+  public var walkedDistanceMeters: Swift.Int?, traveledDistanceMeters: Swift.Int?
+  public var traveledDistanceGranularDataMeters: [RookAppleHealth.TraveledDistanceGranularDataMeter]?
+  public var floorsClimbedNumber: Swift.Int?
+  public var floorsClimbedGranularDataFloors: [RookAppleHealth.FloorsClimbedGranularDataFloor]?
+  public var elevationAvgAltitudeMeters: Swift.Int?, elevationMinimumAltitudeMeters: Swift.Int?, elevationMaxAltitudeMeters: Swift.Int?, elevationLossActualAltitudeMeters: Swift.Int?
+  public var elevationGainActualAltitudeMeters: Swift.Int?, elevationPlannedGainMeters: Swift.Int?
+  public var elevationGranularDataMeters: [RookAppleHealth.ElevationGranularDataMeter]?
+  public var swimmingStrokesNumber: Swift.Int?, swimmingNumLapsNumber: Swift.Int?, swimmingPoolLengthMeters: Swift.Int?, swimmingTotalDistanceMeters: Swift.Int?
+  public var swimmingDistanceGranularDataMeters: [RookAppleHealth.SwimmingDistanceGranularDataMeter]?
   public func encode(to encoder: Swift.Encoder) throws
   public init(from decoder: Swift.Decoder) throws
 }

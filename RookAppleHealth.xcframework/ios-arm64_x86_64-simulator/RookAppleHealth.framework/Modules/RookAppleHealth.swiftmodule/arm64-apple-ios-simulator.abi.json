@@ -11465,6 +11465,16 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "RookAppleHealth",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "HealthKit",
         "printedName": "HealthKit",
         "declKind": "Import",
@@ -17882,6 +17892,16 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "RookAppleHealth",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
         "kind": "TypeDecl",
         "name": "RookCadenceGranularItem",
         "printedName": "RookCadenceGranularItem",
@@ -21262,6 +21282,23 @@
       },
       {
         "kind": "Import",
+        "name": "HealthKit",
+        "printedName": "HealthKit",
+        "declKind": "Import",
+        "moduleName": "RookAppleHealth"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "RookAppleHealth",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -24440,10 +24477,10 @@
             "mangledName": "$s15RookAppleHealth12DistanceDataV17stepsPerDayNumberSiSgvp",
             "moduleName": "RookAppleHealth",
             "declAttributes": [
+              "HasInitialValue",
               "HasStorage",
               "AccessControl"
             ],
-            "isLet": true,
             "hasStorage": true,
             "accessors": [
               {
@@ -24472,6 +24509,56 @@
                 "moduleName": "RookAppleHealth",
                 "implicit": true,
                 "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15RookAppleHealth12DistanceDataV17stepsPerDayNumberSiSgvs",
+                "mangledName": "$s15RookAppleHealth12DistanceDataV17stepsPerDayNumberSiSgvs",
+                "moduleName": "RookAppleHealth",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15RookAppleHealth12DistanceDataV17stepsPerDayNumberSiSgvM",
+                "mangledName": "$s15RookAppleHealth12DistanceDataV17stepsPerDayNumberSiSgvM",
+                "moduleName": "RookAppleHealth",
+                "implicit": true,
+                "accessorKind": "_modify"
               }
             ]
           },
@@ -24508,10 +24595,10 @@
             "mangledName": "$s15RookAppleHealth12DistanceDataV013stepsGranularE10StepsPerHrSayAA0hgehiJ0VGSgvp",
             "moduleName": "RookAppleHealth",
             "declAttributes": [
+              "HasInitialValue",
               "HasStorage",
               "AccessControl"
             ],
-            "isLet": true,
             "hasStorage": true,
             "accessors": [
               {
@@ -24548,6 +24635,64 @@
                 "moduleName": "RookAppleHealth",
                 "implicit": true,
                 "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[RookAppleHealth.StepsGranularDataStepsPerHr]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[RookAppleHealth.StepsGranularDataStepsPerHr]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "StepsGranularDataStepsPerHr",
+                            "printedName": "RookAppleHealth.StepsGranularDataStepsPerHr",
+                            "usr": "s:15RookAppleHealth017StepsGranularDataD5PerHrV"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15RookAppleHealth12DistanceDataV013stepsGranularE10StepsPerHrSayAA0hgehiJ0VGSgvs",
+                "mangledName": "$s15RookAppleHealth12DistanceDataV013stepsGranularE10StepsPerHrSayAA0hgehiJ0VGSgvs",
+                "moduleName": "RookAppleHealth",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15RookAppleHealth12DistanceDataV013stepsGranularE10StepsPerHrSayAA0hgehiJ0VGSgvM",
+                "mangledName": "$s15RookAppleHealth12DistanceDataV013stepsGranularE10StepsPerHrSayAA0hgehiJ0VGSgvM",
+                "moduleName": "RookAppleHealth",
+                "implicit": true,
+                "accessorKind": "_modify"
               }
             ]
           },
@@ -24576,10 +24721,10 @@
             "mangledName": "$s15RookAppleHealth12DistanceDataV23activeStepsPerDayNumberSiSgvp",
             "moduleName": "RookAppleHealth",
             "declAttributes": [
+              "HasInitialValue",
               "HasStorage",
               "AccessControl"
             ],
-            "isLet": true,
             "hasStorage": true,
             "accessors": [
               {
@@ -24608,6 +24753,56 @@
                 "moduleName": "RookAppleHealth",
                 "implicit": true,
                 "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15RookAppleHealth12DistanceDataV23activeStepsPerDayNumberSiSgvs",
+                "mangledName": "$s15RookAppleHealth12DistanceDataV23activeStepsPerDayNumberSiSgvs",
+                "moduleName": "RookAppleHealth",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15RookAppleHealth12DistanceDataV23activeStepsPerDayNumberSiSgvM",
+                "mangledName": "$s15RookAppleHealth12DistanceDataV23activeStepsPerDayNumberSiSgvM",
+                "moduleName": "RookAppleHealth",
+                "implicit": true,
+                "accessorKind": "_modify"
               }
             ]
           },
@@ -24644,10 +24839,10 @@
             "mangledName": "$s15RookAppleHealth12DistanceDataV019activeStepsGranulareG5PerHrSayAA0ghegiJ0VGSgvp",
             "moduleName": "RookAppleHealth",
             "declAttributes": [
+              "HasInitialValue",
               "HasStorage",
               "AccessControl"
             ],
-            "isLet": true,
             "hasStorage": true,
             "accessors": [
               {
@@ -24684,6 +24879,64 @@
                 "moduleName": "RookAppleHealth",
                 "implicit": true,
                 "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[RookAppleHealth.StepsGranularDataStepsPerHr]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[RookAppleHealth.StepsGranularDataStepsPerHr]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "StepsGranularDataStepsPerHr",
+                            "printedName": "RookAppleHealth.StepsGranularDataStepsPerHr",
+                            "usr": "s:15RookAppleHealth017StepsGranularDataD5PerHrV"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15RookAppleHealth12DistanceDataV019activeStepsGranulareG5PerHrSayAA0ghegiJ0VGSgvs",
+                "mangledName": "$s15RookAppleHealth12DistanceDataV019activeStepsGranulareG5PerHrSayAA0ghegiJ0VGSgvs",
+                "moduleName": "RookAppleHealth",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15RookAppleHealth12DistanceDataV019activeStepsGranulareG5PerHrSayAA0ghegiJ0VGSgvM",
+                "mangledName": "$s15RookAppleHealth12DistanceDataV019activeStepsGranulareG5PerHrSayAA0ghegiJ0VGSgvM",
+                "moduleName": "RookAppleHealth",
+                "implicit": true,
+                "accessorKind": "_modify"
               }
             ]
           },
@@ -24712,10 +24965,10 @@
             "mangledName": "$s15RookAppleHealth12DistanceDataV06walkedD6MetersSiSgvp",
             "moduleName": "RookAppleHealth",
             "declAttributes": [
+              "HasInitialValue",
               "HasStorage",
               "AccessControl"
             ],
-            "isLet": true,
             "hasStorage": true,
             "accessors": [
               {
@@ -24744,6 +24997,56 @@
                 "moduleName": "RookAppleHealth",
                 "implicit": true,
                 "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15RookAppleHealth12DistanceDataV06walkedD6MetersSiSgvs",
+                "mangledName": "$s15RookAppleHealth12DistanceDataV06walkedD6MetersSiSgvs",
+                "moduleName": "RookAppleHealth",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15RookAppleHealth12DistanceDataV06walkedD6MetersSiSgvM",
+                "mangledName": "$s15RookAppleHealth12DistanceDataV06walkedD6MetersSiSgvM",
+                "moduleName": "RookAppleHealth",
+                "implicit": true,
+                "accessorKind": "_modify"
               }
             ]
           },
@@ -24772,10 +25075,10 @@
             "mangledName": "$s15RookAppleHealth12DistanceDataV08traveledD6MetersSiSgvp",
             "moduleName": "RookAppleHealth",
             "declAttributes": [
+              "HasInitialValue",
               "HasStorage",
               "AccessControl"
             ],
-            "isLet": true,
             "hasStorage": true,
             "accessors": [
               {
@@ -24804,6 +25107,56 @@
                 "moduleName": "RookAppleHealth",
                 "implicit": true,
                 "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15RookAppleHealth12DistanceDataV08traveledD6MetersSiSgvs",
+                "mangledName": "$s15RookAppleHealth12DistanceDataV08traveledD6MetersSiSgvs",
+                "moduleName": "RookAppleHealth",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15RookAppleHealth12DistanceDataV08traveledD6MetersSiSgvM",
+                "mangledName": "$s15RookAppleHealth12DistanceDataV08traveledD6MetersSiSgvM",
+                "moduleName": "RookAppleHealth",
+                "implicit": true,
+                "accessorKind": "_modify"
               }
             ]
           },
@@ -24840,10 +25193,10 @@
             "mangledName": "$s15RookAppleHealth12DistanceDataV08traveledd8GranularE6MetersSayAA08TraveleddgE5MeterVGSgvp",
             "moduleName": "RookAppleHealth",
             "declAttributes": [
+              "HasInitialValue",
               "HasStorage",
               "AccessControl"
             ],
-            "isLet": true,
             "hasStorage": true,
             "accessors": [
               {
@@ -24880,6 +25233,64 @@
                 "moduleName": "RookAppleHealth",
                 "implicit": true,
                 "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[RookAppleHealth.TraveledDistanceGranularDataMeter]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[RookAppleHealth.TraveledDistanceGranularDataMeter]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "TraveledDistanceGranularDataMeter",
+                            "printedName": "RookAppleHealth.TraveledDistanceGranularDataMeter",
+                            "usr": "s:15RookAppleHealth33TraveledDistanceGranularDataMeterV"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15RookAppleHealth12DistanceDataV08traveledd8GranularE6MetersSayAA08TraveleddgE5MeterVGSgvs",
+                "mangledName": "$s15RookAppleHealth12DistanceDataV08traveledd8GranularE6MetersSayAA08TraveleddgE5MeterVGSgvs",
+                "moduleName": "RookAppleHealth",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15RookAppleHealth12DistanceDataV08traveledd8GranularE6MetersSayAA08TraveleddgE5MeterVGSgvM",
+                "mangledName": "$s15RookAppleHealth12DistanceDataV08traveledd8GranularE6MetersSayAA08TraveleddgE5MeterVGSgvM",
+                "moduleName": "RookAppleHealth",
+                "implicit": true,
+                "accessorKind": "_modify"
               }
             ]
           },
@@ -24908,10 +25319,10 @@
             "mangledName": "$s15RookAppleHealth12DistanceDataV19floorsClimbedNumberSiSgvp",
             "moduleName": "RookAppleHealth",
             "declAttributes": [
+              "HasInitialValue",
               "HasStorage",
               "AccessControl"
             ],
-            "isLet": true,
             "hasStorage": true,
             "accessors": [
               {
@@ -24940,6 +25351,56 @@
                 "moduleName": "RookAppleHealth",
                 "implicit": true,
                 "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15RookAppleHealth12DistanceDataV19floorsClimbedNumberSiSgvs",
+                "mangledName": "$s15RookAppleHealth12DistanceDataV19floorsClimbedNumberSiSgvs",
+                "moduleName": "RookAppleHealth",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15RookAppleHealth12DistanceDataV19floorsClimbedNumberSiSgvM",
+                "mangledName": "$s15RookAppleHealth12DistanceDataV19floorsClimbedNumberSiSgvM",
+                "moduleName": "RookAppleHealth",
+                "implicit": true,
+                "accessorKind": "_modify"
               }
             ]
           },
@@ -24976,10 +25437,10 @@
             "mangledName": "$s15RookAppleHealth12DistanceDataV021floorsClimbedGranularE6FloorsSayAA0ighE5FloorVGSgvp",
             "moduleName": "RookAppleHealth",
             "declAttributes": [
+              "HasInitialValue",
               "HasStorage",
               "AccessControl"
             ],
-            "isLet": true,
             "hasStorage": true,
             "accessors": [
               {
@@ -25016,6 +25477,64 @@
                 "moduleName": "RookAppleHealth",
                 "implicit": true,
                 "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[RookAppleHealth.FloorsClimbedGranularDataFloor]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[RookAppleHealth.FloorsClimbedGranularDataFloor]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "FloorsClimbedGranularDataFloor",
+                            "printedName": "RookAppleHealth.FloorsClimbedGranularDataFloor",
+                            "usr": "s:15RookAppleHealth30FloorsClimbedGranularDataFloorV"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15RookAppleHealth12DistanceDataV021floorsClimbedGranularE6FloorsSayAA0ighE5FloorVGSgvs",
+                "mangledName": "$s15RookAppleHealth12DistanceDataV021floorsClimbedGranularE6FloorsSayAA0ighE5FloorVGSgvs",
+                "moduleName": "RookAppleHealth",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15RookAppleHealth12DistanceDataV021floorsClimbedGranularE6FloorsSayAA0ighE5FloorVGSgvM",
+                "mangledName": "$s15RookAppleHealth12DistanceDataV021floorsClimbedGranularE6FloorsSayAA0ighE5FloorVGSgvM",
+                "moduleName": "RookAppleHealth",
+                "implicit": true,
+                "accessorKind": "_modify"
               }
             ]
           },
@@ -25044,10 +25563,10 @@
             "mangledName": "$s15RookAppleHealth12DistanceDataV26elevationAvgAltitudeMetersSiSgvp",
             "moduleName": "RookAppleHealth",
             "declAttributes": [
+              "HasInitialValue",
               "HasStorage",
               "AccessControl"
             ],
-            "isLet": true,
             "hasStorage": true,
             "accessors": [
               {
@@ -25076,6 +25595,56 @@
                 "moduleName": "RookAppleHealth",
                 "implicit": true,
                 "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15RookAppleHealth12DistanceDataV26elevationAvgAltitudeMetersSiSgvs",
+                "mangledName": "$s15RookAppleHealth12DistanceDataV26elevationAvgAltitudeMetersSiSgvs",
+                "moduleName": "RookAppleHealth",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15RookAppleHealth12DistanceDataV26elevationAvgAltitudeMetersSiSgvM",
+                "mangledName": "$s15RookAppleHealth12DistanceDataV26elevationAvgAltitudeMetersSiSgvM",
+                "moduleName": "RookAppleHealth",
+                "implicit": true,
+                "accessorKind": "_modify"
               }
             ]
           },
@@ -25104,10 +25673,10 @@
             "mangledName": "$s15RookAppleHealth12DistanceDataV30elevationMinimumAltitudeMetersSiSgvp",
             "moduleName": "RookAppleHealth",
             "declAttributes": [
+              "HasInitialValue",
               "HasStorage",
               "AccessControl"
             ],
-            "isLet": true,
             "hasStorage": true,
             "accessors": [
               {
@@ -25136,6 +25705,56 @@
                 "moduleName": "RookAppleHealth",
                 "implicit": true,
                 "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15RookAppleHealth12DistanceDataV30elevationMinimumAltitudeMetersSiSgvs",
+                "mangledName": "$s15RookAppleHealth12DistanceDataV30elevationMinimumAltitudeMetersSiSgvs",
+                "moduleName": "RookAppleHealth",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15RookAppleHealth12DistanceDataV30elevationMinimumAltitudeMetersSiSgvM",
+                "mangledName": "$s15RookAppleHealth12DistanceDataV30elevationMinimumAltitudeMetersSiSgvM",
+                "moduleName": "RookAppleHealth",
+                "implicit": true,
+                "accessorKind": "_modify"
               }
             ]
           },
@@ -25164,10 +25783,10 @@
             "mangledName": "$s15RookAppleHealth12DistanceDataV26elevationMaxAltitudeMetersSiSgvp",
             "moduleName": "RookAppleHealth",
             "declAttributes": [
+              "HasInitialValue",
               "HasStorage",
               "AccessControl"
             ],
-            "isLet": true,
             "hasStorage": true,
             "accessors": [
               {
@@ -25196,6 +25815,56 @@
                 "moduleName": "RookAppleHealth",
                 "implicit": true,
                 "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15RookAppleHealth12DistanceDataV26elevationMaxAltitudeMetersSiSgvs",
+                "mangledName": "$s15RookAppleHealth12DistanceDataV26elevationMaxAltitudeMetersSiSgvs",
+                "moduleName": "RookAppleHealth",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15RookAppleHealth12DistanceDataV26elevationMaxAltitudeMetersSiSgvM",
+                "mangledName": "$s15RookAppleHealth12DistanceDataV26elevationMaxAltitudeMetersSiSgvM",
+                "moduleName": "RookAppleHealth",
+                "implicit": true,
+                "accessorKind": "_modify"
               }
             ]
           },
@@ -25224,10 +25893,10 @@
             "mangledName": "$s15RookAppleHealth12DistanceDataV33elevationLossActualAltitudeMetersSiSgvp",
             "moduleName": "RookAppleHealth",
             "declAttributes": [
+              "HasInitialValue",
               "HasStorage",
               "AccessControl"
             ],
-            "isLet": true,
             "hasStorage": true,
             "accessors": [
               {
@@ -25256,6 +25925,56 @@
                 "moduleName": "RookAppleHealth",
                 "implicit": true,
                 "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15RookAppleHealth12DistanceDataV33elevationLossActualAltitudeMetersSiSgvs",
+                "mangledName": "$s15RookAppleHealth12DistanceDataV33elevationLossActualAltitudeMetersSiSgvs",
+                "moduleName": "RookAppleHealth",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15RookAppleHealth12DistanceDataV33elevationLossActualAltitudeMetersSiSgvM",
+                "mangledName": "$s15RookAppleHealth12DistanceDataV33elevationLossActualAltitudeMetersSiSgvM",
+                "moduleName": "RookAppleHealth",
+                "implicit": true,
+                "accessorKind": "_modify"
               }
             ]
           },
@@ -25284,10 +26003,10 @@
             "mangledName": "$s15RookAppleHealth12DistanceDataV33elevationGainActualAltitudeMetersSiSgvp",
             "moduleName": "RookAppleHealth",
             "declAttributes": [
+              "HasInitialValue",
               "HasStorage",
               "AccessControl"
             ],
-            "isLet": true,
             "hasStorage": true,
             "accessors": [
               {
@@ -25316,6 +26035,56 @@
                 "moduleName": "RookAppleHealth",
                 "implicit": true,
                 "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15RookAppleHealth12DistanceDataV33elevationGainActualAltitudeMetersSiSgvs",
+                "mangledName": "$s15RookAppleHealth12DistanceDataV33elevationGainActualAltitudeMetersSiSgvs",
+                "moduleName": "RookAppleHealth",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15RookAppleHealth12DistanceDataV33elevationGainActualAltitudeMetersSiSgvM",
+                "mangledName": "$s15RookAppleHealth12DistanceDataV33elevationGainActualAltitudeMetersSiSgvM",
+                "moduleName": "RookAppleHealth",
+                "implicit": true,
+                "accessorKind": "_modify"
               }
             ]
           },
@@ -25344,10 +26113,10 @@
             "mangledName": "$s15RookAppleHealth12DistanceDataV26elevationPlannedGainMetersSiSgvp",
             "moduleName": "RookAppleHealth",
             "declAttributes": [
+              "HasInitialValue",
               "HasStorage",
               "AccessControl"
             ],
-            "isLet": true,
             "hasStorage": true,
             "accessors": [
               {
@@ -25376,6 +26145,56 @@
                 "moduleName": "RookAppleHealth",
                 "implicit": true,
                 "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15RookAppleHealth12DistanceDataV26elevationPlannedGainMetersSiSgvs",
+                "mangledName": "$s15RookAppleHealth12DistanceDataV26elevationPlannedGainMetersSiSgvs",
+                "moduleName": "RookAppleHealth",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15RookAppleHealth12DistanceDataV26elevationPlannedGainMetersSiSgvM",
+                "mangledName": "$s15RookAppleHealth12DistanceDataV26elevationPlannedGainMetersSiSgvM",
+                "moduleName": "RookAppleHealth",
+                "implicit": true,
+                "accessorKind": "_modify"
               }
             ]
           },
@@ -25412,10 +26231,10 @@
             "mangledName": "$s15RookAppleHealth12DistanceDataV017elevationGranularE6MetersSayAA09ElevationgE5MeterVGSgvp",
             "moduleName": "RookAppleHealth",
             "declAttributes": [
+              "HasInitialValue",
               "HasStorage",
               "AccessControl"
             ],
-            "isLet": true,
             "hasStorage": true,
             "accessors": [
               {
@@ -25452,6 +26271,64 @@
                 "moduleName": "RookAppleHealth",
                 "implicit": true,
                 "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[RookAppleHealth.ElevationGranularDataMeter]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[RookAppleHealth.ElevationGranularDataMeter]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ElevationGranularDataMeter",
+                            "printedName": "RookAppleHealth.ElevationGranularDataMeter",
+                            "usr": "s:15RookAppleHealth26ElevationGranularDataMeterV"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15RookAppleHealth12DistanceDataV017elevationGranularE6MetersSayAA09ElevationgE5MeterVGSgvs",
+                "mangledName": "$s15RookAppleHealth12DistanceDataV017elevationGranularE6MetersSayAA09ElevationgE5MeterVGSgvs",
+                "moduleName": "RookAppleHealth",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15RookAppleHealth12DistanceDataV017elevationGranularE6MetersSayAA09ElevationgE5MeterVGSgvM",
+                "mangledName": "$s15RookAppleHealth12DistanceDataV017elevationGranularE6MetersSayAA09ElevationgE5MeterVGSgvM",
+                "moduleName": "RookAppleHealth",
+                "implicit": true,
+                "accessorKind": "_modify"
               }
             ]
           },
@@ -25480,10 +26357,10 @@
             "mangledName": "$s15RookAppleHealth12DistanceDataV21swimmingStrokesNumberSiSgvp",
             "moduleName": "RookAppleHealth",
             "declAttributes": [
+              "HasInitialValue",
               "HasStorage",
               "AccessControl"
             ],
-            "isLet": true,
             "hasStorage": true,
             "accessors": [
               {
@@ -25512,6 +26389,56 @@
                 "moduleName": "RookAppleHealth",
                 "implicit": true,
                 "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15RookAppleHealth12DistanceDataV21swimmingStrokesNumberSiSgvs",
+                "mangledName": "$s15RookAppleHealth12DistanceDataV21swimmingStrokesNumberSiSgvs",
+                "moduleName": "RookAppleHealth",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15RookAppleHealth12DistanceDataV21swimmingStrokesNumberSiSgvM",
+                "mangledName": "$s15RookAppleHealth12DistanceDataV21swimmingStrokesNumberSiSgvM",
+                "moduleName": "RookAppleHealth",
+                "implicit": true,
+                "accessorKind": "_modify"
               }
             ]
           },
@@ -25540,10 +26467,10 @@
             "mangledName": "$s15RookAppleHealth12DistanceDataV21swimmingNumLapsNumberSiSgvp",
             "moduleName": "RookAppleHealth",
             "declAttributes": [
+              "HasInitialValue",
               "HasStorage",
               "AccessControl"
             ],
-            "isLet": true,
             "hasStorage": true,
             "accessors": [
               {
@@ -25572,6 +26499,56 @@
                 "moduleName": "RookAppleHealth",
                 "implicit": true,
                 "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15RookAppleHealth12DistanceDataV21swimmingNumLapsNumberSiSgvs",
+                "mangledName": "$s15RookAppleHealth12DistanceDataV21swimmingNumLapsNumberSiSgvs",
+                "moduleName": "RookAppleHealth",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15RookAppleHealth12DistanceDataV21swimmingNumLapsNumberSiSgvM",
+                "mangledName": "$s15RookAppleHealth12DistanceDataV21swimmingNumLapsNumberSiSgvM",
+                "moduleName": "RookAppleHealth",
+                "implicit": true,
+                "accessorKind": "_modify"
               }
             ]
           },
@@ -25600,10 +26577,10 @@
             "mangledName": "$s15RookAppleHealth12DistanceDataV24swimmingPoolLengthMetersSiSgvp",
             "moduleName": "RookAppleHealth",
             "declAttributes": [
+              "HasInitialValue",
               "HasStorage",
               "AccessControl"
             ],
-            "isLet": true,
             "hasStorage": true,
             "accessors": [
               {
@@ -25632,6 +26609,56 @@
                 "moduleName": "RookAppleHealth",
                 "implicit": true,
                 "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15RookAppleHealth12DistanceDataV24swimmingPoolLengthMetersSiSgvs",
+                "mangledName": "$s15RookAppleHealth12DistanceDataV24swimmingPoolLengthMetersSiSgvs",
+                "moduleName": "RookAppleHealth",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15RookAppleHealth12DistanceDataV24swimmingPoolLengthMetersSiSgvM",
+                "mangledName": "$s15RookAppleHealth12DistanceDataV24swimmingPoolLengthMetersSiSgvM",
+                "moduleName": "RookAppleHealth",
+                "implicit": true,
+                "accessorKind": "_modify"
               }
             ]
           },
@@ -25660,10 +26687,10 @@
             "mangledName": "$s15RookAppleHealth12DistanceDataV013swimmingTotalD6MetersSiSgvp",
             "moduleName": "RookAppleHealth",
             "declAttributes": [
+              "HasInitialValue",
               "HasStorage",
               "AccessControl"
             ],
-            "isLet": true,
             "hasStorage": true,
             "accessors": [
               {
@@ -25692,6 +26719,56 @@
                 "moduleName": "RookAppleHealth",
                 "implicit": true,
                 "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15RookAppleHealth12DistanceDataV013swimmingTotalD6MetersSiSgvs",
+                "mangledName": "$s15RookAppleHealth12DistanceDataV013swimmingTotalD6MetersSiSgvs",
+                "moduleName": "RookAppleHealth",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15RookAppleHealth12DistanceDataV013swimmingTotalD6MetersSiSgvM",
+                "mangledName": "$s15RookAppleHealth12DistanceDataV013swimmingTotalD6MetersSiSgvM",
+                "moduleName": "RookAppleHealth",
+                "implicit": true,
+                "accessorKind": "_modify"
               }
             ]
           },
@@ -25728,10 +26805,10 @@
             "mangledName": "$s15RookAppleHealth12DistanceDataV08swimmingd8GranularE6MetersSayAA08SwimmingdgE5MeterVGSgvp",
             "moduleName": "RookAppleHealth",
             "declAttributes": [
+              "HasInitialValue",
               "HasStorage",
               "AccessControl"
             ],
-            "isLet": true,
             "hasStorage": true,
             "accessors": [
               {
@@ -25768,6 +26845,64 @@
                 "moduleName": "RookAppleHealth",
                 "implicit": true,
                 "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[RookAppleHealth.SwimmingDistanceGranularDataMeter]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[RookAppleHealth.SwimmingDistanceGranularDataMeter]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "SwimmingDistanceGranularDataMeter",
+                            "printedName": "RookAppleHealth.SwimmingDistanceGranularDataMeter",
+                            "usr": "s:15RookAppleHealth33SwimmingDistanceGranularDataMeterV"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15RookAppleHealth12DistanceDataV08swimmingd8GranularE6MetersSayAA08SwimmingdgE5MeterVGSgvs",
+                "mangledName": "$s15RookAppleHealth12DistanceDataV08swimmingd8GranularE6MetersSayAA08SwimmingdgE5MeterVGSgvs",
+                "moduleName": "RookAppleHealth",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15RookAppleHealth12DistanceDataV08swimmingd8GranularE6MetersSayAA08SwimmingdgE5MeterVGSgvM",
+                "mangledName": "$s15RookAppleHealth12DistanceDataV08swimmingd8GranularE6MetersSayAA08SwimmingdgE5MeterVGSgvM",
+                "moduleName": "RookAppleHealth",
+                "implicit": true,
+                "accessorKind": "_modify"
               }
             ]
           },
@@ -43448,6 +44583,27 @@
       "offset": 557,
       "length": 18,
       "value": "\"measurement_type\""
+    },
+    {
+      "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/RookMotion\/SDK's\/RookAuthenticationSDK\/RookAppleHealth\/Source\/Extraction\/Constants\/RookExtractionConstants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 281,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/RookMotion\/SDK's\/RookAuthenticationSDK\/RookAppleHealth\/Source\/Extraction\/Constants\/RookExtractionConstants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 297,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/RookMotion\/SDK's\/RookAuthenticationSDK\/RookAppleHealth\/Source\/Extraction\/Constants\/RookExtractionConstants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 313,
+      "length": 1,
+      "value": "0"
     },
     {
       "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/RookMotion\/SDK's\/RookAuthenticationSDK\/RookAppleHealth\/Source\/Extraction\/Entities\/Granular\/RookCadenceGranularItem.swift",
