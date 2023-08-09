@@ -1601,13 +1601,13 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "RookAppleHealth.RookExtractionPositionData?",
+                "printedName": "RookAppleHealth.RookExtractionPositionDataObjc?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "RookExtractionPositionData",
-                    "printedName": "RookAppleHealth.RookExtractionPositionData",
-                    "usr": "c:@M@RookAppleHealth@objc(cs)RookExtractionPositionData"
+                    "name": "RookExtractionPositionDataObjc",
+                    "printedName": "RookAppleHealth.RookExtractionPositionDataObjc",
+                    "usr": "c:@M@RookAppleHealth@objc(cs)RookExtractionPositionDataObjc"
                   }
                 ],
                 "usr": "s:Sq"
@@ -1615,7 +1615,7 @@
             ],
             "declKind": "Var",
             "usr": "c:@M@RookAppleHealth@objc(cs)RookExtractionActivityEventObjc(py)positionData",
-            "mangledName": "$s15RookAppleHealth0A27ExtractionActivityEventObjcC12positionDataAA0ad8PositionI0CSgvp",
+            "mangledName": "$s15RookAppleHealth0A27ExtractionActivityEventObjcC12positionDataAA0ad8PositioniG0CSgvp",
             "moduleName": "RookAppleHealth",
             "declAttributes": [
               "Final",
@@ -1634,13 +1634,13 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "RookAppleHealth.RookExtractionPositionData?",
+                    "printedName": "RookAppleHealth.RookExtractionPositionDataObjc?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "RookExtractionPositionData",
-                        "printedName": "RookAppleHealth.RookExtractionPositionData",
-                        "usr": "c:@M@RookAppleHealth@objc(cs)RookExtractionPositionData"
+                        "name": "RookExtractionPositionDataObjc",
+                        "printedName": "RookAppleHealth.RookExtractionPositionDataObjc",
+                        "usr": "c:@M@RookAppleHealth@objc(cs)RookExtractionPositionDataObjc"
                       }
                     ],
                     "usr": "s:Sq"
@@ -1648,7 +1648,7 @@
                 ],
                 "declKind": "Accessor",
                 "usr": "c:@M@RookAppleHealth@objc(cs)RookExtractionActivityEventObjc(im)positionData",
-                "mangledName": "$s15RookAppleHealth0A27ExtractionActivityEventObjcC12positionDataAA0ad8PositionI0CSgvg",
+                "mangledName": "$s15RookAppleHealth0A27ExtractionActivityEventObjcC12positionDataAA0ad8PositioniG0CSgvg",
                 "moduleName": "RookAppleHealth",
                 "implicit": true,
                 "declAttributes": [
@@ -2806,18 +2806,18 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "[RookAppleHealth.RookExtractionTssGranularDataFrom1To500ScoreNumber]?",
+                "printedName": "[RookAppleHealth.RookExtractionTssGranularDataFrom1To500ScoreNumberObjc]?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "Array",
-                    "printedName": "[RookAppleHealth.RookExtractionTssGranularDataFrom1To500ScoreNumber]",
+                    "printedName": "[RookAppleHealth.RookExtractionTssGranularDataFrom1To500ScoreNumberObjc]",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "RookExtractionTssGranularDataFrom1To500ScoreNumber",
-                        "printedName": "RookAppleHealth.RookExtractionTssGranularDataFrom1To500ScoreNumber",
-                        "usr": "c:@M@RookAppleHealth@objc(cs)RookExtractionTssGranularDataFrom1To500ScoreNumber"
+                        "name": "RookExtractionTssGranularDataFrom1To500ScoreNumberObjc",
+                        "printedName": "RookAppleHealth.RookExtractionTssGranularDataFrom1To500ScoreNumberObjc",
+                        "usr": "c:@M@RookAppleHealth@objc(cs)RookExtractionTssGranularDataFrom1To500ScoreNumberObjc"
                       }
                     ],
                     "usr": "s:Sa"
@@ -2828,7 +2828,7 @@
             ],
             "declKind": "Var",
             "usr": "c:@M@RookAppleHealth@objc(cs)RookExtractionStressDataObjc(py)tssGranularDataFrom1To500ScoreNumber",
-            "mangledName": "$s15RookAppleHealth0A24ExtractionStressDataObjcC011tssGranularF21From1To500ScoreNumberSayAA0ad3TssifjklM0CGSgvp",
+            "mangledName": "$s15RookAppleHealth0A24ExtractionStressDataObjcC011tssGranularF21From1To500ScoreNumberSayAA0ad3TssifjklmG0CGSgvp",
             "moduleName": "RookAppleHealth",
             "declAttributes": [
               "Final",
@@ -2847,18 +2847,18 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "[RookAppleHealth.RookExtractionTssGranularDataFrom1To500ScoreNumber]?",
+                    "printedName": "[RookAppleHealth.RookExtractionTssGranularDataFrom1To500ScoreNumberObjc]?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "Array",
-                        "printedName": "[RookAppleHealth.RookExtractionTssGranularDataFrom1To500ScoreNumber]",
+                        "printedName": "[RookAppleHealth.RookExtractionTssGranularDataFrom1To500ScoreNumberObjc]",
                         "children": [
                           {
                             "kind": "TypeNominal",
-                            "name": "RookExtractionTssGranularDataFrom1To500ScoreNumber",
-                            "printedName": "RookAppleHealth.RookExtractionTssGranularDataFrom1To500ScoreNumber",
-                            "usr": "c:@M@RookAppleHealth@objc(cs)RookExtractionTssGranularDataFrom1To500ScoreNumber"
+                            "name": "RookExtractionTssGranularDataFrom1To500ScoreNumberObjc",
+                            "printedName": "RookAppleHealth.RookExtractionTssGranularDataFrom1To500ScoreNumberObjc",
+                            "usr": "c:@M@RookAppleHealth@objc(cs)RookExtractionTssGranularDataFrom1To500ScoreNumberObjc"
                           }
                         ],
                         "usr": "s:Sa"
@@ -2869,7 +2869,7 @@
                 ],
                 "declKind": "Accessor",
                 "usr": "c:@M@RookAppleHealth@objc(cs)RookExtractionStressDataObjc(im)tssGranularDataFrom1To500ScoreNumber",
-                "mangledName": "$s15RookAppleHealth0A24ExtractionStressDataObjcC011tssGranularF21From1To500ScoreNumberSayAA0ad3TssifjklM0CGSgvg",
+                "mangledName": "$s15RookAppleHealth0A24ExtractionStressDataObjcC011tssGranularF21From1To500ScoreNumberSayAA0ad3TssifjklmG0CGSgvg",
                 "moduleName": "RookAppleHealth",
                 "implicit": true,
                 "declAttributes": [
@@ -3106,8 +3106,8 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "RookExtractionTssGranularDataFrom1To500ScoreNumber",
-        "printedName": "RookExtractionTssGranularDataFrom1To500ScoreNumber",
+        "name": "RookExtractionTssGranularDataFrom1To500ScoreNumberObjc",
+        "printedName": "RookExtractionTssGranularDataFrom1To500ScoreNumberObjc",
         "children": [
           {
             "kind": "Var",
@@ -3122,8 +3122,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "c:@M@RookAppleHealth@objc(cs)RookExtractionTssGranularDataFrom1To500ScoreNumber(py)datetime",
-            "mangledName": "$s15RookAppleHealth0A46ExtractionTssGranularDataFrom1To500ScoreNumberC8datetime10Foundation4DateVvp",
+            "usr": "c:@M@RookAppleHealth@objc(cs)RookExtractionTssGranularDataFrom1To500ScoreNumberObjc(py)datetime",
+            "mangledName": "$s15RookAppleHealth0A50ExtractionTssGranularDataFrom1To500ScoreNumberObjcC8datetime10Foundation4DateVvp",
             "moduleName": "RookAppleHealth",
             "declAttributes": [
               "Final",
@@ -3147,8 +3147,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@RookAppleHealth@objc(cs)RookExtractionTssGranularDataFrom1To500ScoreNumber(im)datetime",
-                "mangledName": "$s15RookAppleHealth0A46ExtractionTssGranularDataFrom1To500ScoreNumberC8datetime10Foundation4DateVvg",
+                "usr": "c:@M@RookAppleHealth@objc(cs)RookExtractionTssGranularDataFrom1To500ScoreNumberObjc(im)datetime",
+                "mangledName": "$s15RookAppleHealth0A50ExtractionTssGranularDataFrom1To500ScoreNumberObjcC8datetime10Foundation4DateVvg",
                 "moduleName": "RookAppleHealth",
                 "implicit": true,
                 "declAttributes": [
@@ -3172,8 +3172,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "c:@M@RookAppleHealth@objc(cs)RookExtractionTssGranularDataFrom1To500ScoreNumber(py)intervalDurationSeconds",
-            "mangledName": "$s15RookAppleHealth0A46ExtractionTssGranularDataFrom1To500ScoreNumberC23intervalDurationSecondsSivp",
+            "usr": "c:@M@RookAppleHealth@objc(cs)RookExtractionTssGranularDataFrom1To500ScoreNumberObjc(py)intervalDurationSeconds",
+            "mangledName": "$s15RookAppleHealth0A50ExtractionTssGranularDataFrom1To500ScoreNumberObjcC23intervalDurationSecondsSivp",
             "moduleName": "RookAppleHealth",
             "declAttributes": [
               "Final",
@@ -3197,8 +3197,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@RookAppleHealth@objc(cs)RookExtractionTssGranularDataFrom1To500ScoreNumber(im)intervalDurationSeconds",
-                "mangledName": "$s15RookAppleHealth0A46ExtractionTssGranularDataFrom1To500ScoreNumberC23intervalDurationSecondsSivg",
+                "usr": "c:@M@RookAppleHealth@objc(cs)RookExtractionTssGranularDataFrom1To500ScoreNumberObjc(im)intervalDurationSeconds",
+                "mangledName": "$s15RookAppleHealth0A50ExtractionTssGranularDataFrom1To500ScoreNumberObjcC23intervalDurationSecondsSivg",
                 "moduleName": "RookAppleHealth",
                 "implicit": true,
                 "declAttributes": [
@@ -3222,8 +3222,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "c:@M@RookAppleHealth@objc(cs)RookExtractionTssGranularDataFrom1To500ScoreNumber(py)tss1To500Score",
-            "mangledName": "$s15RookAppleHealth0A46ExtractionTssGranularDataFrom1To500ScoreNumberC04tss1iJ0Sivp",
+            "usr": "c:@M@RookAppleHealth@objc(cs)RookExtractionTssGranularDataFrom1To500ScoreNumberObjc(py)tss1To500Score",
+            "mangledName": "$s15RookAppleHealth0A50ExtractionTssGranularDataFrom1To500ScoreNumberObjcC04tss1iJ0Sivp",
             "moduleName": "RookAppleHealth",
             "declAttributes": [
               "Final",
@@ -3247,8 +3247,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@RookAppleHealth@objc(cs)RookExtractionTssGranularDataFrom1To500ScoreNumber(im)tss1To500Score",
-                "mangledName": "$s15RookAppleHealth0A46ExtractionTssGranularDataFrom1To500ScoreNumberC04tss1iJ0Sivg",
+                "usr": "c:@M@RookAppleHealth@objc(cs)RookExtractionTssGranularDataFrom1To500ScoreNumberObjc(im)tss1To500Score",
+                "mangledName": "$s15RookAppleHealth0A50ExtractionTssGranularDataFrom1To500ScoreNumberObjcC04tss1iJ0Sivg",
                 "moduleName": "RookAppleHealth",
                 "implicit": true,
                 "declAttributes": [
@@ -3266,14 +3266,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "RookExtractionTssGranularDataFrom1To500ScoreNumber",
-                "printedName": "RookAppleHealth.RookExtractionTssGranularDataFrom1To500ScoreNumber",
-                "usr": "c:@M@RookAppleHealth@objc(cs)RookExtractionTssGranularDataFrom1To500ScoreNumber"
+                "name": "RookExtractionTssGranularDataFrom1To500ScoreNumberObjc",
+                "printedName": "RookAppleHealth.RookExtractionTssGranularDataFrom1To500ScoreNumberObjc",
+                "usr": "c:@M@RookAppleHealth@objc(cs)RookExtractionTssGranularDataFrom1To500ScoreNumberObjc"
               }
             ],
             "declKind": "Constructor",
-            "usr": "c:@M@RookAppleHealth@objc(cs)RookExtractionTssGranularDataFrom1To500ScoreNumber(im)init",
-            "mangledName": "$s15RookAppleHealth0A46ExtractionTssGranularDataFrom1To500ScoreNumberCACycfc",
+            "usr": "c:@M@RookAppleHealth@objc(cs)RookExtractionTssGranularDataFrom1To500ScoreNumberObjc(im)init",
+            "mangledName": "$s15RookAppleHealth0A50ExtractionTssGranularDataFrom1To500ScoreNumberObjcCACycfc",
             "moduleName": "RookAppleHealth",
             "overriding": true,
             "implicit": true,
@@ -3303,8 +3303,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:15RookAppleHealth0A46ExtractionTssGranularDataFrom1To500ScoreNumberC6encode2toys7Encoder_p_tKF",
-            "mangledName": "$s15RookAppleHealth0A46ExtractionTssGranularDataFrom1To500ScoreNumberC6encode2toys7Encoder_p_tKF",
+            "usr": "s:15RookAppleHealth0A50ExtractionTssGranularDataFrom1To500ScoreNumberObjcC6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s15RookAppleHealth0A50ExtractionTssGranularDataFrom1To500ScoreNumberObjcC6encode2toys7Encoder_p_tKF",
             "moduleName": "RookAppleHealth",
             "implicit": true,
             "throwing": true,
@@ -3312,8 +3312,8 @@
           }
         ],
         "declKind": "Class",
-        "usr": "c:@M@RookAppleHealth@objc(cs)RookExtractionTssGranularDataFrom1To500ScoreNumber",
-        "mangledName": "$s15RookAppleHealth0A46ExtractionTssGranularDataFrom1To500ScoreNumberC",
+        "usr": "c:@M@RookAppleHealth@objc(cs)RookExtractionTssGranularDataFrom1To500ScoreNumberObjc",
+        "mangledName": "$s15RookAppleHealth0A50ExtractionTssGranularDataFrom1To500ScoreNumberObjcC",
         "moduleName": "RookAppleHealth",
         "declAttributes": [
           "AccessControl",
@@ -4772,8 +4772,8 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "RookExtractionPositionData",
-        "printedName": "RookExtractionPositionData",
+        "name": "RookExtractionPositionDataObjc",
+        "printedName": "RookExtractionPositionDataObjc",
         "children": [
           {
             "kind": "Var",
@@ -4783,21 +4783,21 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "RookAppleHealth.RookExtractionPositionItem?",
+                "printedName": "RookAppleHealth.RookExtractionPositionItemObjc?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "RookExtractionPositionItem",
-                    "printedName": "RookAppleHealth.RookExtractionPositionItem",
-                    "usr": "c:@M@RookAppleHealth@objc(cs)RookExtractionPositionItem"
+                    "name": "RookExtractionPositionItemObjc",
+                    "printedName": "RookAppleHealth.RookExtractionPositionItemObjc",
+                    "usr": "c:@M@RookAppleHealth@objc(cs)RookExtractionPositionItemObjc"
                   }
                 ],
                 "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "c:@M@RookAppleHealth@objc(cs)RookExtractionPositionData(py)positionStartLatLngDeg",
-            "mangledName": "$s15RookAppleHealth0A22ExtractionPositionDataC22positionStartLatLngDegAA0adE4ItemCSgvp",
+            "usr": "c:@M@RookAppleHealth@objc(cs)RookExtractionPositionDataObjc(py)positionStartLatLngDeg",
+            "mangledName": "$s15RookAppleHealth0A26ExtractionPositionDataObjcC22positionStartLatLngDegAA0ade4ItemG0CSgvp",
             "moduleName": "RookAppleHealth",
             "declAttributes": [
               "Final",
@@ -4816,21 +4816,21 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "RookAppleHealth.RookExtractionPositionItem?",
+                    "printedName": "RookAppleHealth.RookExtractionPositionItemObjc?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "RookExtractionPositionItem",
-                        "printedName": "RookAppleHealth.RookExtractionPositionItem",
-                        "usr": "c:@M@RookAppleHealth@objc(cs)RookExtractionPositionItem"
+                        "name": "RookExtractionPositionItemObjc",
+                        "printedName": "RookAppleHealth.RookExtractionPositionItemObjc",
+                        "usr": "c:@M@RookAppleHealth@objc(cs)RookExtractionPositionItemObjc"
                       }
                     ],
                     "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@RookAppleHealth@objc(cs)RookExtractionPositionData(im)positionStartLatLngDeg",
-                "mangledName": "$s15RookAppleHealth0A22ExtractionPositionDataC22positionStartLatLngDegAA0adE4ItemCSgvg",
+                "usr": "c:@M@RookAppleHealth@objc(cs)RookExtractionPositionDataObjc(im)positionStartLatLngDeg",
+                "mangledName": "$s15RookAppleHealth0A26ExtractionPositionDataObjcC22positionStartLatLngDegAA0ade4ItemG0CSgvg",
                 "moduleName": "RookAppleHealth",
                 "implicit": true,
                 "declAttributes": [
@@ -4849,21 +4849,21 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "RookAppleHealth.RookExtractionPositionItem?",
+                "printedName": "RookAppleHealth.RookExtractionPositionItemObjc?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "RookExtractionPositionItem",
-                    "printedName": "RookAppleHealth.RookExtractionPositionItem",
-                    "usr": "c:@M@RookAppleHealth@objc(cs)RookExtractionPositionItem"
+                    "name": "RookExtractionPositionItemObjc",
+                    "printedName": "RookAppleHealth.RookExtractionPositionItemObjc",
+                    "usr": "c:@M@RookAppleHealth@objc(cs)RookExtractionPositionItemObjc"
                   }
                 ],
                 "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "c:@M@RookAppleHealth@objc(cs)RookExtractionPositionData(py)positionCentroidLatLngDeg",
-            "mangledName": "$s15RookAppleHealth0A22ExtractionPositionDataC25positionCentroidLatLngDegAA0adE4ItemCSgvp",
+            "usr": "c:@M@RookAppleHealth@objc(cs)RookExtractionPositionDataObjc(py)positionCentroidLatLngDeg",
+            "mangledName": "$s15RookAppleHealth0A26ExtractionPositionDataObjcC25positionCentroidLatLngDegAA0ade4ItemG0CSgvp",
             "moduleName": "RookAppleHealth",
             "declAttributes": [
               "Final",
@@ -4882,21 +4882,21 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "RookAppleHealth.RookExtractionPositionItem?",
+                    "printedName": "RookAppleHealth.RookExtractionPositionItemObjc?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "RookExtractionPositionItem",
-                        "printedName": "RookAppleHealth.RookExtractionPositionItem",
-                        "usr": "c:@M@RookAppleHealth@objc(cs)RookExtractionPositionItem"
+                        "name": "RookExtractionPositionItemObjc",
+                        "printedName": "RookAppleHealth.RookExtractionPositionItemObjc",
+                        "usr": "c:@M@RookAppleHealth@objc(cs)RookExtractionPositionItemObjc"
                       }
                     ],
                     "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@RookAppleHealth@objc(cs)RookExtractionPositionData(im)positionCentroidLatLngDeg",
-                "mangledName": "$s15RookAppleHealth0A22ExtractionPositionDataC25positionCentroidLatLngDegAA0adE4ItemCSgvg",
+                "usr": "c:@M@RookAppleHealth@objc(cs)RookExtractionPositionDataObjc(im)positionCentroidLatLngDeg",
+                "mangledName": "$s15RookAppleHealth0A26ExtractionPositionDataObjcC25positionCentroidLatLngDegAA0ade4ItemG0CSgvg",
                 "moduleName": "RookAppleHealth",
                 "implicit": true,
                 "declAttributes": [
@@ -4915,21 +4915,21 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "RookAppleHealth.RookExtractionPositionItem?",
+                "printedName": "RookAppleHealth.RookExtractionPositionItemObjc?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "RookExtractionPositionItem",
-                    "printedName": "RookAppleHealth.RookExtractionPositionItem",
-                    "usr": "c:@M@RookAppleHealth@objc(cs)RookExtractionPositionItem"
+                    "name": "RookExtractionPositionItemObjc",
+                    "printedName": "RookAppleHealth.RookExtractionPositionItemObjc",
+                    "usr": "c:@M@RookAppleHealth@objc(cs)RookExtractionPositionItemObjc"
                   }
                 ],
                 "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "c:@M@RookAppleHealth@objc(cs)RookExtractionPositionData(py)positionEndLatLngDeg",
-            "mangledName": "$s15RookAppleHealth0A22ExtractionPositionDataC20positionEndLatLngDegAA0adE4ItemCSgvp",
+            "usr": "c:@M@RookAppleHealth@objc(cs)RookExtractionPositionDataObjc(py)positionEndLatLngDeg",
+            "mangledName": "$s15RookAppleHealth0A26ExtractionPositionDataObjcC20positionEndLatLngDegAA0ade4ItemG0CSgvp",
             "moduleName": "RookAppleHealth",
             "declAttributes": [
               "Final",
@@ -4948,21 +4948,21 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "RookAppleHealth.RookExtractionPositionItem?",
+                    "printedName": "RookAppleHealth.RookExtractionPositionItemObjc?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "RookExtractionPositionItem",
-                        "printedName": "RookAppleHealth.RookExtractionPositionItem",
-                        "usr": "c:@M@RookAppleHealth@objc(cs)RookExtractionPositionItem"
+                        "name": "RookExtractionPositionItemObjc",
+                        "printedName": "RookAppleHealth.RookExtractionPositionItemObjc",
+                        "usr": "c:@M@RookAppleHealth@objc(cs)RookExtractionPositionItemObjc"
                       }
                     ],
                     "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@RookAppleHealth@objc(cs)RookExtractionPositionData(im)positionEndLatLngDeg",
-                "mangledName": "$s15RookAppleHealth0A22ExtractionPositionDataC20positionEndLatLngDegAA0adE4ItemCSgvg",
+                "usr": "c:@M@RookAppleHealth@objc(cs)RookExtractionPositionDataObjc(im)positionEndLatLngDeg",
+                "mangledName": "$s15RookAppleHealth0A26ExtractionPositionDataObjcC20positionEndLatLngDegAA0ade4ItemG0CSgvg",
                 "moduleName": "RookAppleHealth",
                 "implicit": true,
                 "declAttributes": [
@@ -4981,18 +4981,18 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "[RookAppleHealth.RookExtractionPositionGranularItem]?",
+                "printedName": "[RookAppleHealth.RookExtractionPositionGranularItemObjc]?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "Array",
-                    "printedName": "[RookAppleHealth.RookExtractionPositionGranularItem]",
+                    "printedName": "[RookAppleHealth.RookExtractionPositionGranularItemObjc]",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "RookExtractionPositionGranularItem",
-                        "printedName": "RookAppleHealth.RookExtractionPositionGranularItem",
-                        "usr": "c:@M@RookAppleHealth@objc(cs)RookExtractionPositionGranularItem"
+                        "name": "RookExtractionPositionGranularItemObjc",
+                        "printedName": "RookAppleHealth.RookExtractionPositionGranularItemObjc",
+                        "usr": "c:@M@RookAppleHealth@objc(cs)RookExtractionPositionGranularItemObjc"
                       }
                     ],
                     "usr": "s:Sa"
@@ -5002,8 +5002,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "c:@M@RookAppleHealth@objc(cs)RookExtractionPositionData(py)positionGranularDataLatLngDeg",
-            "mangledName": "$s15RookAppleHealth0A22ExtractionPositionDataC016positionGranularF9LatLngDegSayAA0adeH4ItemCGSgvp",
+            "usr": "c:@M@RookAppleHealth@objc(cs)RookExtractionPositionDataObjc(py)positionGranularDataLatLngDeg",
+            "mangledName": "$s15RookAppleHealth0A26ExtractionPositionDataObjcC016positionGranularF9LatLngDegSayAA0adei4ItemG0CGSgvp",
             "moduleName": "RookAppleHealth",
             "declAttributes": [
               "Final",
@@ -5022,18 +5022,18 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "[RookAppleHealth.RookExtractionPositionGranularItem]?",
+                    "printedName": "[RookAppleHealth.RookExtractionPositionGranularItemObjc]?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "Array",
-                        "printedName": "[RookAppleHealth.RookExtractionPositionGranularItem]",
+                        "printedName": "[RookAppleHealth.RookExtractionPositionGranularItemObjc]",
                         "children": [
                           {
                             "kind": "TypeNominal",
-                            "name": "RookExtractionPositionGranularItem",
-                            "printedName": "RookAppleHealth.RookExtractionPositionGranularItem",
-                            "usr": "c:@M@RookAppleHealth@objc(cs)RookExtractionPositionGranularItem"
+                            "name": "RookExtractionPositionGranularItemObjc",
+                            "printedName": "RookAppleHealth.RookExtractionPositionGranularItemObjc",
+                            "usr": "c:@M@RookAppleHealth@objc(cs)RookExtractionPositionGranularItemObjc"
                           }
                         ],
                         "usr": "s:Sa"
@@ -5043,8 +5043,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@RookAppleHealth@objc(cs)RookExtractionPositionData(im)positionGranularDataLatLngDeg",
-                "mangledName": "$s15RookAppleHealth0A22ExtractionPositionDataC016positionGranularF9LatLngDegSayAA0adeH4ItemCGSgvg",
+                "usr": "c:@M@RookAppleHealth@objc(cs)RookExtractionPositionDataObjc(im)positionGranularDataLatLngDeg",
+                "mangledName": "$s15RookAppleHealth0A26ExtractionPositionDataObjcC016positionGranularF9LatLngDegSayAA0adei4ItemG0CGSgvg",
                 "moduleName": "RookAppleHealth",
                 "implicit": true,
                 "declAttributes": [
@@ -5076,8 +5076,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "c:@M@RookAppleHealth@objc(cs)RookExtractionPositionData(py)positionPolylineMapDataSummaryString",
-            "mangledName": "$s15RookAppleHealth0A22ExtractionPositionDataC019positionPolylineMapF13SummaryStringSSSgvp",
+            "usr": "c:@M@RookAppleHealth@objc(cs)RookExtractionPositionDataObjc(py)positionPolylineMapDataSummaryString",
+            "mangledName": "$s15RookAppleHealth0A26ExtractionPositionDataObjcC019positionPolylineMapF13SummaryStringSSSgvp",
             "moduleName": "RookAppleHealth",
             "declAttributes": [
               "Final",
@@ -5109,8 +5109,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@RookAppleHealth@objc(cs)RookExtractionPositionData(im)positionPolylineMapDataSummaryString",
-                "mangledName": "$s15RookAppleHealth0A22ExtractionPositionDataC019positionPolylineMapF13SummaryStringSSSgvg",
+                "usr": "c:@M@RookAppleHealth@objc(cs)RookExtractionPositionDataObjc(im)positionPolylineMapDataSummaryString",
+                "mangledName": "$s15RookAppleHealth0A26ExtractionPositionDataObjcC019positionPolylineMapF13SummaryStringSSSgvg",
                 "moduleName": "RookAppleHealth",
                 "implicit": true,
                 "declAttributes": [
@@ -5128,14 +5128,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "RookExtractionPositionData",
-                "printedName": "RookAppleHealth.RookExtractionPositionData",
-                "usr": "c:@M@RookAppleHealth@objc(cs)RookExtractionPositionData"
+                "name": "RookExtractionPositionDataObjc",
+                "printedName": "RookAppleHealth.RookExtractionPositionDataObjc",
+                "usr": "c:@M@RookAppleHealth@objc(cs)RookExtractionPositionDataObjc"
               }
             ],
             "declKind": "Constructor",
-            "usr": "c:@M@RookAppleHealth@objc(cs)RookExtractionPositionData(im)init",
-            "mangledName": "$s15RookAppleHealth0A22ExtractionPositionDataCACycfc",
+            "usr": "c:@M@RookAppleHealth@objc(cs)RookExtractionPositionDataObjc(im)init",
+            "mangledName": "$s15RookAppleHealth0A26ExtractionPositionDataObjcCACycfc",
             "moduleName": "RookAppleHealth",
             "overriding": true,
             "implicit": true,
@@ -5165,8 +5165,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:15RookAppleHealth0A22ExtractionPositionDataC6encode2toys7Encoder_p_tKF",
-            "mangledName": "$s15RookAppleHealth0A22ExtractionPositionDataC6encode2toys7Encoder_p_tKF",
+            "usr": "s:15RookAppleHealth0A26ExtractionPositionDataObjcC6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s15RookAppleHealth0A26ExtractionPositionDataObjcC6encode2toys7Encoder_p_tKF",
             "moduleName": "RookAppleHealth",
             "implicit": true,
             "throwing": true,
@@ -5174,8 +5174,8 @@
           }
         ],
         "declKind": "Class",
-        "usr": "c:@M@RookAppleHealth@objc(cs)RookExtractionPositionData",
-        "mangledName": "$s15RookAppleHealth0A22ExtractionPositionDataC",
+        "usr": "c:@M@RookAppleHealth@objc(cs)RookExtractionPositionDataObjc",
+        "mangledName": "$s15RookAppleHealth0A26ExtractionPositionDataObjcC",
         "moduleName": "RookAppleHealth",
         "declAttributes": [
           "AccessControl",
@@ -5247,8 +5247,8 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "RookExtractionPositionItem",
-        "printedName": "RookExtractionPositionItem",
+        "name": "RookExtractionPositionItemObjc",
+        "printedName": "RookExtractionPositionItemObjc",
         "children": [
           {
             "kind": "Var",
@@ -5263,8 +5263,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "c:@M@RookAppleHealth@objc(cs)RookExtractionPositionItem(py)latitude",
-            "mangledName": "$s15RookAppleHealth0A22ExtractionPositionItemC8latitudeSdvp",
+            "usr": "c:@M@RookAppleHealth@objc(cs)RookExtractionPositionItemObjc(py)latitude",
+            "mangledName": "$s15RookAppleHealth0A26ExtractionPositionItemObjcC8latitudeSdvp",
             "moduleName": "RookAppleHealth",
             "declAttributes": [
               "Final",
@@ -5288,8 +5288,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@RookAppleHealth@objc(cs)RookExtractionPositionItem(im)latitude",
-                "mangledName": "$s15RookAppleHealth0A22ExtractionPositionItemC8latitudeSdvg",
+                "usr": "c:@M@RookAppleHealth@objc(cs)RookExtractionPositionItemObjc(im)latitude",
+                "mangledName": "$s15RookAppleHealth0A26ExtractionPositionItemObjcC8latitudeSdvg",
                 "moduleName": "RookAppleHealth",
                 "implicit": true,
                 "declAttributes": [
@@ -5313,8 +5313,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "c:@M@RookAppleHealth@objc(cs)RookExtractionPositionItem(py)longitude",
-            "mangledName": "$s15RookAppleHealth0A22ExtractionPositionItemC9longitudeSdvp",
+            "usr": "c:@M@RookAppleHealth@objc(cs)RookExtractionPositionItemObjc(py)longitude",
+            "mangledName": "$s15RookAppleHealth0A26ExtractionPositionItemObjcC9longitudeSdvp",
             "moduleName": "RookAppleHealth",
             "declAttributes": [
               "Final",
@@ -5338,8 +5338,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@RookAppleHealth@objc(cs)RookExtractionPositionItem(im)longitude",
-                "mangledName": "$s15RookAppleHealth0A22ExtractionPositionItemC9longitudeSdvg",
+                "usr": "c:@M@RookAppleHealth@objc(cs)RookExtractionPositionItemObjc(im)longitude",
+                "mangledName": "$s15RookAppleHealth0A26ExtractionPositionItemObjcC9longitudeSdvg",
                 "moduleName": "RookAppleHealth",
                 "implicit": true,
                 "declAttributes": [
@@ -5357,14 +5357,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "RookExtractionPositionItem",
-                "printedName": "RookAppleHealth.RookExtractionPositionItem",
-                "usr": "c:@M@RookAppleHealth@objc(cs)RookExtractionPositionItem"
+                "name": "RookExtractionPositionItemObjc",
+                "printedName": "RookAppleHealth.RookExtractionPositionItemObjc",
+                "usr": "c:@M@RookAppleHealth@objc(cs)RookExtractionPositionItemObjc"
               }
             ],
             "declKind": "Constructor",
-            "usr": "c:@M@RookAppleHealth@objc(cs)RookExtractionPositionItem(im)init",
-            "mangledName": "$s15RookAppleHealth0A22ExtractionPositionItemCACycfc",
+            "usr": "c:@M@RookAppleHealth@objc(cs)RookExtractionPositionItemObjc(im)init",
+            "mangledName": "$s15RookAppleHealth0A26ExtractionPositionItemObjcCACycfc",
             "moduleName": "RookAppleHealth",
             "overriding": true,
             "implicit": true,
@@ -5394,8 +5394,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:15RookAppleHealth0A22ExtractionPositionItemC6encode2toys7Encoder_p_tKF",
-            "mangledName": "$s15RookAppleHealth0A22ExtractionPositionItemC6encode2toys7Encoder_p_tKF",
+            "usr": "s:15RookAppleHealth0A26ExtractionPositionItemObjcC6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s15RookAppleHealth0A26ExtractionPositionItemObjcC6encode2toys7Encoder_p_tKF",
             "moduleName": "RookAppleHealth",
             "implicit": true,
             "throwing": true,
@@ -5403,8 +5403,8 @@
           }
         ],
         "declKind": "Class",
-        "usr": "c:@M@RookAppleHealth@objc(cs)RookExtractionPositionItem",
-        "mangledName": "$s15RookAppleHealth0A22ExtractionPositionItemC",
+        "usr": "c:@M@RookAppleHealth@objc(cs)RookExtractionPositionItemObjc",
+        "mangledName": "$s15RookAppleHealth0A26ExtractionPositionItemObjcC",
         "moduleName": "RookAppleHealth",
         "declAttributes": [
           "AccessControl",
@@ -5476,8 +5476,8 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "RookExtractionPositionGranularItem",
-        "printedName": "RookExtractionPositionGranularItem",
+        "name": "RookExtractionPositionGranularItemObjc",
+        "printedName": "RookExtractionPositionGranularItemObjc",
         "children": [
           {
             "kind": "Var",
@@ -5492,8 +5492,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "c:@M@RookAppleHealth@objc(cs)RookExtractionPositionGranularItem(py)datetime",
-            "mangledName": "$s15RookAppleHealth0A30ExtractionPositionGranularItemC8datetime10Foundation4DateVvp",
+            "usr": "c:@M@RookAppleHealth@objc(cs)RookExtractionPositionGranularItemObjc(py)datetime",
+            "mangledName": "$s15RookAppleHealth0A34ExtractionPositionGranularItemObjcC8datetime10Foundation4DateVvp",
             "moduleName": "RookAppleHealth",
             "declAttributes": [
               "Final",
@@ -5517,8 +5517,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@RookAppleHealth@objc(cs)RookExtractionPositionGranularItem(im)datetime",
-                "mangledName": "$s15RookAppleHealth0A30ExtractionPositionGranularItemC8datetime10Foundation4DateVvg",
+                "usr": "c:@M@RookAppleHealth@objc(cs)RookExtractionPositionGranularItemObjc(im)datetime",
+                "mangledName": "$s15RookAppleHealth0A34ExtractionPositionGranularItemObjcC8datetime10Foundation4DateVvg",
                 "moduleName": "RookAppleHealth",
                 "implicit": true,
                 "declAttributes": [
@@ -5542,8 +5542,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "c:@M@RookAppleHealth@objc(cs)RookExtractionPositionGranularItem(py)intervalDurationSeconds",
-            "mangledName": "$s15RookAppleHealth0A30ExtractionPositionGranularItemC23intervalDurationSecondsSivp",
+            "usr": "c:@M@RookAppleHealth@objc(cs)RookExtractionPositionGranularItemObjc(py)intervalDurationSeconds",
+            "mangledName": "$s15RookAppleHealth0A34ExtractionPositionGranularItemObjcC23intervalDurationSecondsSivp",
             "moduleName": "RookAppleHealth",
             "declAttributes": [
               "Final",
@@ -5567,8 +5567,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@RookAppleHealth@objc(cs)RookExtractionPositionGranularItem(im)intervalDurationSeconds",
-                "mangledName": "$s15RookAppleHealth0A30ExtractionPositionGranularItemC23intervalDurationSecondsSivg",
+                "usr": "c:@M@RookAppleHealth@objc(cs)RookExtractionPositionGranularItemObjc(im)intervalDurationSeconds",
+                "mangledName": "$s15RookAppleHealth0A34ExtractionPositionGranularItemObjcC23intervalDurationSecondsSivg",
                 "moduleName": "RookAppleHealth",
                 "implicit": true,
                 "declAttributes": [
@@ -5592,8 +5592,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "c:@M@RookAppleHealth@objc(cs)RookExtractionPositionGranularItem(py)latitude",
-            "mangledName": "$s15RookAppleHealth0A30ExtractionPositionGranularItemC8latitudeSdvp",
+            "usr": "c:@M@RookAppleHealth@objc(cs)RookExtractionPositionGranularItemObjc(py)latitude",
+            "mangledName": "$s15RookAppleHealth0A34ExtractionPositionGranularItemObjcC8latitudeSdvp",
             "moduleName": "RookAppleHealth",
             "declAttributes": [
               "Final",
@@ -5617,8 +5617,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@RookAppleHealth@objc(cs)RookExtractionPositionGranularItem(im)latitude",
-                "mangledName": "$s15RookAppleHealth0A30ExtractionPositionGranularItemC8latitudeSdvg",
+                "usr": "c:@M@RookAppleHealth@objc(cs)RookExtractionPositionGranularItemObjc(im)latitude",
+                "mangledName": "$s15RookAppleHealth0A34ExtractionPositionGranularItemObjcC8latitudeSdvg",
                 "moduleName": "RookAppleHealth",
                 "implicit": true,
                 "declAttributes": [
@@ -5642,8 +5642,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "c:@M@RookAppleHealth@objc(cs)RookExtractionPositionGranularItem(py)longitude",
-            "mangledName": "$s15RookAppleHealth0A30ExtractionPositionGranularItemC9longitudeSdvp",
+            "usr": "c:@M@RookAppleHealth@objc(cs)RookExtractionPositionGranularItemObjc(py)longitude",
+            "mangledName": "$s15RookAppleHealth0A34ExtractionPositionGranularItemObjcC9longitudeSdvp",
             "moduleName": "RookAppleHealth",
             "declAttributes": [
               "Final",
@@ -5667,8 +5667,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@RookAppleHealth@objc(cs)RookExtractionPositionGranularItem(im)longitude",
-                "mangledName": "$s15RookAppleHealth0A30ExtractionPositionGranularItemC9longitudeSdvg",
+                "usr": "c:@M@RookAppleHealth@objc(cs)RookExtractionPositionGranularItemObjc(im)longitude",
+                "mangledName": "$s15RookAppleHealth0A34ExtractionPositionGranularItemObjcC9longitudeSdvg",
                 "moduleName": "RookAppleHealth",
                 "implicit": true,
                 "declAttributes": [
@@ -5686,14 +5686,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "RookExtractionPositionGranularItem",
-                "printedName": "RookAppleHealth.RookExtractionPositionGranularItem",
-                "usr": "c:@M@RookAppleHealth@objc(cs)RookExtractionPositionGranularItem"
+                "name": "RookExtractionPositionGranularItemObjc",
+                "printedName": "RookAppleHealth.RookExtractionPositionGranularItemObjc",
+                "usr": "c:@M@RookAppleHealth@objc(cs)RookExtractionPositionGranularItemObjc"
               }
             ],
             "declKind": "Constructor",
-            "usr": "c:@M@RookAppleHealth@objc(cs)RookExtractionPositionGranularItem(im)init",
-            "mangledName": "$s15RookAppleHealth0A30ExtractionPositionGranularItemCACycfc",
+            "usr": "c:@M@RookAppleHealth@objc(cs)RookExtractionPositionGranularItemObjc(im)init",
+            "mangledName": "$s15RookAppleHealth0A34ExtractionPositionGranularItemObjcCACycfc",
             "moduleName": "RookAppleHealth",
             "overriding": true,
             "implicit": true,
@@ -5723,8 +5723,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:15RookAppleHealth0A30ExtractionPositionGranularItemC6encode2toys7Encoder_p_tKF",
-            "mangledName": "$s15RookAppleHealth0A30ExtractionPositionGranularItemC6encode2toys7Encoder_p_tKF",
+            "usr": "s:15RookAppleHealth0A34ExtractionPositionGranularItemObjcC6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s15RookAppleHealth0A34ExtractionPositionGranularItemObjcC6encode2toys7Encoder_p_tKF",
             "moduleName": "RookAppleHealth",
             "implicit": true,
             "throwing": true,
@@ -5732,8 +5732,8 @@
           }
         ],
         "declKind": "Class",
-        "usr": "c:@M@RookAppleHealth@objc(cs)RookExtractionPositionGranularItem",
-        "mangledName": "$s15RookAppleHealth0A30ExtractionPositionGranularItemC",
+        "usr": "c:@M@RookAppleHealth@objc(cs)RookExtractionPositionGranularItemObjc",
+        "mangledName": "$s15RookAppleHealth0A34ExtractionPositionGranularItemObjcC",
         "moduleName": "RookAppleHealth",
         "declAttributes": [
           "AccessControl",
@@ -60026,112 +60026,112 @@
     {
       "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/RookMotion\/SDK's\/RookAuthenticationSDK\/RookAppleHealth\/Source\/Extraction\/Objc\/Entities\/Activity\/RookExtractionStressDataObjc.swift",
       "kind": "StringLiteral",
-      "offset": 1573,
+      "offset": 1581,
       "length": 33,
       "value": "\"stress_at_rest_duration_seconds\""
     },
     {
       "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/RookMotion\/SDK's\/RookAuthenticationSDK\/RookAppleHealth\/Source\/Extraction\/Objc\/Entities\/Activity\/RookExtractionStressDataObjc.swift",
       "kind": "StringLiteral",
-      "offset": 1640,
+      "offset": 1648,
       "length": 25,
       "value": "\"stress_duration_seconds\""
     },
     {
       "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/RookMotion\/SDK's\/RookAuthenticationSDK\/RookAppleHealth\/Source\/Extraction\/Objc\/Entities\/Activity\/RookExtractionStressDataObjc.swift",
       "kind": "StringLiteral",
-      "offset": 1702,
+      "offset": 1710,
       "length": 29,
       "value": "\"low_stress_duration_seconds\""
     },
     {
       "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/RookMotion\/SDK's\/RookAuthenticationSDK\/RookAppleHealth\/Source\/Extraction\/Objc\/Entities\/Activity\/RookExtractionStressDataObjc.swift",
       "kind": "StringLiteral",
-      "offset": 1771,
+      "offset": 1779,
       "length": 32,
       "value": "\"medium_stress_duration_seconds\""
     },
     {
       "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/RookMotion\/SDK's\/RookAuthenticationSDK\/RookAppleHealth\/Source\/Extraction\/Objc\/Entities\/Activity\/RookExtractionStressDataObjc.swift",
       "kind": "StringLiteral",
-      "offset": 1841,
+      "offset": 1849,
       "length": 30,
       "value": "\"high_stress_duration_seconds\""
     },
     {
       "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/RookMotion\/SDK's\/RookAuthenticationSDK\/RookAppleHealth\/Source\/Extraction\/Objc\/Entities\/Activity\/RookExtractionStressDataObjc.swift",
       "kind": "StringLiteral",
-      "offset": 1920,
+      "offset": 1928,
       "length": 38,
       "value": "\"tss_granular_data_1_500_score_number\""
     },
     {
       "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/RookMotion\/SDK's\/RookAuthenticationSDK\/RookAppleHealth\/Source\/Extraction\/Objc\/Entities\/Activity\/RookExtractionStressDataObjc.swift",
       "kind": "StringLiteral",
-      "offset": 1991,
+      "offset": 1999,
       "length": 25,
       "value": "\"stress_avg_level_number\""
     },
     {
       "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/RookMotion\/SDK's\/RookAuthenticationSDK\/RookAppleHealth\/Source\/Extraction\/Objc\/Entities\/Activity\/RookExtractionStressDataObjc.swift",
       "kind": "StringLiteral",
-      "offset": 2049,
+      "offset": 2057,
       "length": 25,
       "value": "\"stress_max_level_number\""
     },
     {
       "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/RookMotion\/SDK's\/RookAuthenticationSDK\/RookAppleHealth\/Source\/Extraction\/Objc\/Entities\/Activity\/RookExtractionStressDataObjc.swift",
       "kind": "StringLiteral",
-      "offset": 1573,
+      "offset": 1581,
       "length": 33,
       "value": "\"stress_at_rest_duration_seconds\""
     },
     {
       "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/RookMotion\/SDK's\/RookAuthenticationSDK\/RookAppleHealth\/Source\/Extraction\/Objc\/Entities\/Activity\/RookExtractionStressDataObjc.swift",
       "kind": "StringLiteral",
-      "offset": 1640,
+      "offset": 1648,
       "length": 25,
       "value": "\"stress_duration_seconds\""
     },
     {
       "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/RookMotion\/SDK's\/RookAuthenticationSDK\/RookAppleHealth\/Source\/Extraction\/Objc\/Entities\/Activity\/RookExtractionStressDataObjc.swift",
       "kind": "StringLiteral",
-      "offset": 1702,
+      "offset": 1710,
       "length": 29,
       "value": "\"low_stress_duration_seconds\""
     },
     {
       "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/RookMotion\/SDK's\/RookAuthenticationSDK\/RookAppleHealth\/Source\/Extraction\/Objc\/Entities\/Activity\/RookExtractionStressDataObjc.swift",
       "kind": "StringLiteral",
-      "offset": 1771,
+      "offset": 1779,
       "length": 32,
       "value": "\"medium_stress_duration_seconds\""
     },
     {
       "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/RookMotion\/SDK's\/RookAuthenticationSDK\/RookAppleHealth\/Source\/Extraction\/Objc\/Entities\/Activity\/RookExtractionStressDataObjc.swift",
       "kind": "StringLiteral",
-      "offset": 1841,
+      "offset": 1849,
       "length": 30,
       "value": "\"high_stress_duration_seconds\""
     },
     {
       "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/RookMotion\/SDK's\/RookAuthenticationSDK\/RookAppleHealth\/Source\/Extraction\/Objc\/Entities\/Activity\/RookExtractionStressDataObjc.swift",
       "kind": "StringLiteral",
-      "offset": 1920,
+      "offset": 1928,
       "length": 38,
       "value": "\"tss_granular_data_1_500_score_number\""
     },
     {
       "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/RookMotion\/SDK's\/RookAuthenticationSDK\/RookAppleHealth\/Source\/Extraction\/Objc\/Entities\/Activity\/RookExtractionStressDataObjc.swift",
       "kind": "StringLiteral",
-      "offset": 1991,
+      "offset": 1999,
       "length": 25,
       "value": "\"stress_avg_level_number\""
     },
     {
       "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/RookMotion\/SDK's\/RookAuthenticationSDK\/RookAppleHealth\/Source\/Extraction\/Objc\/Entities\/Activity\/RookExtractionStressDataObjc.swift",
       "kind": "StringLiteral",
-      "offset": 2049,
+      "offset": 2057,
       "length": 25,
       "value": "\"stress_max_level_number\""
     },
@@ -60145,51 +60145,51 @@
     {
       "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/RookMotion\/SDK's\/RookAuthenticationSDK\/RookAppleHealth\/Source\/Extraction\/Objc\/Entities\/Activity\/RookExtractionStressDataObjc.swift",
       "kind": "StringLiteral",
-      "offset": 2594,
+      "offset": 2606,
       "length": 10,
       "value": "\"datetime\""
     },
     {
       "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/RookMotion\/SDK's\/RookAuthenticationSDK\/RookAppleHealth\/Source\/Extraction\/Objc\/Entities\/Activity\/RookExtractionStressDataObjc.swift",
       "kind": "StringLiteral",
-      "offset": 2640,
+      "offset": 2652,
       "length": 27,
       "value": "\"interval_duration_seconds\""
     },
     {
       "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/RookMotion\/SDK's\/RookAuthenticationSDK\/RookAppleHealth\/Source\/Extraction\/Objc\/Entities\/Activity\/RookExtractionStressDataObjc.swift",
       "kind": "StringLiteral",
-      "offset": 2694,
+      "offset": 2706,
       "length": 17,
       "value": "\"tss_1_500_score\""
     },
     {
       "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/RookMotion\/SDK's\/RookAuthenticationSDK\/RookAppleHealth\/Source\/Extraction\/Objc\/Entities\/Activity\/RookExtractionStressDataObjc.swift",
       "kind": "StringLiteral",
-      "offset": 2594,
+      "offset": 2606,
       "length": 10,
       "value": "\"datetime\""
     },
     {
       "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/RookMotion\/SDK's\/RookAuthenticationSDK\/RookAppleHealth\/Source\/Extraction\/Objc\/Entities\/Activity\/RookExtractionStressDataObjc.swift",
       "kind": "StringLiteral",
-      "offset": 2640,
+      "offset": 2652,
       "length": 27,
       "value": "\"interval_duration_seconds\""
     },
     {
       "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/RookMotion\/SDK's\/RookAuthenticationSDK\/RookAppleHealth\/Source\/Extraction\/Objc\/Entities\/Activity\/RookExtractionStressDataObjc.swift",
       "kind": "StringLiteral",
-      "offset": 2694,
+      "offset": 2706,
       "length": 17,
       "value": "\"tss_1_500_score\""
     },
     {
       "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/RookMotion\/SDK's\/RookAuthenticationSDK\/RookAppleHealth\/Source\/Extraction\/Objc\/Entities\/Activity\/RookExtractionStressDataObjc.swift",
       "kind": "StringLiteral",
-      "offset": 2101,
-      "length": 50,
-      "value": "\"RookAppleHealth.RookExtractionTssGranularDataFrom1To500ScoreNumber\""
+      "offset": 2109,
+      "length": 54,
+      "value": "\"RookAppleHealth.RookExtractionTssGranularDataFrom1To500ScoreNumberObjc\""
     },
     {
       "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/RookMotion\/SDK's\/RookAuthenticationSDK\/RookAppleHealth\/Source\/Extraction\/Data\/Event\/ActivityEvent\/Entities\/Granular\/RookActivityLevelGranular.swift",
@@ -60516,70 +60516,70 @@
     {
       "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/RookMotion\/SDK's\/RookAuthenticationSDK\/RookAppleHealth\/Source\/Extraction\/Objc\/Entities\/Activity\/RookExtractionPositionDataObjc.swift",
       "kind": "StringLiteral",
-      "offset": 1282,
+      "offset": 1318,
       "length": 28,
       "value": "\"position_start_lat_lng_deg\""
     },
     {
       "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/RookMotion\/SDK's\/RookAuthenticationSDK\/RookAppleHealth\/Source\/Extraction\/Objc\/Entities\/Activity\/RookExtractionPositionDataObjc.swift",
       "kind": "StringLiteral",
-      "offset": 1349,
+      "offset": 1385,
       "length": 31,
       "value": "\"position_centroid_lat_lng_deg\""
     },
     {
       "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/RookMotion\/SDK's\/RookAuthenticationSDK\/RookAppleHealth\/Source\/Extraction\/Objc\/Entities\/Activity\/RookExtractionPositionDataObjc.swift",
       "kind": "StringLiteral",
-      "offset": 1414,
+      "offset": 1450,
       "length": 26,
       "value": "\"position_end_lat_lng_deg\""
     },
     {
       "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/RookMotion\/SDK's\/RookAuthenticationSDK\/RookAppleHealth\/Source\/Extraction\/Objc\/Entities\/Activity\/RookExtractionPositionDataObjc.swift",
       "kind": "StringLiteral",
-      "offset": 1483,
+      "offset": 1519,
       "length": 36,
       "value": "\"position_granular_data_lat_lng_deg\""
     },
     {
       "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/RookMotion\/SDK's\/RookAuthenticationSDK\/RookAppleHealth\/Source\/Extraction\/Objc\/Entities\/Activity\/RookExtractionPositionDataObjc.swift",
       "kind": "StringLiteral",
-      "offset": 1568,
+      "offset": 1604,
       "length": 43,
       "value": "\"position_polyline_map_data_summary_string\""
     },
     {
       "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/RookMotion\/SDK's\/RookAuthenticationSDK\/RookAppleHealth\/Source\/Extraction\/Objc\/Entities\/Activity\/RookExtractionPositionDataObjc.swift",
       "kind": "StringLiteral",
-      "offset": 1282,
+      "offset": 1318,
       "length": 28,
       "value": "\"position_start_lat_lng_deg\""
     },
     {
       "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/RookMotion\/SDK's\/RookAuthenticationSDK\/RookAppleHealth\/Source\/Extraction\/Objc\/Entities\/Activity\/RookExtractionPositionDataObjc.swift",
       "kind": "StringLiteral",
-      "offset": 1349,
+      "offset": 1385,
       "length": 31,
       "value": "\"position_centroid_lat_lng_deg\""
     },
     {
       "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/RookMotion\/SDK's\/RookAuthenticationSDK\/RookAppleHealth\/Source\/Extraction\/Objc\/Entities\/Activity\/RookExtractionPositionDataObjc.swift",
       "kind": "StringLiteral",
-      "offset": 1414,
+      "offset": 1450,
       "length": 26,
       "value": "\"position_end_lat_lng_deg\""
     },
     {
       "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/RookMotion\/SDK's\/RookAuthenticationSDK\/RookAppleHealth\/Source\/Extraction\/Objc\/Entities\/Activity\/RookExtractionPositionDataObjc.swift",
       "kind": "StringLiteral",
-      "offset": 1483,
+      "offset": 1519,
       "length": 36,
       "value": "\"position_granular_data_lat_lng_deg\""
     },
     {
       "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/RookMotion\/SDK's\/RookAuthenticationSDK\/RookAppleHealth\/Source\/Extraction\/Objc\/Entities\/Activity\/RookExtractionPositionDataObjc.swift",
       "kind": "StringLiteral",
-      "offset": 1568,
+      "offset": 1604,
       "length": 43,
       "value": "\"position_polyline_map_data_summary_string\""
     },
@@ -60587,92 +60587,92 @@
       "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/RookMotion\/SDK's\/RookAuthenticationSDK\/RookAppleHealth\/Source\/Extraction\/Objc\/Entities\/Activity\/RookExtractionPositionDataObjc.swift",
       "kind": "StringLiteral",
       "offset": 166,
-      "length": 26,
-      "value": "\"RookAppleHealth.RookExtractionPositionData\""
+      "length": 30,
+      "value": "\"RookAppleHealth.RookExtractionPositionDataObjc\""
     },
     {
       "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/RookMotion\/SDK's\/RookAuthenticationSDK\/RookAppleHealth\/Source\/Extraction\/Objc\/Entities\/Activity\/RookExtractionPositionDataObjc.swift",
       "kind": "StringLiteral",
-      "offset": 1936,
+      "offset": 1976,
       "length": 5,
       "value": "\"lat\""
     },
     {
       "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/RookMotion\/SDK's\/RookAuthenticationSDK\/RookAppleHealth\/Source\/Extraction\/Objc\/Entities\/Activity\/RookExtractionPositionDataObjc.swift",
       "kind": "StringLiteral",
-      "offset": 1963,
+      "offset": 2003,
       "length": 5,
       "value": "\"lng\""
     },
     {
       "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/RookMotion\/SDK's\/RookAuthenticationSDK\/RookAppleHealth\/Source\/Extraction\/Objc\/Entities\/Activity\/RookExtractionPositionDataObjc.swift",
       "kind": "StringLiteral",
-      "offset": 1936,
+      "offset": 1976,
       "length": 5,
       "value": "\"lat\""
     },
     {
       "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/RookMotion\/SDK's\/RookAuthenticationSDK\/RookAppleHealth\/Source\/Extraction\/Objc\/Entities\/Activity\/RookExtractionPositionDataObjc.swift",
       "kind": "StringLiteral",
-      "offset": 1963,
+      "offset": 2003,
       "length": 5,
       "value": "\"lng\""
     },
     {
       "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/RookMotion\/SDK's\/RookAuthenticationSDK\/RookAppleHealth\/Source\/Extraction\/Objc\/Entities\/Activity\/RookExtractionPositionDataObjc.swift",
       "kind": "StringLiteral",
-      "offset": 1638,
-      "length": 26,
-      "value": "\"RookAppleHealth.RookExtractionPositionItem\""
+      "offset": 1674,
+      "length": 30,
+      "value": "\"RookAppleHealth.RookExtractionPositionItemObjc\""
     },
     {
       "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/RookMotion\/SDK's\/RookAuthenticationSDK\/RookAppleHealth\/Source\/Extraction\/Objc\/Entities\/Activity\/RookExtractionPositionDataObjc.swift",
       "kind": "StringLiteral",
-      "offset": 2517,
+      "offset": 2561,
       "length": 5,
       "value": "\"lat\""
     },
     {
       "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/RookMotion\/SDK's\/RookAuthenticationSDK\/RookAppleHealth\/Source\/Extraction\/Objc\/Entities\/Activity\/RookExtractionPositionDataObjc.swift",
       "kind": "StringLiteral",
-      "offset": 2544,
+      "offset": 2588,
       "length": 5,
       "value": "\"lng\""
     },
     {
       "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/RookMotion\/SDK's\/RookAuthenticationSDK\/RookAppleHealth\/Source\/Extraction\/Objc\/Entities\/Activity\/RookExtractionPositionDataObjc.swift",
       "kind": "StringLiteral",
-      "offset": 2603,
+      "offset": 2647,
       "length": 27,
       "value": "\"interval_duration_seconds\""
     },
     {
       "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/RookMotion\/SDK's\/RookAuthenticationSDK\/RookAppleHealth\/Source\/Extraction\/Objc\/Entities\/Activity\/RookExtractionPositionDataObjc.swift",
       "kind": "StringLiteral",
-      "offset": 2517,
+      "offset": 2561,
       "length": 5,
       "value": "\"lat\""
     },
     {
       "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/RookMotion\/SDK's\/RookAuthenticationSDK\/RookAppleHealth\/Source\/Extraction\/Objc\/Entities\/Activity\/RookExtractionPositionDataObjc.swift",
       "kind": "StringLiteral",
-      "offset": 2544,
+      "offset": 2588,
       "length": 5,
       "value": "\"lng\""
     },
     {
       "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/RookMotion\/SDK's\/RookAuthenticationSDK\/RookAppleHealth\/Source\/Extraction\/Objc\/Entities\/Activity\/RookExtractionPositionDataObjc.swift",
       "kind": "StringLiteral",
-      "offset": 2603,
+      "offset": 2647,
       "length": 27,
       "value": "\"interval_duration_seconds\""
     },
     {
       "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/RookMotion\/SDK's\/RookAuthenticationSDK\/RookAppleHealth\/Source\/Extraction\/Objc\/Entities\/Activity\/RookExtractionPositionDataObjc.swift",
       "kind": "StringLiteral",
-      "offset": 1995,
-      "length": 34,
-      "value": "\"RookAppleHealth.RookExtractionPositionGranularItem\""
+      "offset": 2035,
+      "length": 38,
+      "value": "\"RookAppleHealth.RookExtractionPositionGranularItemObjc\""
     },
     {
       "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/RookMotion\/SDK's\/RookAuthenticationSDK\/RookAppleHealth\/Source\/Extraction\/Data\/Storage\/Constants\/UserDefaultsKeys.swift",
@@ -66004,196 +66004,196 @@
     {
       "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/RookMotion\/SDK's\/RookAuthenticationSDK\/RookAppleHealth\/Source\/Extraction\/Objc\/Entities\/HeartRateEvents\/RookHeartRateEventObjc.swift",
       "kind": "StringLiteral",
-      "offset": 1833,
+      "offset": 1839,
       "length": 12,
       "value": "\"hr_max_bpm\""
     },
     {
       "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/RookMotion\/SDK's\/RookAuthenticationSDK\/RookAppleHealth\/Source\/Extraction\/Objc\/Entities\/HeartRateEvents\/RookHeartRateEventObjc.swift",
       "kind": "StringLiteral",
-      "offset": 1870,
+      "offset": 1876,
       "length": 16,
       "value": "\"hr_minimum_bpm\""
     },
     {
       "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/RookMotion\/SDK's\/RookAuthenticationSDK\/RookAppleHealth\/Source\/Extraction\/Objc\/Entities\/HeartRateEvents\/RookHeartRateEventObjc.swift",
       "kind": "StringLiteral",
-      "offset": 1907,
+      "offset": 1913,
       "length": 12,
       "value": "\"hr_avg_bpm\""
     },
     {
       "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/RookMotion\/SDK's\/RookAuthenticationSDK\/RookAppleHealth\/Source\/Extraction\/Objc\/Entities\/HeartRateEvents\/RookHeartRateEventObjc.swift",
       "kind": "StringLiteral",
-      "offset": 1944,
+      "offset": 1950,
       "length": 16,
       "value": "\"hr_resting_bpm\""
     },
     {
       "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/RookMotion\/SDK's\/RookAuthenticationSDK\/RookAppleHealth\/Source\/Extraction\/Objc\/Entities\/HeartRateEvents\/RookHeartRateEventObjc.swift",
       "kind": "StringLiteral",
-      "offset": 1990,
+      "offset": 1996,
       "length": 22,
       "value": "\"hr_granular_data_bpm\""
     },
     {
       "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/RookMotion\/SDK's\/RookAuthenticationSDK\/RookAppleHealth\/Source\/Extraction\/Objc\/Entities\/HeartRateEvents\/RookHeartRateEventObjc.swift",
       "kind": "StringLiteral",
-      "offset": 2042,
+      "offset": 2048,
       "length": 22,
       "value": "\"hrv_avg_rmssd_number\""
     },
     {
       "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/RookMotion\/SDK's\/RookAuthenticationSDK\/RookAppleHealth\/Source\/Extraction\/Objc\/Entities\/HeartRateEvents\/RookHeartRateEventObjc.swift",
       "kind": "StringLiteral",
-      "offset": 2093,
+      "offset": 2099,
       "length": 21,
       "value": "\"hrv_avg_sdnn_number\""
     },
     {
       "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/RookMotion\/SDK's\/RookAuthenticationSDK\/RookAppleHealth\/Source\/Extraction\/Objc\/Entities\/HeartRateEvents\/RookHeartRateEventObjc.swift",
       "kind": "StringLiteral",
-      "offset": 2146,
+      "offset": 2152,
       "length": 24,
       "value": "\"hrv_sdnn_granular_data\""
     },
     {
       "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/RookMotion\/SDK's\/RookAuthenticationSDK\/RookAppleHealth\/Source\/Extraction\/Objc\/Entities\/HeartRateEvents\/RookHeartRateEventObjc.swift",
       "kind": "StringLiteral",
-      "offset": 2203,
+      "offset": 2209,
       "length": 25,
       "value": "\"hrv_rmssd_granular_data\""
     },
     {
       "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/RookMotion\/SDK's\/RookAuthenticationSDK\/RookAppleHealth\/Source\/Extraction\/Objc\/Entities\/HeartRateEvents\/RookHeartRateEventObjc.swift",
       "kind": "StringLiteral",
-      "offset": 1833,
+      "offset": 1839,
       "length": 12,
       "value": "\"hr_max_bpm\""
     },
     {
       "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/RookMotion\/SDK's\/RookAuthenticationSDK\/RookAppleHealth\/Source\/Extraction\/Objc\/Entities\/HeartRateEvents\/RookHeartRateEventObjc.swift",
       "kind": "StringLiteral",
-      "offset": 1870,
+      "offset": 1876,
       "length": 16,
       "value": "\"hr_minimum_bpm\""
     },
     {
       "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/RookMotion\/SDK's\/RookAuthenticationSDK\/RookAppleHealth\/Source\/Extraction\/Objc\/Entities\/HeartRateEvents\/RookHeartRateEventObjc.swift",
       "kind": "StringLiteral",
-      "offset": 1907,
+      "offset": 1913,
       "length": 12,
       "value": "\"hr_avg_bpm\""
     },
     {
       "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/RookMotion\/SDK's\/RookAuthenticationSDK\/RookAppleHealth\/Source\/Extraction\/Objc\/Entities\/HeartRateEvents\/RookHeartRateEventObjc.swift",
       "kind": "StringLiteral",
-      "offset": 1944,
+      "offset": 1950,
       "length": 16,
       "value": "\"hr_resting_bpm\""
     },
     {
       "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/RookMotion\/SDK's\/RookAuthenticationSDK\/RookAppleHealth\/Source\/Extraction\/Objc\/Entities\/HeartRateEvents\/RookHeartRateEventObjc.swift",
       "kind": "StringLiteral",
-      "offset": 1990,
+      "offset": 1996,
       "length": 22,
       "value": "\"hr_granular_data_bpm\""
     },
     {
       "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/RookMotion\/SDK's\/RookAuthenticationSDK\/RookAppleHealth\/Source\/Extraction\/Objc\/Entities\/HeartRateEvents\/RookHeartRateEventObjc.swift",
       "kind": "StringLiteral",
-      "offset": 2042,
+      "offset": 2048,
       "length": 22,
       "value": "\"hrv_avg_rmssd_number\""
     },
     {
       "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/RookMotion\/SDK's\/RookAuthenticationSDK\/RookAppleHealth\/Source\/Extraction\/Objc\/Entities\/HeartRateEvents\/RookHeartRateEventObjc.swift",
       "kind": "StringLiteral",
-      "offset": 2093,
+      "offset": 2099,
       "length": 21,
       "value": "\"hrv_avg_sdnn_number\""
     },
     {
       "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/RookMotion\/SDK's\/RookAuthenticationSDK\/RookAppleHealth\/Source\/Extraction\/Objc\/Entities\/HeartRateEvents\/RookHeartRateEventObjc.swift",
       "kind": "StringLiteral",
-      "offset": 2146,
+      "offset": 2152,
       "length": 24,
       "value": "\"hrv_sdnn_granular_data\""
     },
     {
       "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/RookMotion\/SDK's\/RookAuthenticationSDK\/RookAppleHealth\/Source\/Extraction\/Objc\/Entities\/HeartRateEvents\/RookHeartRateEventObjc.swift",
       "kind": "StringLiteral",
-      "offset": 2203,
+      "offset": 2209,
       "length": 25,
       "value": "\"hrv_rmssd_granular_data\""
     },
     {
       "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/RookMotion\/SDK's\/RookAuthenticationSDK\/RookAppleHealth\/Source\/Extraction\/Objc\/Entities\/HeartRateEvents\/RookHeartRateEventObjc.swift",
       "kind": "StringLiteral",
-      "offset": 634,
+      "offset": 640,
       "length": 36,
       "value": "\"RookAppleHealth.RookHeartRateDataEventExtractionObjc\""
     },
     {
       "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/RookMotion\/SDK's\/RookAuthenticationSDK\/RookAppleHealth\/Source\/Extraction\/Objc\/Entities\/HeartRateEvents\/RookHeartRateEventObjc.swift",
       "kind": "StringLiteral",
-      "offset": 2539,
+      "offset": 2545,
       "length": 8,
       "value": "\"hr_bpm\""
     },
     {
       "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/RookMotion\/SDK's\/RookAuthenticationSDK\/RookAppleHealth\/Source\/Extraction\/Objc\/Entities\/HeartRateEvents\/RookHeartRateEventObjc.swift",
       "kind": "StringLiteral",
-      "offset": 2539,
+      "offset": 2545,
       "length": 8,
       "value": "\"hr_bpm\""
     },
     {
       "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/RookMotion\/SDK's\/RookAuthenticationSDK\/RookAppleHealth\/Source\/Extraction\/Objc\/Entities\/HeartRateEvents\/RookHeartRateEventObjc.swift",
       "kind": "StringLiteral",
-      "offset": 2255,
+      "offset": 2261,
       "length": 35,
       "value": "\"RookAppleHealth.RookExtractionHrGranularDataBPMObjc\""
     },
     {
       "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/RookMotion\/SDK's\/RookAuthenticationSDK\/RookAppleHealth\/Source\/Extraction\/Objc\/Entities\/HeartRateEvents\/RookHeartRateEventObjc.swift",
       "kind": "StringLiteral",
-      "offset": 2887,
+      "offset": 2893,
       "length": 11,
       "value": "\"hrv_rmssd\""
     },
     {
       "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/RookMotion\/SDK's\/RookAuthenticationSDK\/RookAppleHealth\/Source\/Extraction\/Objc\/Entities\/HeartRateEvents\/RookHeartRateEventObjc.swift",
       "kind": "StringLiteral",
-      "offset": 2887,
+      "offset": 2893,
       "length": 11,
       "value": "\"hrv_rmssd\""
     },
     {
       "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/RookMotion\/SDK's\/RookAuthenticationSDK\/RookAppleHealth\/Source\/Extraction\/Objc\/Entities\/HeartRateEvents\/RookHeartRateEventObjc.swift",
       "kind": "StringLiteral",
-      "offset": 2574,
+      "offset": 2580,
       "length": 39,
       "value": "\"RookAppleHealth.RookExtractionHrvRmssdGranularDatumObjc\""
     },
     {
       "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/RookMotion\/SDK's\/RookAuthenticationSDK\/RookAppleHealth\/Source\/Extraction\/Objc\/Entities\/HeartRateEvents\/RookHeartRateEventObjc.swift",
       "kind": "StringLiteral",
-      "offset": 3232,
+      "offset": 3238,
       "length": 10,
       "value": "\"hrv_sdnn\""
     },
     {
       "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/RookMotion\/SDK's\/RookAuthenticationSDK\/RookAppleHealth\/Source\/Extraction\/Objc\/Entities\/HeartRateEvents\/RookHeartRateEventObjc.swift",
       "kind": "StringLiteral",
-      "offset": 3232,
+      "offset": 3238,
       "length": 10,
       "value": "\"hrv_sdnn\""
     },
     {
       "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/RookMotion\/SDK's\/RookAuthenticationSDK\/RookAppleHealth\/Source\/Extraction\/Objc\/Entities\/HeartRateEvents\/RookHeartRateEventObjc.swift",
       "kind": "StringLiteral",
-      "offset": 2925,
+      "offset": 2931,
       "length": 38,
       "value": "\"RookAppleHealth.RookExtractionHrvSdnnGranularDatumObjc\""
     },

@@ -35,7 +35,7 @@ public struct RookMovementData : Swift.Encodable {
   @objc final public let heartRateData: RookAppleHealth.RookExtractionHeartRateDataObjc?
   @objc final public let movementData: RookAppleHealth.RookExtractionMovementDataObjc?
   @objc final public let powerData: RookAppleHealth.RookExtractionPowerDataObjc?
-  @objc final public let positionData: RookAppleHealth.RookExtractionPositionData?
+  @objc final public let positionData: RookAppleHealth.RookExtractionPositionDataObjc?
   @objc final public let oxygenationData: RookAppleHealth.RookExtractionOxygenationDataObjc?
   @objc final public let stressData: RookAppleHealth.RookExtractionStressDataObjc?
   public var eventData: Foundation.Data? {
@@ -60,13 +60,13 @@ public struct RookCaloriesDataEvent : Swift.Encodable {
   @objc final public let lowStressDurationSeconds: Swift.Int
   @objc final public let mediumStressDurationSeconds: Swift.Int
   @objc final public let highStressDurationSeconds: Swift.Int
-  @objc final public let tssGranularDataFrom1To500ScoreNumber: [RookAppleHealth.RookExtractionTssGranularDataFrom1To500ScoreNumber]?
+  @objc final public let tssGranularDataFrom1To500ScoreNumber: [RookAppleHealth.RookExtractionTssGranularDataFrom1To500ScoreNumberObjc]?
   @objc final public let stressAvgLevelNumber: Swift.Int
   @objc final public let stressMaxLevelNumber: Swift.Int
   @objc deinit
   public func encode(to encoder: Swift.Encoder) throws
 }
-@_hasMissingDesignatedInitializers @objc public class RookExtractionTssGranularDataFrom1To500ScoreNumber : ObjectiveC.NSObject, Swift.Encodable {
+@_hasMissingDesignatedInitializers @objc public class RookExtractionTssGranularDataFrom1To500ScoreNumberObjc : ObjectiveC.NSObject, Swift.Encodable {
   @objc final public let datetime: Foundation.Date
   @objc final public let intervalDurationSeconds: Swift.Int
   @objc final public let tss1To500Score: Swift.Int
@@ -117,22 +117,22 @@ public struct RookSpeedGranularItem : Swift.Encodable {
   @objc deinit
   public func encode(to encoder: Swift.Encoder) throws
 }
-@_hasMissingDesignatedInitializers @objc public class RookExtractionPositionData : ObjectiveC.NSObject, Swift.Encodable {
-  @objc final public let positionStartLatLngDeg: RookAppleHealth.RookExtractionPositionItem?
-  @objc final public let positionCentroidLatLngDeg: RookAppleHealth.RookExtractionPositionItem?
-  @objc final public let positionEndLatLngDeg: RookAppleHealth.RookExtractionPositionItem?
-  @objc final public let positionGranularDataLatLngDeg: [RookAppleHealth.RookExtractionPositionGranularItem]?
+@_hasMissingDesignatedInitializers @objc public class RookExtractionPositionDataObjc : ObjectiveC.NSObject, Swift.Encodable {
+  @objc final public let positionStartLatLngDeg: RookAppleHealth.RookExtractionPositionItemObjc?
+  @objc final public let positionCentroidLatLngDeg: RookAppleHealth.RookExtractionPositionItemObjc?
+  @objc final public let positionEndLatLngDeg: RookAppleHealth.RookExtractionPositionItemObjc?
+  @objc final public let positionGranularDataLatLngDeg: [RookAppleHealth.RookExtractionPositionGranularItemObjc]?
   @objc final public let positionPolylineMapDataSummaryString: Swift.String?
   @objc deinit
   public func encode(to encoder: Swift.Encoder) throws
 }
-@_hasMissingDesignatedInitializers @objc public class RookExtractionPositionItem : ObjectiveC.NSObject, Swift.Encodable {
+@_hasMissingDesignatedInitializers @objc public class RookExtractionPositionItemObjc : ObjectiveC.NSObject, Swift.Encodable {
   @objc final public let latitude: Swift.Double
   @objc final public let longitude: Swift.Double
   @objc deinit
   public func encode(to encoder: Swift.Encoder) throws
 }
-@_hasMissingDesignatedInitializers @objc public class RookExtractionPositionGranularItem : ObjectiveC.NSObject, Swift.Encodable {
+@_hasMissingDesignatedInitializers @objc public class RookExtractionPositionGranularItemObjc : ObjectiveC.NSObject, Swift.Encodable {
   @objc final public let datetime: Foundation.Date
   @objc final public let intervalDurationSeconds: Swift.Int
   @objc final public let latitude: Swift.Double

@@ -302,7 +302,7 @@ SWIFT_CLASS("_TtC15RookAppleHealth35RookExtractionActivityDataEventObjc")
 @class RookExtractionHeartRateDataObjc;
 @class RookExtractionMovementDataObjc;
 @class RookExtractionPowerDataObjc;
-@class RookExtractionPositionData;
+@class RookExtractionPositionDataObjc;
 @class RookExtractionOxygenationDataObjc;
 @class RookExtractionStressDataObjc;
 
@@ -315,7 +315,7 @@ SWIFT_CLASS("_TtC15RookAppleHealth31RookExtractionActivityEventObjc")
 @property (nonatomic, readonly, strong) RookExtractionHeartRateDataObjc * _Nullable heartRateData;
 @property (nonatomic, readonly, strong) RookExtractionMovementDataObjc * _Nullable movementData;
 @property (nonatomic, readonly, strong) RookExtractionPowerDataObjc * _Nullable powerData;
-@property (nonatomic, readonly, strong) RookExtractionPositionData * _Nullable positionData;
+@property (nonatomic, readonly, strong) RookExtractionPositionDataObjc * _Nullable positionData;
 @property (nonatomic, readonly, strong) RookExtractionOxygenationDataObjc * _Nullable oxygenationData;
 @property (nonatomic, readonly, strong) RookExtractionStressDataObjc * _Nullable stressData;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
@@ -590,23 +590,23 @@ SWIFT_CLASS("_TtC15RookAppleHealth34RookExtractionOxygenationEventObjc")
 @end
 
 
-@class RookExtractionPositionItem;
-@class RookExtractionPositionGranularItem;
+@class RookExtractionPositionItemObjc;
+@class RookExtractionPositionGranularItemObjc;
 
-SWIFT_CLASS("_TtC15RookAppleHealth26RookExtractionPositionData")
-@interface RookExtractionPositionData : NSObject
-@property (nonatomic, readonly, strong) RookExtractionPositionItem * _Nullable positionStartLatLngDeg;
-@property (nonatomic, readonly, strong) RookExtractionPositionItem * _Nullable positionCentroidLatLngDeg;
-@property (nonatomic, readonly, strong) RookExtractionPositionItem * _Nullable positionEndLatLngDeg;
-@property (nonatomic, readonly, copy) NSArray<RookExtractionPositionGranularItem *> * _Nullable positionGranularDataLatLngDeg;
+SWIFT_CLASS("_TtC15RookAppleHealth30RookExtractionPositionDataObjc")
+@interface RookExtractionPositionDataObjc : NSObject
+@property (nonatomic, readonly, strong) RookExtractionPositionItemObjc * _Nullable positionStartLatLngDeg;
+@property (nonatomic, readonly, strong) RookExtractionPositionItemObjc * _Nullable positionCentroidLatLngDeg;
+@property (nonatomic, readonly, strong) RookExtractionPositionItemObjc * _Nullable positionEndLatLngDeg;
+@property (nonatomic, readonly, copy) NSArray<RookExtractionPositionGranularItemObjc *> * _Nullable positionGranularDataLatLngDeg;
 @property (nonatomic, readonly, copy) NSString * _Nullable positionPolylineMapDataSummaryString;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
 
-SWIFT_CLASS("_TtC15RookAppleHealth34RookExtractionPositionGranularItem")
-@interface RookExtractionPositionGranularItem : NSObject
+SWIFT_CLASS("_TtC15RookAppleHealth38RookExtractionPositionGranularItemObjc")
+@interface RookExtractionPositionGranularItemObjc : NSObject
 @property (nonatomic, readonly, copy) NSDate * _Nonnull datetime;
 @property (nonatomic, readonly) NSInteger intervalDurationSeconds;
 @property (nonatomic, readonly) double latitude;
@@ -616,8 +616,8 @@ SWIFT_CLASS("_TtC15RookAppleHealth34RookExtractionPositionGranularItem")
 @end
 
 
-SWIFT_CLASS("_TtC15RookAppleHealth26RookExtractionPositionItem")
-@interface RookExtractionPositionItem : NSObject
+SWIFT_CLASS("_TtC15RookAppleHealth30RookExtractionPositionItemObjc")
+@interface RookExtractionPositionItemObjc : NSObject
 @property (nonatomic, readonly) double latitude;
 @property (nonatomic, readonly) double longitude;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
@@ -674,7 +674,7 @@ SWIFT_CLASS("_TtC15RookAppleHealth45RookExtractionStepsGranularDataStepsPerHrObj
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
-@class RookExtractionTssGranularDataFrom1To500ScoreNumber;
+@class RookExtractionTssGranularDataFrom1To500ScoreNumberObjc;
 
 SWIFT_CLASS("_TtC15RookAppleHealth28RookExtractionStressDataObjc")
 @interface RookExtractionStressDataObjc : NSObject
@@ -683,7 +683,7 @@ SWIFT_CLASS("_TtC15RookAppleHealth28RookExtractionStressDataObjc")
 @property (nonatomic, readonly) NSInteger lowStressDurationSeconds;
 @property (nonatomic, readonly) NSInteger mediumStressDurationSeconds;
 @property (nonatomic, readonly) NSInteger highStressDurationSeconds;
-@property (nonatomic, readonly, copy) NSArray<RookExtractionTssGranularDataFrom1To500ScoreNumber *> * _Nullable tssGranularDataFrom1To500ScoreNumber;
+@property (nonatomic, readonly, copy) NSArray<RookExtractionTssGranularDataFrom1To500ScoreNumberObjc *> * _Nullable tssGranularDataFrom1To500ScoreNumber;
 @property (nonatomic, readonly) NSInteger stressAvgLevelNumber;
 @property (nonatomic, readonly) NSInteger stressMaxLevelNumber;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
@@ -721,8 +721,8 @@ SWIFT_CLASS("_TtC15RookAppleHealth51RookExtractionTraveledDistanceGranularDataMe
 @end
 
 
-SWIFT_CLASS("_TtC15RookAppleHealth50RookExtractionTssGranularDataFrom1To500ScoreNumber")
-@interface RookExtractionTssGranularDataFrom1To500ScoreNumber : NSObject
+SWIFT_CLASS("_TtC15RookAppleHealth54RookExtractionTssGranularDataFrom1To500ScoreNumberObjc")
+@interface RookExtractionTssGranularDataFrom1To500ScoreNumberObjc : NSObject
 @property (nonatomic, readonly, copy) NSDate * _Nonnull datetime;
 @property (nonatomic, readonly) NSInteger intervalDurationSeconds;
 @property (nonatomic, readonly) NSInteger tss1To500Score;
