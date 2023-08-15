@@ -3428,6 +3428,16 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "RookAppleHealth",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
         "kind": "TypeDecl",
         "name": "RookActivityLevelGranular",
         "printedName": "RookActivityLevelGranular",
@@ -9924,6 +9934,496 @@
               "AccessControl",
               "ObjC"
             ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getPhysicalHeartRateEventsDictionary",
+            "printedName": "getPhysicalHeartRateEventsDictionary(date:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Date",
+                "printedName": "Foundation.Date",
+                "usr": "s:10Foundation4DateV"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "([[Swift.String : Any]]?, Swift.Error?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "([[Swift.String : Any]]?, Swift.Error?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "[[Swift.String : Any]]?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Array",
+                            "printedName": "[[Swift.String : Any]]",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Dictionary",
+                                "printedName": "[Swift.String : Any]",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "String",
+                                    "printedName": "Swift.String",
+                                    "usr": "s:SS"
+                                  },
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "ProtocolComposition",
+                                    "printedName": "Any"
+                                  }
+                                ],
+                                "usr": "s:SD"
+                              }
+                            ],
+                            "usr": "s:Sa"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.Error?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@RookAppleHealth@objc(cs)RookExtractionEventManagerObjc(im)getPhysicalHeartRateEventsDictionaryWithDate:completion:",
+            "mangledName": "$s15RookAppleHealth0A26ExtractionEventManagerObjcC36getPhysicalHeartRateEventsDictionary4date10completiony10Foundation4DateV_ySaySDySSypGGSg_s5Error_pSgtctF",
+            "moduleName": "RookAppleHealth",
+            "objc_name": "getPhysicalHeartRateEventsDictionaryWithDate:completion:",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getBodyHeartRateEventsDictionary",
+            "printedName": "getBodyHeartRateEventsDictionary(date:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Date",
+                "printedName": "Foundation.Date",
+                "usr": "s:10Foundation4DateV"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "([[Swift.String : Any]]?, Swift.Error?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "([[Swift.String : Any]]?, Swift.Error?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "[[Swift.String : Any]]?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Array",
+                            "printedName": "[[Swift.String : Any]]",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Dictionary",
+                                "printedName": "[Swift.String : Any]",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "String",
+                                    "printedName": "Swift.String",
+                                    "usr": "s:SS"
+                                  },
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "ProtocolComposition",
+                                    "printedName": "Any"
+                                  }
+                                ],
+                                "usr": "s:SD"
+                              }
+                            ],
+                            "usr": "s:Sa"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.Error?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@RookAppleHealth@objc(cs)RookExtractionEventManagerObjc(im)getBodyHeartRateEventsDictionaryWithDate:completion:",
+            "mangledName": "$s15RookAppleHealth0A26ExtractionEventManagerObjcC32getBodyHeartRateEventsDictionary4date10completiony10Foundation4DateV_ySaySDySSypGGSg_s5Error_pSgtctF",
+            "moduleName": "RookAppleHealth",
+            "objc_name": "getBodyHeartRateEventsDictionaryWithDate:completion:",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getPhysicalOxygenationEventsDictionary",
+            "printedName": "getPhysicalOxygenationEventsDictionary(date:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Date",
+                "printedName": "Foundation.Date",
+                "usr": "s:10Foundation4DateV"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "([[Swift.String : Any]]?, Swift.Error?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "([[Swift.String : Any]]?, Swift.Error?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "[[Swift.String : Any]]?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Array",
+                            "printedName": "[[Swift.String : Any]]",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Dictionary",
+                                "printedName": "[Swift.String : Any]",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "String",
+                                    "printedName": "Swift.String",
+                                    "usr": "s:SS"
+                                  },
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "ProtocolComposition",
+                                    "printedName": "Any"
+                                  }
+                                ],
+                                "usr": "s:SD"
+                              }
+                            ],
+                            "usr": "s:Sa"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.Error?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@RookAppleHealth@objc(cs)RookExtractionEventManagerObjc(im)getPhysicalOxygenationEventsDictionaryWithDate:completion:",
+            "mangledName": "$s15RookAppleHealth0A26ExtractionEventManagerObjcC38getPhysicalOxygenationEventsDictionary4date10completiony10Foundation4DateV_ySaySDySSypGGSg_s5Error_pSgtctF",
+            "moduleName": "RookAppleHealth",
+            "objc_name": "getPhysicalOxygenationEventsDictionaryWithDate:completion:",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getBodyOxygenationEventsDictionary",
+            "printedName": "getBodyOxygenationEventsDictionary(date:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Date",
+                "printedName": "Foundation.Date",
+                "usr": "s:10Foundation4DateV"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "([[Swift.String : Any]]?, Swift.Error?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "([[Swift.String : Any]]?, Swift.Error?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "[[Swift.String : Any]]?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Array",
+                            "printedName": "[[Swift.String : Any]]",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Dictionary",
+                                "printedName": "[Swift.String : Any]",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "String",
+                                    "printedName": "Swift.String",
+                                    "usr": "s:SS"
+                                  },
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "ProtocolComposition",
+                                    "printedName": "Any"
+                                  }
+                                ],
+                                "usr": "s:SD"
+                              }
+                            ],
+                            "usr": "s:Sa"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.Error?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@RookAppleHealth@objc(cs)RookExtractionEventManagerObjc(im)getBodyOxygenationEventsDictionaryWithDate:completion:",
+            "mangledName": "$s15RookAppleHealth0A26ExtractionEventManagerObjcC34getBodyOxygenationEventsDictionary4date10completiony10Foundation4DateV_ySaySDySSypGGSg_s5Error_pSgtctF",
+            "moduleName": "RookAppleHealth",
+            "objc_name": "getBodyOxygenationEventsDictionaryWithDate:completion:",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getActivityEventsDictionary",
+            "printedName": "getActivityEventsDictionary(date:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Date",
+                "printedName": "Foundation.Date",
+                "usr": "s:10Foundation4DateV"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "([[Swift.String : Any]]?, Swift.Error?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "([[Swift.String : Any]]?, Swift.Error?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "[[Swift.String : Any]]?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Array",
+                            "printedName": "[[Swift.String : Any]]",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Dictionary",
+                                "printedName": "[Swift.String : Any]",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "String",
+                                    "printedName": "Swift.String",
+                                    "usr": "s:SS"
+                                  },
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "ProtocolComposition",
+                                    "printedName": "Any"
+                                  }
+                                ],
+                                "usr": "s:SD"
+                              }
+                            ],
+                            "usr": "s:Sa"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.Error?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@RookAppleHealth@objc(cs)RookExtractionEventManagerObjc(im)getActivityEventsDictionaryWithDate:completion:",
+            "mangledName": "$s15RookAppleHealth0A26ExtractionEventManagerObjcC27getActivityEventsDictionary4date10completiony10Foundation4DateV_ySaySDySSypGGSg_s5Error_pSgtctF",
+            "moduleName": "RookAppleHealth",
+            "objc_name": "getActivityEventsDictionaryWithDate:completion:",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           }
         ],
@@ -26155,6 +26655,16 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "RookAppleHealth",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
         "kind": "TypeDecl",
         "name": "RookCadenceGranularItem",
         "printedName": "RookCadenceGranularItem",
@@ -26332,6 +26842,16 @@
             "usr": "s:SE",
             "mangledName": "$sSE"
           }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "RookAppleHealth",
+        "declAttributes": [
+          "RawDocComment"
         ]
       },
       {
@@ -26658,6 +27178,43 @@
             "moduleName": "RookAppleHealth"
           },
           {
+            "kind": "Var",
+            "name": "NotAuthorizedError",
+            "printedName": "NotAuthorizedError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(RookAppleHealth.NetworkError.Type) -> RookAppleHealth.NetworkError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NetworkError",
+                    "printedName": "RookAppleHealth.NetworkError",
+                    "usr": "s:15RookAppleHealth12NetworkErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "RookAppleHealth.NetworkError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NetworkError",
+                        "printedName": "RookAppleHealth.NetworkError",
+                        "usr": "s:15RookAppleHealth12NetworkErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15RookAppleHealth12NetworkErrorO013NotAuthorizedE0yA2CmF",
+            "mangledName": "$s15RookAppleHealth12NetworkErrorO013NotAuthorizedE0yA2CmF",
+            "moduleName": "RookAppleHealth"
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init(rawValue:)",
@@ -26789,6 +27346,16 @@
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
           }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "RookAppleHealth",
+        "declAttributes": [
+          "RawDocComment"
         ]
       },
       {
@@ -63405,6 +63972,13 @@
       "value": "[]"
     },
     {
+      "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/RookMotion\/SDK's\/RookAuthenticationSDK\/RookUsersSDK\/Source\/User\/Constants\/RooKUserStorageConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 216,
+      "length": 22,
+      "value": "\"rook_connect_user_id\""
+    },
+    {
       "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/RookMotion\/SDK's\/RookAuthenticationSDK\/RookAuthenticationSDK\/Source\/networking\/Encoding\/ParameterEncoding.swift",
       "kind": "StringLiteral",
       "offset": 391,
@@ -63435,6 +64009,13 @@
     {
       "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/RookMotion\/SDK's\/RookAuthenticationSDK\/RookAuthenticationSDK\/Source\/networking\/Encoding\/ParameterEncoding.swift",
       "kind": "StringLiteral",
+      "offset": 568,
+      "length": 20,
+      "value": "\"NotAuthorizedError\""
+    },
+    {
+      "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/RookMotion\/SDK's\/RookAuthenticationSDK\/RookAuthenticationSDK\/Source\/networking\/Encoding\/ParameterEncoding.swift",
+      "kind": "StringLiteral",
       "offset": 391,
       "length": 22,
       "value": "\"Parameters were nil.\""
@@ -63459,6 +64040,13 @@
       "offset": 517,
       "length": 22,
       "value": "\"no data was returned\""
+    },
+    {
+      "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/RookMotion\/SDK's\/RookAuthenticationSDK\/RookAuthenticationSDK\/Source\/networking\/Encoding\/ParameterEncoding.swift",
+      "kind": "StringLiteral",
+      "offset": 568,
+      "length": 20,
+      "value": "\"NotAuthorizedError\""
     },
     {
       "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/RookMotion\/SDK's\/RookAuthenticationSDK\/RookAuthenticationSDK\/Source\/Authentication\/RAAuthenticationManager.swift",

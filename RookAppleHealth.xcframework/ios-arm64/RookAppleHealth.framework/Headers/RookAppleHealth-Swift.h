@@ -425,6 +425,15 @@ SWIFT_CLASS("_TtC15RookAppleHealth30RookExtractionEventManagerObjc")
 @end
 
 
+@interface RookExtractionEventManagerObjc (SWIFT_EXTENSION(RookAppleHealth))
+- (void)getPhysicalHeartRateEventsDictionaryWithDate:(NSDate * _Nonnull)date completion:(void (^ _Nonnull)(NSArray<NSDictionary<NSString *, id> *> * _Nullable, NSError * _Nullable))completion;
+- (void)getBodyHeartRateEventsDictionaryWithDate:(NSDate * _Nonnull)date completion:(void (^ _Nonnull)(NSArray<NSDictionary<NSString *, id> *> * _Nullable, NSError * _Nullable))completion;
+- (void)getPhysicalOxygenationEventsDictionaryWithDate:(NSDate * _Nonnull)date completion:(void (^ _Nonnull)(NSArray<NSDictionary<NSString *, id> *> * _Nullable, NSError * _Nullable))completion;
+- (void)getBodyOxygenationEventsDictionaryWithDate:(NSDate * _Nonnull)date completion:(void (^ _Nonnull)(NSArray<NSDictionary<NSString *, id> *> * _Nullable, NSError * _Nullable))completion;
+- (void)getActivityEventsDictionaryWithDate:(NSDate * _Nonnull)date completion:(void (^ _Nonnull)(NSArray<NSDictionary<NSString *, id> *> * _Nullable, NSError * _Nullable))completion;
+@end
+
+
 SWIFT_CLASS("_TtC15RookAppleHealth48RookExtractionFloorsClimbedGranularDataFloorObjc")
 @interface RookExtractionFloorsClimbedGranularDataFloorObjc : NSObject
 @property (nonatomic, readonly, copy) NSDate * _Nonnull datetime;
