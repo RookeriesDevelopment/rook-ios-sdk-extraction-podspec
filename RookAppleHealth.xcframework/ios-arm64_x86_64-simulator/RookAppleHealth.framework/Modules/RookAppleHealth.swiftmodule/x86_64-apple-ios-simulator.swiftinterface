@@ -385,6 +385,14 @@ public struct RookPositionGranularItem : Swift.Encodable {
   public let longitude: Swift.Double
   public func encode(to encoder: Swift.Encoder) throws
 }
+public enum TimeZoneErrors : Swift.String, Swift.Error {
+  case timeZoneNotAvailable
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
 @_hasMissingDesignatedInitializers @objc public class RookExtractionPowerDataObjc : ObjectiveC.NSObject, Swift.Encodable {
   @objc final public let powerAvgWattsNumber: Swift.Int
   @objc final public let powerMaxWattsNumber: Swift.Int
@@ -1259,6 +1267,9 @@ extension RookAppleHealth.NetworkResponse : Swift.RawRepresentable {}
 extension RookAppleHealth.RookDataType : Swift.Equatable {}
 extension RookAppleHealth.RookDataType : Swift.Hashable {}
 extension RookAppleHealth.RookDataType : Swift.RawRepresentable {}
+extension RookAppleHealth.TimeZoneErrors : Swift.Equatable {}
+extension RookAppleHealth.TimeZoneErrors : Swift.Hashable {}
+extension RookAppleHealth.TimeZoneErrors : Swift.RawRepresentable {}
 extension RookAppleHealth.NetworkError : Swift.Equatable {}
 extension RookAppleHealth.NetworkError : Swift.Hashable {}
 extension RookAppleHealth.NetworkError : Swift.RawRepresentable {}

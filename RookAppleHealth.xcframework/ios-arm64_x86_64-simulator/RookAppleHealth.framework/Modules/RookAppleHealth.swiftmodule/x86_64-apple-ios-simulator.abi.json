@@ -19707,6 +19707,182 @@
         ]
       },
       {
+        "kind": "TypeDecl",
+        "name": "TimeZoneErrors",
+        "printedName": "TimeZoneErrors",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "timeZoneNotAvailable",
+            "printedName": "timeZoneNotAvailable",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(RookAppleHealth.TimeZoneErrors.Type) -> RookAppleHealth.TimeZoneErrors",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TimeZoneErrors",
+                    "printedName": "RookAppleHealth.TimeZoneErrors",
+                    "usr": "s:15RookAppleHealth14TimeZoneErrorsO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "RookAppleHealth.TimeZoneErrors.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TimeZoneErrors",
+                        "printedName": "RookAppleHealth.TimeZoneErrors",
+                        "usr": "s:15RookAppleHealth14TimeZoneErrorsO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15RookAppleHealth14TimeZoneErrorsO04timeE12NotAvailableyA2CmF",
+            "mangledName": "$s15RookAppleHealth14TimeZoneErrorsO04timeE12NotAvailableyA2CmF",
+            "moduleName": "RookAppleHealth"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "RookAppleHealth.TimeZoneErrors?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TimeZoneErrors",
+                    "printedName": "RookAppleHealth.TimeZoneErrors",
+                    "usr": "s:15RookAppleHealth14TimeZoneErrorsO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15RookAppleHealth14TimeZoneErrorsO8rawValueACSgSS_tcfc",
+            "mangledName": "$s15RookAppleHealth14TimeZoneErrorsO8rawValueACSgSS_tcfc",
+            "moduleName": "RookAppleHealth",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15RookAppleHealth14TimeZoneErrorsO8rawValueSSvp",
+            "mangledName": "$s15RookAppleHealth14TimeZoneErrorsO8rawValueSSvp",
+            "moduleName": "RookAppleHealth",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15RookAppleHealth14TimeZoneErrorsO8rawValueSSvg",
+                "mangledName": "$s15RookAppleHealth14TimeZoneErrorsO8rawValueSSvg",
+                "moduleName": "RookAppleHealth",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:15RookAppleHealth14TimeZoneErrorsO",
+        "mangledName": "$s15RookAppleHealth14TimeZoneErrorsO",
+        "moduleName": "RookAppleHealth",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
@@ -63635,14 +63811,14 @@
     {
       "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/Rook\/SDK's\/RookAuthenticationSDK\/RookAppleHealth\/Source\/Extraction\/TimeZone\/Entities\/TimeZoneErrors.swift",
       "kind": "StringLiteral",
-      "offset": 198,
+      "offset": 205,
       "length": 46,
       "value": "\"The user's device does not contain time zone\""
     },
     {
       "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/Rook\/SDK's\/RookAuthenticationSDK\/RookAppleHealth\/Source\/Extraction\/TimeZone\/Entities\/TimeZoneErrors.swift",
       "kind": "StringLiteral",
-      "offset": 198,
+      "offset": 205,
       "length": 46,
       "value": "\"The user's device does not contain time zone\""
     },
