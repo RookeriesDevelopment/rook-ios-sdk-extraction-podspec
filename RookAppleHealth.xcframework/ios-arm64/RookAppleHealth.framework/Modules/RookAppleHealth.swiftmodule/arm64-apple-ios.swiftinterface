@@ -953,6 +953,12 @@ public enum AnaliticPlatform {
     get
   }
 }
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc final public class AnaliticsExtractionConfigurator : ObjectiveC.NSObject {
+  @objc public static let shared: RookAppleHealth.AnaliticsExtractionConfigurator
+  final public func setPlatform(_ platform: RookAppleHealth.AnaliticPlatform)
+  @objc final public func setPlatformToReact()
+  @objc deinit
+}
 public enum SleepEvent : Swift.String {
   case aSleep
   case inBed

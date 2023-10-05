@@ -253,6 +253,16 @@ using UInt = size_t;
 
 #if defined(__OBJC__)
 
+SWIFT_CLASS("_TtC15RookAppleHealth31AnaliticsExtractionConfigurator")
+@interface AnaliticsExtractionConfigurator : NSObject
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) AnaliticsExtractionConfigurator * _Nonnull shared;)
++ (AnaliticsExtractionConfigurator * _Nonnull)shared SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+- (void)setPlatformToReact;
+@end
+
+
 
 @class NSString;
 
