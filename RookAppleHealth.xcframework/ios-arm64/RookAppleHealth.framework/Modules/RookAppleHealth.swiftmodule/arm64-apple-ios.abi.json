@@ -46165,6 +46165,183 @@
         ]
       },
       {
+        "kind": "TypeDecl",
+        "name": "AnaliticsExtractionConfigurator",
+        "printedName": "AnaliticsExtractionConfigurator",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AnaliticsExtractionConfigurator",
+                "printedName": "RookAppleHealth.AnaliticsExtractionConfigurator",
+                "usr": "c:@M@RookAppleHealth@objc(cs)AnaliticsExtractionConfigurator"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@RookAppleHealth@objc(cs)AnaliticsExtractionConfigurator(cpy)shared",
+            "mangledName": "$s15RookAppleHealth31AnaliticsExtractionConfiguratorC6sharedACvpZ",
+            "moduleName": "RookAppleHealth",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnaliticsExtractionConfigurator",
+                    "printedName": "RookAppleHealth.AnaliticsExtractionConfigurator",
+                    "usr": "c:@M@RookAppleHealth@objc(cs)AnaliticsExtractionConfigurator"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@RookAppleHealth@objc(cs)AnaliticsExtractionConfigurator(cm)shared",
+                "mangledName": "$s15RookAppleHealth31AnaliticsExtractionConfiguratorC6sharedACvgZ",
+                "moduleName": "RookAppleHealth",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "setPlatform",
+            "printedName": "setPlatform(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AnaliticPlatform",
+                "printedName": "RookAppleHealth.AnaliticPlatform",
+                "usr": "s:15RookAppleHealth16AnaliticPlatformO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15RookAppleHealth31AnaliticsExtractionConfiguratorC11setPlatformyyAA08AnaliticH0OF",
+            "mangledName": "$s15RookAppleHealth31AnaliticsExtractionConfiguratorC11setPlatformyyAA08AnaliticH0OF",
+            "moduleName": "RookAppleHealth",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setPlatformToReact",
+            "printedName": "setPlatformToReact()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@RookAppleHealth@objc(cs)AnaliticsExtractionConfigurator(im)setPlatformToReact",
+            "mangledName": "$s15RookAppleHealth31AnaliticsExtractionConfiguratorC18setPlatformToReactyyF",
+            "moduleName": "RookAppleHealth",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@RookAppleHealth@objc(cs)AnaliticsExtractionConfigurator",
+        "mangledName": "$s15RookAppleHealth31AnaliticsExtractionConfiguratorC",
+        "moduleName": "RookAppleHealth",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
@@ -68317,16 +68494,16 @@
       "value": "\"stress_score\""
     },
     {
-      "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/Rook\/SDK's\/RookAuthenticationSDK\/RookAppleHealth\/Source\/Analitics\/Helpers\/AnaliticsConfigurator.swift",
+      "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/Rook\/SDK's\/RookAuthenticationSDK\/RookAppleHealth\/Source\/Analitics\/Helpers\/AnaliticsExtractionConfigurator.swift",
       "kind": "StringLiteral",
-      "offset": 464,
+      "offset": 518,
       "length": 20,
       "value": "\"ios-elastic-search\""
     },
     {
-      "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/Rook\/SDK's\/RookAuthenticationSDK\/RookAppleHealth\/Source\/Analitics\/Helpers\/AnaliticsConfigurator.swift",
+      "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/Rook\/SDK's\/RookAuthenticationSDK\/RookAppleHealth\/Source\/Analitics\/Helpers\/AnaliticsExtractionConfigurator.swift",
       "kind": "StringLiteral",
-      "offset": 510,
+      "offset": 564,
       "length": 16,
       "value": "\"2%s@kWdP4NdY&V\""
     },
