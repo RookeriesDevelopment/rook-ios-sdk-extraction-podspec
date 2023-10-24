@@ -353,6 +353,12 @@ public struct RookTemperatureData : Swift.Codable {
   public func encode(to encoder: Swift.Encoder) throws
   public init(from decoder: Swift.Decoder) throws
 }
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class ExtractionIOSClass : ObjectiveC.NSObject {
+  @objc public static var shared: RookAppleHealth.ExtractionIOSClass
+  @objc public func test()
+  @objc public func diableTest()
+  @objc deinit
+}
 public struct RookHeartRateEvent : Swift.Codable {
   public var metadata: RookAppleHealth.RookMetaDataEvent
   public var heartRateData: RookAppleHealth.RookHeartRateDataEvent
