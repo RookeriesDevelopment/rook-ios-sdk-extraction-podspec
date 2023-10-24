@@ -264,6 +264,18 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) AnalyticsExt
 
 
 
+SWIFT_CLASS("_TtC15RookAppleHealth18ExtractionIOSClass")
+@interface ExtractionIOSClass : NSObject
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) ExtractionIOSClass * _Nonnull shared;)
++ (ExtractionIOSClass * _Nonnull)shared SWIFT_WARN_UNUSED_RESULT;
++ (void)setShared:(ExtractionIOSClass * _Nonnull)value;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+- (void)test;
+- (void)diableTest;
+@end
+
+
 @class NSString;
 
 SWIFT_CLASS("_TtC15RookAppleHealth19RookAuthAppleHealth")
@@ -1070,6 +1082,18 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) AnalyticsExt
 - (void)setPlatformToReact;
 @end
 
+
+
+SWIFT_CLASS("_TtC15RookAppleHealth18ExtractionIOSClass")
+@interface ExtractionIOSClass : NSObject
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) ExtractionIOSClass * _Nonnull shared;)
++ (ExtractionIOSClass * _Nonnull)shared SWIFT_WARN_UNUSED_RESULT;
++ (void)setShared:(ExtractionIOSClass * _Nonnull)value;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+- (void)test;
+- (void)diableTest;
+@end
 
 
 @class NSString;
