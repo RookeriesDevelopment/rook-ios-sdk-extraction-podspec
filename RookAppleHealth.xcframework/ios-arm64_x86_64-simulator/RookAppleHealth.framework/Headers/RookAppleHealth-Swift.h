@@ -285,7 +285,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) RookAuthAppl
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 /// Sets your client uuid to configure the sdk
-- (void)setClientUUIDWith:(NSString * _Nonnull)uuid;
+- (void)setClientUUIDWith:(NSString * _Nonnull)uuid secretKey:(NSString * _Nonnull)secretKey;
 - (void)setEnvironmentToSandbox;
 - (void)setEnvironmentToProduction;
 - (void)setExcludeManualData:(BOOL)excludeManual;
@@ -807,7 +807,13 @@ SWIFT_CLASS("_TtC15RookAppleHealth24RookPermissionExtraction")
 - (void)requestAllPermissionsObjcWithCompletion:(void (^ _Nonnull)(BOOL, NSError * _Nullable))completion;
 - (void)requestSleepPermissionsObjcWithCompletion:(void (^ _Nonnull)(BOOL, NSError * _Nullable))completion;
 - (void)requestPhysicalPermissionsObjcWithCompletion:(void (^ _Nonnull)(BOOL, NSError * _Nullable))completion;
-- (void)requesBodyPermissionsObjcWithCompletion:(void (^ _Nonnull)(BOOL, NSError * _Nullable))completion;
+- (void)requestBodyPermissionsObjcWithCompletion:(void (^ _Nonnull)(BOOL, NSError * _Nullable))completion;
+@end
+
+
+SWIFT_CLASS("_TtC15RookAppleHealth29RookVariableExtractionManager")
+@interface RookVariableExtractionManager : NSObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
 #endif
@@ -1105,7 +1111,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) RookAuthAppl
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 /// Sets your client uuid to configure the sdk
-- (void)setClientUUIDWith:(NSString * _Nonnull)uuid;
+- (void)setClientUUIDWith:(NSString * _Nonnull)uuid secretKey:(NSString * _Nonnull)secretKey;
 - (void)setEnvironmentToSandbox;
 - (void)setEnvironmentToProduction;
 - (void)setExcludeManualData:(BOOL)excludeManual;
@@ -1627,7 +1633,13 @@ SWIFT_CLASS("_TtC15RookAppleHealth24RookPermissionExtraction")
 - (void)requestAllPermissionsObjcWithCompletion:(void (^ _Nonnull)(BOOL, NSError * _Nullable))completion;
 - (void)requestSleepPermissionsObjcWithCompletion:(void (^ _Nonnull)(BOOL, NSError * _Nullable))completion;
 - (void)requestPhysicalPermissionsObjcWithCompletion:(void (^ _Nonnull)(BOOL, NSError * _Nullable))completion;
-- (void)requesBodyPermissionsObjcWithCompletion:(void (^ _Nonnull)(BOOL, NSError * _Nullable))completion;
+- (void)requestBodyPermissionsObjcWithCompletion:(void (^ _Nonnull)(BOOL, NSError * _Nullable))completion;
+@end
+
+
+SWIFT_CLASS("_TtC15RookAppleHealth29RookVariableExtractionManager")
+@interface RookVariableExtractionManager : NSObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
 #endif
