@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/RookAppleHealth-Swift.h</key>
 		<data>
-		sdoRs49tlKHZBDPYUShtD4liEco=
+		cg0lZyXeGvIe7Qa+5YSn75vyYEQ=
 		</data>
 		<key>Headers/RookAppleHealth.h</key>
 		<data>
@@ -18,23 +18,23 @@
 		</data>
 		<key>Modules/RookAppleHealth.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		KcWyxca2hDw9MeP4vZk+UhLgaio=
+		4CqgQkDzIoO5DufK9pZDR1a2aCE=
 		</data>
 		<key>Modules/RookAppleHealth.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		PLj0Bmjkd61ihnsEbBUaZVdiBdM=
+		f2mwB8IIhs/0axX66GasuuJsh4M=
 		</data>
 		<key>Modules/RookAppleHealth.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		D+XzbDvRHZ9jP+93WKEDrtyiHtg=
+		+QJw5aGIHyaLs+NqcZmevm2wrEE=
 		</data>
 		<key>Modules/RookAppleHealth.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		PLj0Bmjkd61ihnsEbBUaZVdiBdM=
+		f2mwB8IIhs/0axX66GasuuJsh4M=
 		</data>
 		<key>Modules/RookAppleHealth.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		k80N1g1La5mj/cot9oF41Dhug+g=
+		s0KrC+o5HRJ4ZJ74wryLjZMjgCc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -47,7 +47,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			b6+ZtDsss2nyWOHsSYxFn2r3Sa9rsC2C+iHmZZe05sE=
+			SDAkIckvlqH/tUaiRd5Nlv097fNJ8dbtQuG1veUqU2A=
 			</data>
 		</dict>
 		<key>Headers/RookAppleHealth.h</key>
@@ -61,35 +61,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			m/fPd/E+fMufrEXvSD0fPqbNOYKY/FeKmK4zIJpTFPY=
+			59ma7e0EFQBXN7luGTfPweKs/ToKImlux6SNBPJhJOA=
 			</data>
 		</dict>
 		<key>Modules/RookAppleHealth.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/JPwfyJjnDBn5sfGliTU+GTd+sH6A2numz3ciT3hh9Q=
+			St3II6Nwj2U5hI2R0qzlWYyU/9Io5Yu4bfMvw9Q0S/M=
 			</data>
 		</dict>
 		<key>Modules/RookAppleHealth.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			s/HowlVd4os4GOLe99AnG0rvn6ktcr2ilKwe5uEmD8Q=
+			RDZyjQkAmQ7ck7d3jB7mgvc2ymwms/CuyfauhqRcQXM=
 			</data>
 		</dict>
 		<key>Modules/RookAppleHealth.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/JPwfyJjnDBn5sfGliTU+GTd+sH6A2numz3ciT3hh9Q=
+			St3II6Nwj2U5hI2R0qzlWYyU/9Io5Yu4bfMvw9Q0S/M=
 			</data>
 		</dict>
 		<key>Modules/RookAppleHealth.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			CSPca07U94v5eiEgqf+rNcexaKS7CV/4xUykYL2aH3o=
+			QJE4z7C8J/dXDWTiXaI7d7uh69nKro4K56dwcIJc7Zo=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
