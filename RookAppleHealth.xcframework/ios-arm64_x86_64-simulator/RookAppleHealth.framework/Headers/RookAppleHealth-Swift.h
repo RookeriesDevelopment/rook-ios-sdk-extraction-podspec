@@ -296,6 +296,24 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) RookAuthAppl
 - (BOOL)isAHAvailable SWIFT_WARN_UNUSED_RESULT;
 @end
 
+
+SWIFT_CLASS("_TtC15RookAppleHealth24RookBackGroundExtraction")
+@interface RookBackGroundExtraction : NSObject
+@property (nonatomic, readonly, copy) NSString * _Nonnull notificationSteps;
+@property (nonatomic, readonly, copy) NSString * _Nonnull notificationCalories;
+@property (nonatomic, copy) void (^ _Nullable handleStepsUpdate)(NSInteger);
+@property (nonatomic, copy) void (^ _Nullable handleCaloriesUpdate)(NSInteger);
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) RookBackGroundExtraction * _Nonnull shared;)
++ (RookBackGroundExtraction * _Nonnull)shared SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+- (void)setBackGroundListeners;
+- (void)enableBackGroundForSteps;
+- (void)disableBackGroundForStepsObjcWithCompletion:(void (^ _Nonnull)(BOOL, NSError * _Nullable))completion;
+- (void)enableBackGroundForCalories;
+- (void)disableBackGroundForCaloriesWithCompletion:(void (^ _Nonnull)(BOOL, NSError * _Nullable))completion;
+@end
+
 @class NSDate;
 @class RookExtractionActivityLevelGranularObjc;
 
@@ -814,6 +832,12 @@ SWIFT_CLASS("_TtC15RookAppleHealth24RookPermissionExtraction")
 SWIFT_CLASS("_TtC15RookAppleHealth29RookVariableExtractionManager")
 @interface RookVariableExtractionManager : NSObject
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+@interface RookVariableExtractionManager (SWIFT_EXTENSION(RookAppleHealth))
+- (void)getTodayStepsWithCompletion:(void (^ _Nonnull)(NSInteger, NSError * _Nullable))completion;
+- (void)getTodayActiveCaloriesBurnedWithCompletion:(void (^ _Nonnull)(NSInteger, NSError * _Nullable))completion;
 @end
 
 #endif
@@ -1122,6 +1146,24 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) RookAuthAppl
 - (BOOL)isAHAvailable SWIFT_WARN_UNUSED_RESULT;
 @end
 
+
+SWIFT_CLASS("_TtC15RookAppleHealth24RookBackGroundExtraction")
+@interface RookBackGroundExtraction : NSObject
+@property (nonatomic, readonly, copy) NSString * _Nonnull notificationSteps;
+@property (nonatomic, readonly, copy) NSString * _Nonnull notificationCalories;
+@property (nonatomic, copy) void (^ _Nullable handleStepsUpdate)(NSInteger);
+@property (nonatomic, copy) void (^ _Nullable handleCaloriesUpdate)(NSInteger);
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) RookBackGroundExtraction * _Nonnull shared;)
++ (RookBackGroundExtraction * _Nonnull)shared SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+- (void)setBackGroundListeners;
+- (void)enableBackGroundForSteps;
+- (void)disableBackGroundForStepsObjcWithCompletion:(void (^ _Nonnull)(BOOL, NSError * _Nullable))completion;
+- (void)enableBackGroundForCalories;
+- (void)disableBackGroundForCaloriesWithCompletion:(void (^ _Nonnull)(BOOL, NSError * _Nullable))completion;
+@end
+
 @class NSDate;
 @class RookExtractionActivityLevelGranularObjc;
 
@@ -1640,6 +1682,12 @@ SWIFT_CLASS("_TtC15RookAppleHealth24RookPermissionExtraction")
 SWIFT_CLASS("_TtC15RookAppleHealth29RookVariableExtractionManager")
 @interface RookVariableExtractionManager : NSObject
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+@interface RookVariableExtractionManager (SWIFT_EXTENSION(RookAppleHealth))
+- (void)getTodayStepsWithCompletion:(void (^ _Nonnull)(NSInteger, NSError * _Nullable))completion;
+- (void)getTodayActiveCaloriesBurnedWithCompletion:(void (^ _Nonnull)(NSInteger, NSError * _Nullable))completion;
 @end
 
 #endif

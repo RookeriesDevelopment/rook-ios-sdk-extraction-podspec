@@ -303,16 +303,19 @@ public struct RookActivityDataEvent : Swift.Encodable {
   public let activityEnergyPlannedKilojoules: Swift.Int?
   public func encode(to encoder: Swift.Encoder) throws
 }
-@_hasMissingDesignatedInitializers public class RookBackGroundExtraction {
-  final public let notificationSteps: Swift.String
-  final public let notificationCalories: Swift.String
-  public var handleStepsUpdate: ((Swift.Int) -> Swift.Void)?
-  public var handleCaloriesUpdate: ((Swift.Int) -> Swift.Void)?
-  public func enableBackGroundForSteps()
-  public func setBackGroundListeners()
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class RookBackGroundExtraction : ObjectiveC.NSObject {
+  @objc final public let notificationSteps: Swift.String
+  @objc final public let notificationCalories: Swift.String
+  @objc public var handleStepsUpdate: ((Swift.Int) -> Swift.Void)?
+  @objc public var handleCaloriesUpdate: ((Swift.Int) -> Swift.Void)?
+  @objc public static let shared: RookAppleHealth.RookBackGroundExtraction
+  @objc public func setBackGroundListeners()
+  @objc public func enableBackGroundForSteps()
   public func disableBackGroundForSteps(completion: @escaping (Swift.Result<Swift.Bool, Swift.Error>) -> Swift.Void)
-  public func enableBackGroundForCalories()
+  @objc public func disableBackGroundForStepsObjc(completion: @escaping (Swift.Bool, Swift.Error?) -> Swift.Void)
+  @objc public func enableBackGroundForCalories()
   public func disableBackGroundForCalories(completion: @escaping (Swift.Result<Swift.Bool, Swift.Error>) -> Swift.Void)
+  @objc public func disableBackGroundForCalories(completion: @escaping (Swift.Bool, Swift.Error?) -> Swift.Void)
   @objc deinit
 }
 public struct RookPositionData : Swift.Encodable {
@@ -606,6 +609,10 @@ public struct UserTimeZone : Swift.Encodable {
   public let timeZone: Swift.String
   public let offset: Swift.Int
   public func encode(to encoder: Swift.Encoder) throws
+}
+extension RookAppleHealth.RookVariableExtractionManager {
+  @objc dynamic public func getTodaySteps(completion: @escaping (Swift.Int, Swift.Error?) -> Swift.Void)
+  @objc dynamic public func getTodayActiveCaloriesBurned(completion: @escaping (Swift.Int, Swift.Error?) -> Swift.Void)
 }
 public struct RookCadenceGranularItem : Swift.Encodable {
   public let datetime: Foundation.Date
