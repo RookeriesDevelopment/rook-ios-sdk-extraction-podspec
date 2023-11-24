@@ -2,7 +2,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "RookAppleHealth"
-  spec.version      = "1.0.20"
+  spec.version      = "1.0.21"
   spec.summary      = "RookAppleHealth iOS Lib"
 
   spec.description  = "RookAppleHealth iOS sdk allows to extract health data from health kit"
@@ -22,7 +22,7 @@ Pod::Spec.new do |spec|
   spec.swift_version = '5.0'
 
 
-  spec.source       = { :git => "https://github.com/RookeriesDevelopment/rook-ios-sdk-extraction-podspec.git", :tag => "1.0.20" }
+  spec.source       = { :git => "https://github.com/RookeriesDevelopment/rook-ios-sdk-extraction-podspec.git", :tag => "1.0.21" }
 
   spec.ios.vendored_frameworks = 'RookAppleHealth.xcframework'
 
