@@ -16361,8 +16361,8 @@
           },
           {
             "kind": "Function",
-            "name": "disableBackGroundForCalories",
-            "printedName": "disableBackGroundForCalories(completion:)",
+            "name": "disableBackGroundForCaloriesObjc",
+            "printedName": "disableBackGroundForCaloriesObjc(completion:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -16410,10 +16410,10 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@RookAppleHealth@objc(cs)RookBackGroundExtraction(im)disableBackGroundForCaloriesWithCompletion:",
-            "mangledName": "$s15RookAppleHealth0A20BackGroundExtractionC07disabledE11ForCalories10completionyySb_s5Error_pSgtc_tF",
+            "usr": "c:@M@RookAppleHealth@objc(cs)RookBackGroundExtraction(im)disableBackGroundForCaloriesObjcWithCompletion:",
+            "mangledName": "$s15RookAppleHealth0A20BackGroundExtractionC07disabledE15ForCaloriesObjc10completionyySb_s5Error_pSgtc_tF",
             "moduleName": "RookAppleHealth",
-            "objc_name": "disableBackGroundForCaloriesWithCompletion:",
+            "objc_name": "disableBackGroundForCaloriesObjcWithCompletion:",
             "declAttributes": [
               "AccessControl",
               "ObjC"
@@ -65929,14 +65929,14 @@
     {
       "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/Rook\/SDK's\/RookAuthenticationSDK\/RookAppleHealth\/Source\/Extraction\/VariableExtraction\/RookBackGroundExtraction.swift",
       "kind": "StringLiteral",
-      "offset": 511,
+      "offset": 598,
       "length": 19,
       "value": "\"rook_steps_update\""
     },
     {
       "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/Rook\/SDK's\/RookAuthenticationSDK\/RookAppleHealth\/Source\/Extraction\/VariableExtraction\/RookBackGroundExtraction.swift",
       "kind": "StringLiteral",
-      "offset": 581,
+      "offset": 668,
       "length": 22,
       "value": "\"rook_calories_update\""
     },
@@ -67726,6 +67726,13 @@
       "value": "\"No samples were found\""
     },
     {
+      "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/Rook\/SDK's\/RookAuthenticationSDK\/RookAppleHealth\/Source\/Extraction\/Data\/DataTypesProvider\/CaloriesProvider\/RookCaloriesProvider.swift",
+      "kind": "IntegerLiteral",
+      "offset": 318,
+      "length": 1,
+      "value": "2"
+    },
+    {
       "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/Rook\/SDK's\/RookAuthenticationSDK\/RookAppleHealth\/Source\/Helpers\/Extensions.swift",
       "kind": "IntegerLiteral",
       "offset": 365,
@@ -68666,6 +68673,34 @@
     {
       "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/Rook\/SDK's\/RookAuthenticationSDK\/RookAppleHealth\/Source\/Analitics\/Constans\/AnalyticConstants.swift",
       "kind": "StringLiteral",
+      "offset": 952,
+      "length": 14,
+      "value": "\"enable_steps\""
+    },
+    {
+      "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/Rook\/SDK's\/RookAuthenticationSDK\/RookAppleHealth\/Source\/Analitics\/Constans\/AnalyticConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 989,
+      "length": 15,
+      "value": "\"disable_steps\""
+    },
+    {
+      "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/Rook\/SDK's\/RookAuthenticationSDK\/RookAppleHealth\/Source\/Analitics\/Constans\/AnalyticConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 1029,
+      "length": 17,
+      "value": "\"enable_calories\""
+    },
+    {
+      "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/Rook\/SDK's\/RookAuthenticationSDK\/RookAppleHealth\/Source\/Analitics\/Constans\/AnalyticConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 1072,
+      "length": 18,
+      "value": "\"disable_calories\""
+    },
+    {
+      "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/Rook\/SDK's\/RookAuthenticationSDK\/RookAppleHealth\/Source\/Analitics\/Constans\/AnalyticConstants.swift",
+      "kind": "StringLiteral",
       "offset": 590,
       "length": 15,
       "value": "\"sleep_summary\""
@@ -68718,6 +68753,34 @@
       "offset": 913,
       "length": 17,
       "value": "\"physical_events\""
+    },
+    {
+      "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/Rook\/SDK's\/RookAuthenticationSDK\/RookAppleHealth\/Source\/Analitics\/Constans\/AnalyticConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 952,
+      "length": 14,
+      "value": "\"enable_steps\""
+    },
+    {
+      "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/Rook\/SDK's\/RookAuthenticationSDK\/RookAppleHealth\/Source\/Analitics\/Constans\/AnalyticConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 989,
+      "length": 15,
+      "value": "\"disable_steps\""
+    },
+    {
+      "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/Rook\/SDK's\/RookAuthenticationSDK\/RookAppleHealth\/Source\/Analitics\/Constans\/AnalyticConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 1029,
+      "length": 17,
+      "value": "\"enable_calories\""
+    },
+    {
+      "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/Rook\/SDK's\/RookAuthenticationSDK\/RookAppleHealth\/Source\/Analitics\/Constans\/AnalyticConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 1072,
+      "length": 18,
+      "value": "\"disable_calories\""
     },
     {
       "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/Rook\/SDK's\/RookAuthenticationSDK\/RookAppleHealth\/Source\/Extraction\/Objc\/Entities\/RookMetaDataEventObjc.swift",
