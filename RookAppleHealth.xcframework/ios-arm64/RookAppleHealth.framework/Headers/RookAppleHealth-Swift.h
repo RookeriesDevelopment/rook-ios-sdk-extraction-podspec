@@ -311,7 +311,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) RookBackGrou
 - (void)enableBackGroundForSteps;
 - (void)disableBackGroundForStepsObjcWithCompletion:(void (^ _Nonnull)(BOOL, NSError * _Nullable))completion;
 - (void)enableBackGroundForCalories;
-- (void)disableBackGroundForCaloriesWithCompletion:(void (^ _Nonnull)(BOOL, NSError * _Nullable))completion;
+- (void)disableBackGroundForCaloriesObjcWithCompletion:(void (^ _Nonnull)(BOOL, NSError * _Nullable))completion;
 @end
 
 @class NSDate;

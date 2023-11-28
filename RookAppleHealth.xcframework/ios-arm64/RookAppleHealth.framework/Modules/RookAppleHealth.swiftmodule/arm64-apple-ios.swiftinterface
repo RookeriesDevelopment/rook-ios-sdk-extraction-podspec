@@ -315,7 +315,7 @@ public struct RookActivityDataEvent : Swift.Encodable {
   @objc public func disableBackGroundForStepsObjc(completion: @escaping (Swift.Bool, Swift.Error?) -> Swift.Void)
   @objc public func enableBackGroundForCalories()
   public func disableBackGroundForCalories(completion: @escaping (Swift.Result<Swift.Bool, Swift.Error>) -> Swift.Void)
-  @objc public func disableBackGroundForCalories(completion: @escaping (Swift.Bool, Swift.Error?) -> Swift.Void)
+  @objc public func disableBackGroundForCaloriesObjc(completion: @escaping (Swift.Bool, Swift.Error?) -> Swift.Void)
   @objc deinit
 }
 public struct RookPositionData : Swift.Encodable {
