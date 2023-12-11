@@ -7085,6 +7085,117 @@
             "moduleName": "RookAppleHealth"
           },
           {
+            "kind": "Var",
+            "name": "temperatureEvent",
+            "printedName": "temperatureEvent",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(RookAppleHealth.RookDataType.Type) -> RookAppleHealth.RookDataType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RookDataType",
+                    "printedName": "RookAppleHealth.RookDataType",
+                    "usr": "s:15RookAppleHealth0A8DataTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "RookAppleHealth.RookDataType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RookDataType",
+                        "printedName": "RookAppleHealth.RookDataType",
+                        "usr": "s:15RookAppleHealth0A8DataTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15RookAppleHealth0A8DataTypeO16temperatureEventyA2CmF",
+            "mangledName": "$s15RookAppleHealth0A8DataTypeO16temperatureEventyA2CmF",
+            "moduleName": "RookAppleHealth"
+          },
+          {
+            "kind": "Var",
+            "name": "bloodGlucoseEvent",
+            "printedName": "bloodGlucoseEvent",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(RookAppleHealth.RookDataType.Type) -> RookAppleHealth.RookDataType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RookDataType",
+                    "printedName": "RookAppleHealth.RookDataType",
+                    "usr": "s:15RookAppleHealth0A8DataTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "RookAppleHealth.RookDataType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RookDataType",
+                        "printedName": "RookAppleHealth.RookDataType",
+                        "usr": "s:15RookAppleHealth0A8DataTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15RookAppleHealth0A8DataTypeO17bloodGlucoseEventyA2CmF",
+            "mangledName": "$s15RookAppleHealth0A8DataTypeO17bloodGlucoseEventyA2CmF",
+            "moduleName": "RookAppleHealth"
+          },
+          {
+            "kind": "Var",
+            "name": "bloodPressureEvent",
+            "printedName": "bloodPressureEvent",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(RookAppleHealth.RookDataType.Type) -> RookAppleHealth.RookDataType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RookDataType",
+                    "printedName": "RookAppleHealth.RookDataType",
+                    "usr": "s:15RookAppleHealth0A8DataTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "RookAppleHealth.RookDataType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RookDataType",
+                        "printedName": "RookAppleHealth.RookDataType",
+                        "usr": "s:15RookAppleHealth0A8DataTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15RookAppleHealth0A8DataTypeO18bloodPressureEventyA2CmF",
+            "mangledName": "$s15RookAppleHealth0A8DataTypeO18bloodPressureEventyA2CmF",
+            "moduleName": "RookAppleHealth"
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init(rawValue:)",
@@ -11085,6 +11196,99 @@
             "declKind": "Func",
             "usr": "c:@M@RookAppleHealth@objc(cs)RookExtractionEventManagerObjc(im)getLastExtractionDateOfPhysicalOxygenationEvents",
             "mangledName": "$s15RookAppleHealth0A26ExtractionEventManagerObjcC07getLastD31DateOfPhysicalOxygenationEvents10Foundation0J0VSgyF",
+            "moduleName": "RookAppleHealth",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getLastExtractionDateOfTemperatureEvents",
+            "printedName": "getLastExtractionDateOfTemperatureEvents()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Date?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@RookAppleHealth@objc(cs)RookExtractionEventManagerObjc(im)getLastExtractionDateOfTemperatureEvents",
+            "mangledName": "$s15RookAppleHealth0A26ExtractionEventManagerObjcC07getLastD23DateOfTemperatureEvents10Foundation0J0VSgyF",
+            "moduleName": "RookAppleHealth",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getLastExtractionDateOfBloodPressureEvents",
+            "printedName": "getLastExtractionDateOfBloodPressureEvents()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Date?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@RookAppleHealth@objc(cs)RookExtractionEventManagerObjc(im)getLastExtractionDateOfBloodPressureEvents",
+            "mangledName": "$s15RookAppleHealth0A26ExtractionEventManagerObjcC07getLastD25DateOfBloodPressureEvents10Foundation0J0VSgyF",
+            "moduleName": "RookAppleHealth",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getLastExtractionDateOfBloodGlucoseEvents",
+            "printedName": "getLastExtractionDateOfBloodGlucoseEvents()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Date?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@RookAppleHealth@objc(cs)RookExtractionEventManagerObjc(im)getLastExtractionDateOfBloodGlucoseEvents",
+            "mangledName": "$s15RookAppleHealth0A26ExtractionEventManagerObjcC07getLastD24DateOfBloodGlucoseEvents10Foundation0J0VSgyF",
             "moduleName": "RookAppleHealth",
             "declAttributes": [
               "Final",
@@ -68248,6 +68452,27 @@
     {
       "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/Rook\/SDK's\/RookAuthenticationSDK\/RookAppleHealth\/Source\/Extraction\/Data\/Storage\/Constants\/UserDefaultsKeys.swift",
       "kind": "StringLiteral",
+      "offset": 777,
+      "length": 34,
+      "value": "\"rook_last_temperature_extraction\""
+    },
+    {
+      "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/Rook\/SDK's\/RookAuthenticationSDK\/RookAppleHealth\/Source\/Extraction\/Data\/Storage\/Constants\/UserDefaultsKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 839,
+      "length": 36,
+      "value": "\"rook_last_blood_glucose_extraction\""
+    },
+    {
+      "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/Rook\/SDK's\/RookAuthenticationSDK\/RookAppleHealth\/Source\/Extraction\/Data\/Storage\/Constants\/UserDefaultsKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 904,
+      "length": 37,
+      "value": "\"rook_last_blood_pressure_extraction\""
+    },
+    {
+      "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/Rook\/SDK's\/RookAuthenticationSDK\/RookAppleHealth\/Source\/Extraction\/Data\/Storage\/Constants\/UserDefaultsKeys.swift",
+      "kind": "StringLiteral",
       "offset": 193,
       "length": 33,
       "value": "\"rook_last_sleep_date_extraction\""
@@ -68307,6 +68532,27 @@
       "offset": 719,
       "length": 31,
       "value": "\"rook_last_activity_extraction\""
+    },
+    {
+      "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/Rook\/SDK's\/RookAuthenticationSDK\/RookAppleHealth\/Source\/Extraction\/Data\/Storage\/Constants\/UserDefaultsKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 777,
+      "length": 34,
+      "value": "\"rook_last_temperature_extraction\""
+    },
+    {
+      "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/Rook\/SDK's\/RookAuthenticationSDK\/RookAppleHealth\/Source\/Extraction\/Data\/Storage\/Constants\/UserDefaultsKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 839,
+      "length": 36,
+      "value": "\"rook_last_blood_glucose_extraction\""
+    },
+    {
+      "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/Rook\/SDK's\/RookAuthenticationSDK\/RookAppleHealth\/Source\/Extraction\/Data\/Storage\/Constants\/UserDefaultsKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 904,
+      "length": 37,
+      "value": "\"rook_last_blood_pressure_extraction\""
     },
     {
       "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/Rook\/SDK's\/RookAuthenticationSDK\/RookAppleHealth\/Source\/Extraction\/Data\/SummariesProvider\/UserInfoProvider\/Entities\/RookUserInfoData.swift",
