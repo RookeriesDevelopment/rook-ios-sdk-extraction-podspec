@@ -7433,7 +7433,7 @@
           {
             "kind": "Function",
             "name": "getBodyHeartRateEvents",
-            "printedName": "getBodyHeartRateEvents(date:completion:)",
+            "printedName": "getBodyHeartRateEvents(date:excludingDatesBefore:completion:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -7445,6 +7445,21 @@
                 "name": "Date",
                 "printedName": "Foundation.Date",
                 "usr": "s:10Foundation4DateV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Date?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               },
               {
                 "kind": "TypeFunc",
@@ -7488,8 +7503,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:15RookAppleHealth0A22ExtractionEventManagerC22getBodyHeartRateEvents4date10completiony10Foundation4DateV_ys6ResultOySayAA0aijE0VGs5Error_pGctF",
-            "mangledName": "$s15RookAppleHealth0A22ExtractionEventManagerC22getBodyHeartRateEvents4date10completiony10Foundation4DateV_ys6ResultOySayAA0aijE0VGs5Error_pGctF",
+            "usr": "s:15RookAppleHealth0A22ExtractionEventManagerC22getBodyHeartRateEvents4date20excludingDatesBefore10completiony10Foundation4DateV_AJSgys6ResultOySayAA0aijE0VGs5Error_pGctF",
+            "mangledName": "$s15RookAppleHealth0A22ExtractionEventManagerC22getBodyHeartRateEvents4date20excludingDatesBefore10completiony10Foundation4DateV_AJSgys6ResultOySayAA0aijE0VGs5Error_pGctF",
             "moduleName": "RookAppleHealth",
             "declAttributes": [
               "Final",
@@ -7567,7 +7582,7 @@
           {
             "kind": "Function",
             "name": "getBodyOxygenationEvents",
-            "printedName": "getBodyOxygenationEvents(date:completion:)",
+            "printedName": "getBodyOxygenationEvents(date:excludingDatesBefore:completion:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -7579,6 +7594,21 @@
                 "name": "Date",
                 "printedName": "Foundation.Date",
                 "usr": "s:10Foundation4DateV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Date?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               },
               {
                 "kind": "TypeFunc",
@@ -7622,8 +7652,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:15RookAppleHealth0A22ExtractionEventManagerC24getBodyOxygenationEvents4date10completiony10Foundation4DateV_ys6ResultOySayAA0a12OxygentationE0VGs5Error_pGctF",
-            "mangledName": "$s15RookAppleHealth0A22ExtractionEventManagerC24getBodyOxygenationEvents4date10completiony10Foundation4DateV_ys6ResultOySayAA0a12OxygentationE0VGs5Error_pGctF",
+            "usr": "s:15RookAppleHealth0A22ExtractionEventManagerC24getBodyOxygenationEvents4date20excludingDatesBefore10completiony10Foundation4DateV_AJSgys6ResultOySayAA0a12OxygentationE0VGs5Error_pGctF",
+            "mangledName": "$s15RookAppleHealth0A22ExtractionEventManagerC24getBodyOxygenationEvents4date20excludingDatesBefore10completiony10Foundation4DateV_AJSgys6ResultOySayAA0a12OxygentationE0VGs5Error_pGctF",
             "moduleName": "RookAppleHealth",
             "declAttributes": [
               "Final",
@@ -69651,7 +69681,7 @@
       "kind": "StringLiteral",
       "offset": 642,
       "length": 7,
-      "value": "\"1.1.0\""
+      "value": "\"1.2.0\""
     },
     {
       "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/Rook\/SDK's\/RookAuthenticationSDK\/RookAppleHealth\/Source\/Configuration\/RookAuthAppleHealth.swift",
