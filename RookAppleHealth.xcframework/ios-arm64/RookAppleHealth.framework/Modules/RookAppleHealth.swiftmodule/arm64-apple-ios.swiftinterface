@@ -185,9 +185,9 @@ public enum RookDataType : Swift.String {
 final public class RookExtractionEventManager {
   public init()
   final public func getPhysicalHeartRateEvents(date: Foundation.Date, completion: @escaping (Swift.Result<[RookAppleHealth.RookHeartRateEvent], Swift.Error>) -> Swift.Void)
-  final public func getBodyHeartRateEvents(date: Foundation.Date, completion: @escaping (Swift.Result<[RookAppleHealth.RookHeartRateEvent], Swift.Error>) -> Swift.Void)
+  final public func getBodyHeartRateEvents(date: Foundation.Date, excludingDatesBefore: Foundation.Date? = nil, completion: @escaping (Swift.Result<[RookAppleHealth.RookHeartRateEvent], Swift.Error>) -> Swift.Void)
   final public func getPhysicalOxygenationEvents(date: Foundation.Date, completion: @escaping (Swift.Result<[RookAppleHealth.RookOxygentationEvent], Swift.Error>) -> Swift.Void)
-  final public func getBodyOxygenationEvents(date: Foundation.Date, completion: @escaping (Swift.Result<[RookAppleHealth.RookOxygentationEvent], Swift.Error>) -> Swift.Void)
+  final public func getBodyOxygenationEvents(date: Foundation.Date, excludingDatesBefore: Foundation.Date? = nil, completion: @escaping (Swift.Result<[RookAppleHealth.RookOxygentationEvent], Swift.Error>) -> Swift.Void)
   final public func getActivityEvents(date: Foundation.Date, completion: @escaping (Swift.Result<[RookAppleHealth.RookActivityEvent], Swift.Error>) -> Swift.Void)
   final public func getLastExtractionDate(of summary: RookAppleHealth.RookDataType) -> Foundation.Date?
   @objc deinit

@@ -18,11 +18,11 @@
 		</data>
 		<key>Modules/RookAppleHealth.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		JzcNr977YoRGIjFGqMZFOHf/ges=
+		MH/OKtbfo5Eu24Dhz7KWr9bRnNw=
 		</data>
 		<key>Modules/RookAppleHealth.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		Xpn24jvAAdICN9AbI9YxvBnbR/M=
+		ZXRPIJkduz1RfdfAuEZDiiP4loQ=
 		</data>
 		<key>Modules/RookAppleHealth.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -30,19 +30,19 @@
 		</data>
 		<key>Modules/RookAppleHealth.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		Xpn24jvAAdICN9AbI9YxvBnbR/M=
+		ZXRPIJkduz1RfdfAuEZDiiP4loQ=
 		</data>
 		<key>Modules/RookAppleHealth.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		iGqF7cSvLBz7x+ycbS19sJmJaLo=
+		M2ozfQXjUFVc+Ryj8bxo7ypbFcI=
 		</data>
 		<key>Modules/RookAppleHealth.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		JzcNr977YoRGIjFGqMZFOHf/ges=
+		MH/OKtbfo5Eu24Dhz7KWr9bRnNw=
 		</data>
 		<key>Modules/RookAppleHealth.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		bslrNrHQT3L8wQEwNVZnE1J5RFA=
+		jDhluiRsBEvUYoMw0zuuYHwffbk=
 		</data>
 		<key>Modules/RookAppleHealth.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -50,11 +50,11 @@
 		</data>
 		<key>Modules/RookAppleHealth.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		bslrNrHQT3L8wQEwNVZnE1J5RFA=
+		jDhluiRsBEvUYoMw0zuuYHwffbk=
 		</data>
 		<key>Modules/RookAppleHealth.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		oQ4Gb0KmrhJDiBI9YV3pTKrlQF8=
+		3vFolJXzlCqLQXQi9I37fzdpLo0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -81,14 +81,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			RbmvWsPgRvyLSf5Dak7zkbLfcIiFBc3DUQx0rbew/fA=
+			aDbUZO6nm53+Pat5cr+JBrIslupVyY5iR9VeaSB7abg=
 			</data>
 		</dict>
 		<key>Modules/RookAppleHealth.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			HLWV3Om+fAKmxvAlINrHvzTGul78ellna+1Bj5/Cy9I=
+			GcZTyFL56OvXa5sxLbRXIKcSo0LGxkU6lkislewgoQw=
 			</data>
 		</dict>
 		<key>Modules/RookAppleHealth.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -102,28 +102,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			HLWV3Om+fAKmxvAlINrHvzTGul78ellna+1Bj5/Cy9I=
+			GcZTyFL56OvXa5sxLbRXIKcSo0LGxkU6lkislewgoQw=
 			</data>
 		</dict>
 		<key>Modules/RookAppleHealth.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5zVXnQgy/PDMNlpLVD2sX7HqjXpyRkVNORCETFF7oRg=
+			rtnIE29+DYTC6NFHlOkBfs0MonLDTVemwctxCsWKR5I=
 			</data>
 		</dict>
 		<key>Modules/RookAppleHealth.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			RbmvWsPgRvyLSf5Dak7zkbLfcIiFBc3DUQx0rbew/fA=
+			aDbUZO6nm53+Pat5cr+JBrIslupVyY5iR9VeaSB7abg=
 			</data>
 		</dict>
 		<key>Modules/RookAppleHealth.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			NW20tE1hcQZZkRG4XKGAjLe2DJfZxrYxJn4xM6U7w8w=
+			fB/rIRvm4NMK75LzhjPQpOMUqZRBJqWGfkIWDKL6J0I=
 			</data>
 		</dict>
 		<key>Modules/RookAppleHealth.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -137,14 +137,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			NW20tE1hcQZZkRG4XKGAjLe2DJfZxrYxJn4xM6U7w8w=
+			fB/rIRvm4NMK75LzhjPQpOMUqZRBJqWGfkIWDKL6J0I=
 			</data>
 		</dict>
 		<key>Modules/RookAppleHealth.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+8MvkGGKfcORJkx/8mGyimgM6gyHIkz0QUpFOHsQZBE=
+			aFCi3x78eYete9s/hmuJ3Eq1tNOkNSosx4m8POXGKHQ=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
