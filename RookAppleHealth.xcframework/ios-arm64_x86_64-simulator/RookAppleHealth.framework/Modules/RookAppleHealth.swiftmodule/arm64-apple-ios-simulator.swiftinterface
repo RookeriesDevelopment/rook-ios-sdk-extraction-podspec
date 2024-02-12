@@ -47,9 +47,9 @@ public struct RookMovementData : Swift.Encodable {
 }
 public struct RookCaloriesDataEvent : Swift.Encodable {
   public let caloriesNetIntakeKilocalories: Swift.Int?
-  public let caloriesExpenditureKilocalories: Swift.Int?
-  public let caloriesNetActiveKilocalories: Swift.Int?
-  public let caloriesBasalMetabolicRateKilocalories: Swift.Int?
+  public let caloriesExpenditureKilocalories: Swift.Float?
+  public let caloriesNetActiveKilocalories: Swift.Float?
+  public let caloriesBasalMetabolicRateKilocalories: Swift.Float?
   public let fatPercentageOfCaloriesPercentage: Swift.Int?
   public let carbohydratePercentageOfCaloriesPercentage: Swift.Int?
   public let proteinPercentageOfCaloriesPercentage: Swift.Int?
@@ -131,9 +131,9 @@ public struct RookSpeedGranularItem : Swift.Encodable {
 }
 @_hasMissingDesignatedInitializers @objc public class RookExtractionCaloriesDataEventObjc : ObjectiveC.NSObject, Swift.Encodable {
   @objc final public let caloriesNetIntakeKilocalories: Swift.Int
-  @objc final public let caloriesExpenditureKilocalories: Swift.Int
-  @objc final public let caloriesNetActiveKilocalories: Swift.Int
-  @objc final public let caloriesBasalMetabolicRateKilocalories: Swift.Int
+  @objc final public let caloriesExpenditureKilocalories: Swift.Float
+  @objc final public let caloriesNetActiveKilocalories: Swift.Float
+  @objc final public let caloriesBasalMetabolicRateKilocalories: Swift.Float
   @objc final public let fatPercentageOfCaloriesPercentage: Swift.Int
   @objc final public let carbohydratePercentageOfCaloriesPercentage: Swift.Int
   @objc final public let proteinPercentageOfCaloriesPercentage: Swift.Int
