@@ -2128,21 +2128,21 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "Swift.Int?",
+                "printedName": "Swift.Float?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
+                    "name": "Float",
+                    "printedName": "Swift.Float",
+                    "usr": "s:Sf"
                   }
                 ],
                 "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "s:15RookAppleHealth0A17CaloriesDataEventV31caloriesExpenditureKilocaloriesSiSgvp",
-            "mangledName": "$s15RookAppleHealth0A17CaloriesDataEventV31caloriesExpenditureKilocaloriesSiSgvp",
+            "usr": "s:15RookAppleHealth0A17CaloriesDataEventV31caloriesExpenditureKilocaloriesSfSgvp",
+            "mangledName": "$s15RookAppleHealth0A17CaloriesDataEventV31caloriesExpenditureKilocaloriesSfSgvp",
             "moduleName": "RookAppleHealth",
             "declAttributes": [
               "HasStorage",
@@ -2159,21 +2159,21 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "Swift.Int?",
+                    "printedName": "Swift.Float?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "Int",
-                        "printedName": "Swift.Int",
-                        "usr": "s:Si"
+                        "name": "Float",
+                        "printedName": "Swift.Float",
+                        "usr": "s:Sf"
                       }
                     ],
                     "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:15RookAppleHealth0A17CaloriesDataEventV31caloriesExpenditureKilocaloriesSiSgvg",
-                "mangledName": "$s15RookAppleHealth0A17CaloriesDataEventV31caloriesExpenditureKilocaloriesSiSgvg",
+                "usr": "s:15RookAppleHealth0A17CaloriesDataEventV31caloriesExpenditureKilocaloriesSfSgvg",
+                "mangledName": "$s15RookAppleHealth0A17CaloriesDataEventV31caloriesExpenditureKilocaloriesSfSgvg",
                 "moduleName": "RookAppleHealth",
                 "implicit": true,
                 "accessorKind": "get"
@@ -2188,21 +2188,21 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "Swift.Int?",
+                "printedName": "Swift.Float?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
+                    "name": "Float",
+                    "printedName": "Swift.Float",
+                    "usr": "s:Sf"
                   }
                 ],
                 "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "s:15RookAppleHealth0A17CaloriesDataEventV29caloriesNetActiveKilocaloriesSiSgvp",
-            "mangledName": "$s15RookAppleHealth0A17CaloriesDataEventV29caloriesNetActiveKilocaloriesSiSgvp",
+            "usr": "s:15RookAppleHealth0A17CaloriesDataEventV29caloriesNetActiveKilocaloriesSfSgvp",
+            "mangledName": "$s15RookAppleHealth0A17CaloriesDataEventV29caloriesNetActiveKilocaloriesSfSgvp",
             "moduleName": "RookAppleHealth",
             "declAttributes": [
               "HasStorage",
@@ -2219,21 +2219,21 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "Swift.Int?",
+                    "printedName": "Swift.Float?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "Int",
-                        "printedName": "Swift.Int",
-                        "usr": "s:Si"
+                        "name": "Float",
+                        "printedName": "Swift.Float",
+                        "usr": "s:Sf"
                       }
                     ],
                     "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:15RookAppleHealth0A17CaloriesDataEventV29caloriesNetActiveKilocaloriesSiSgvg",
-                "mangledName": "$s15RookAppleHealth0A17CaloriesDataEventV29caloriesNetActiveKilocaloriesSiSgvg",
+                "usr": "s:15RookAppleHealth0A17CaloriesDataEventV29caloriesNetActiveKilocaloriesSfSgvg",
+                "mangledName": "$s15RookAppleHealth0A17CaloriesDataEventV29caloriesNetActiveKilocaloriesSfSgvg",
                 "moduleName": "RookAppleHealth",
                 "implicit": true,
                 "accessorKind": "get"
@@ -2248,21 +2248,21 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "Swift.Int?",
+                "printedName": "Swift.Float?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
+                    "name": "Float",
+                    "printedName": "Swift.Float",
+                    "usr": "s:Sf"
                   }
                 ],
                 "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "s:15RookAppleHealth0A17CaloriesDataEventV38caloriesBasalMetabolicRateKilocaloriesSiSgvp",
-            "mangledName": "$s15RookAppleHealth0A17CaloriesDataEventV38caloriesBasalMetabolicRateKilocaloriesSiSgvp",
+            "usr": "s:15RookAppleHealth0A17CaloriesDataEventV38caloriesBasalMetabolicRateKilocaloriesSfSgvp",
+            "mangledName": "$s15RookAppleHealth0A17CaloriesDataEventV38caloriesBasalMetabolicRateKilocaloriesSfSgvp",
             "moduleName": "RookAppleHealth",
             "declAttributes": [
               "HasStorage",
@@ -2279,21 +2279,21 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "Swift.Int?",
+                    "printedName": "Swift.Float?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "Int",
-                        "printedName": "Swift.Int",
-                        "usr": "s:Si"
+                        "name": "Float",
+                        "printedName": "Swift.Float",
+                        "usr": "s:Sf"
                       }
                     ],
                     "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:15RookAppleHealth0A17CaloriesDataEventV38caloriesBasalMetabolicRateKilocaloriesSiSgvg",
-                "mangledName": "$s15RookAppleHealth0A17CaloriesDataEventV38caloriesBasalMetabolicRateKilocaloriesSiSgvg",
+                "usr": "s:15RookAppleHealth0A17CaloriesDataEventV38caloriesBasalMetabolicRateKilocaloriesSfSgvg",
+                "mangledName": "$s15RookAppleHealth0A17CaloriesDataEventV38caloriesBasalMetabolicRateKilocaloriesSfSgvg",
                 "moduleName": "RookAppleHealth",
                 "implicit": true,
                 "accessorKind": "get"
@@ -5239,14 +5239,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
               }
             ],
             "declKind": "Var",
             "usr": "c:@M@RookAppleHealth@objc(cs)RookExtractionCaloriesDataEventObjc(py)caloriesExpenditureKilocalories",
-            "mangledName": "$s15RookAppleHealth0A31ExtractionCaloriesDataEventObjcC31caloriesExpenditureKilocaloriesSivp",
+            "mangledName": "$s15RookAppleHealth0A31ExtractionCaloriesDataEventObjcC31caloriesExpenditureKilocaloriesSfvp",
             "moduleName": "RookAppleHealth",
             "declAttributes": [
               "Final",
@@ -5264,14 +5264,14 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
+                    "name": "Float",
+                    "printedName": "Swift.Float",
+                    "usr": "s:Sf"
                   }
                 ],
                 "declKind": "Accessor",
                 "usr": "c:@M@RookAppleHealth@objc(cs)RookExtractionCaloriesDataEventObjc(im)caloriesExpenditureKilocalories",
-                "mangledName": "$s15RookAppleHealth0A31ExtractionCaloriesDataEventObjcC31caloriesExpenditureKilocaloriesSivg",
+                "mangledName": "$s15RookAppleHealth0A31ExtractionCaloriesDataEventObjcC31caloriesExpenditureKilocaloriesSfvg",
                 "moduleName": "RookAppleHealth",
                 "implicit": true,
                 "declAttributes": [
@@ -5289,14 +5289,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
               }
             ],
             "declKind": "Var",
             "usr": "c:@M@RookAppleHealth@objc(cs)RookExtractionCaloriesDataEventObjc(py)caloriesNetActiveKilocalories",
-            "mangledName": "$s15RookAppleHealth0A31ExtractionCaloriesDataEventObjcC29caloriesNetActiveKilocaloriesSivp",
+            "mangledName": "$s15RookAppleHealth0A31ExtractionCaloriesDataEventObjcC29caloriesNetActiveKilocaloriesSfvp",
             "moduleName": "RookAppleHealth",
             "declAttributes": [
               "Final",
@@ -5314,14 +5314,14 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
+                    "name": "Float",
+                    "printedName": "Swift.Float",
+                    "usr": "s:Sf"
                   }
                 ],
                 "declKind": "Accessor",
                 "usr": "c:@M@RookAppleHealth@objc(cs)RookExtractionCaloriesDataEventObjc(im)caloriesNetActiveKilocalories",
-                "mangledName": "$s15RookAppleHealth0A31ExtractionCaloriesDataEventObjcC29caloriesNetActiveKilocaloriesSivg",
+                "mangledName": "$s15RookAppleHealth0A31ExtractionCaloriesDataEventObjcC29caloriesNetActiveKilocaloriesSfvg",
                 "moduleName": "RookAppleHealth",
                 "implicit": true,
                 "declAttributes": [
@@ -5339,14 +5339,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
               }
             ],
             "declKind": "Var",
             "usr": "c:@M@RookAppleHealth@objc(cs)RookExtractionCaloriesDataEventObjc(py)caloriesBasalMetabolicRateKilocalories",
-            "mangledName": "$s15RookAppleHealth0A31ExtractionCaloriesDataEventObjcC38caloriesBasalMetabolicRateKilocaloriesSivp",
+            "mangledName": "$s15RookAppleHealth0A31ExtractionCaloriesDataEventObjcC38caloriesBasalMetabolicRateKilocaloriesSfvp",
             "moduleName": "RookAppleHealth",
             "declAttributes": [
               "Final",
@@ -5364,14 +5364,14 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
+                    "name": "Float",
+                    "printedName": "Swift.Float",
+                    "usr": "s:Sf"
                   }
                 ],
                 "declKind": "Accessor",
                 "usr": "c:@M@RookAppleHealth@objc(cs)RookExtractionCaloriesDataEventObjc(im)caloriesBasalMetabolicRateKilocalories",
-                "mangledName": "$s15RookAppleHealth0A31ExtractionCaloriesDataEventObjcC38caloriesBasalMetabolicRateKilocaloriesSivg",
+                "mangledName": "$s15RookAppleHealth0A31ExtractionCaloriesDataEventObjcC38caloriesBasalMetabolicRateKilocaloriesSfvg",
                 "moduleName": "RookAppleHealth",
                 "implicit": true,
                 "declAttributes": [
@@ -68281,98 +68281,98 @@
     {
       "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/Rook\/SDK's\/RookAuthenticationSDK\/RookAppleHealth\/Source\/Extraction\/Data\/Event\/ActivityEvent\/Entities\/RookCaloriesDataEvent.swift",
       "kind": "StringLiteral",
-      "offset": 644,
+      "offset": 650,
       "length": 34,
       "value": "\"calories_net_intake_kilocalories\""
     },
     {
       "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/Rook\/SDK's\/RookAuthenticationSDK\/RookAppleHealth\/Source\/Extraction\/Data\/Event\/ActivityEvent\/Entities\/RookCaloriesDataEvent.swift",
       "kind": "StringLiteral",
-      "offset": 722,
+      "offset": 728,
       "length": 35,
       "value": "\"calories_expenditure_kilocalories\""
     },
     {
       "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/Rook\/SDK's\/RookAuthenticationSDK\/RookAppleHealth\/Source\/Extraction\/Data\/Event\/ActivityEvent\/Entities\/RookCaloriesDataEvent.swift",
       "kind": "StringLiteral",
-      "offset": 799,
+      "offset": 805,
       "length": 34,
       "value": "\"calories_net_active_kilocalories\""
     },
     {
       "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/Rook\/SDK's\/RookAuthenticationSDK\/RookAppleHealth\/Source\/Extraction\/Data\/Event\/ActivityEvent\/Entities\/RookCaloriesDataEvent.swift",
       "kind": "StringLiteral",
-      "offset": 884,
+      "offset": 890,
       "length": 44,
       "value": "\"calories_basal_metabolic_rate_kilocalories\""
     },
     {
       "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/Rook\/SDK's\/RookAuthenticationSDK\/RookAppleHealth\/Source\/Extraction\/Data\/Event\/ActivityEvent\/Entities\/RookCaloriesDataEvent.swift",
       "kind": "StringLiteral",
-      "offset": 974,
+      "offset": 980,
       "length": 39,
       "value": "\"fat_percentage_of_calories_percentage\""
     },
     {
       "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/Rook\/SDK's\/RookAuthenticationSDK\/RookAppleHealth\/Source\/Extraction\/Data\/Event\/ActivityEvent\/Entities\/RookCaloriesDataEvent.swift",
       "kind": "StringLiteral",
-      "offset": 1068,
+      "offset": 1074,
       "length": 48,
       "value": "\"carbohydrate_percentage_of_calories_percentage\""
     },
     {
       "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/Rook\/SDK's\/RookAuthenticationSDK\/RookAppleHealth\/Source\/Extraction\/Data\/Event\/ActivityEvent\/Entities\/RookCaloriesDataEvent.swift",
       "kind": "StringLiteral",
-      "offset": 1166,
+      "offset": 1172,
       "length": 43,
       "value": "\"protein_percentage_of_calories_percentage\""
     },
     {
       "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/Rook\/SDK's\/RookAuthenticationSDK\/RookAppleHealth\/Source\/Extraction\/Data\/Event\/ActivityEvent\/Entities\/RookCaloriesDataEvent.swift",
       "kind": "StringLiteral",
-      "offset": 644,
+      "offset": 650,
       "length": 34,
       "value": "\"calories_net_intake_kilocalories\""
     },
     {
       "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/Rook\/SDK's\/RookAuthenticationSDK\/RookAppleHealth\/Source\/Extraction\/Data\/Event\/ActivityEvent\/Entities\/RookCaloriesDataEvent.swift",
       "kind": "StringLiteral",
-      "offset": 722,
+      "offset": 728,
       "length": 35,
       "value": "\"calories_expenditure_kilocalories\""
     },
     {
       "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/Rook\/SDK's\/RookAuthenticationSDK\/RookAppleHealth\/Source\/Extraction\/Data\/Event\/ActivityEvent\/Entities\/RookCaloriesDataEvent.swift",
       "kind": "StringLiteral",
-      "offset": 799,
+      "offset": 805,
       "length": 34,
       "value": "\"calories_net_active_kilocalories\""
     },
     {
       "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/Rook\/SDK's\/RookAuthenticationSDK\/RookAppleHealth\/Source\/Extraction\/Data\/Event\/ActivityEvent\/Entities\/RookCaloriesDataEvent.swift",
       "kind": "StringLiteral",
-      "offset": 884,
+      "offset": 890,
       "length": 44,
       "value": "\"calories_basal_metabolic_rate_kilocalories\""
     },
     {
       "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/Rook\/SDK's\/RookAuthenticationSDK\/RookAppleHealth\/Source\/Extraction\/Data\/Event\/ActivityEvent\/Entities\/RookCaloriesDataEvent.swift",
       "kind": "StringLiteral",
-      "offset": 974,
+      "offset": 980,
       "length": 39,
       "value": "\"fat_percentage_of_calories_percentage\""
     },
     {
       "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/Rook\/SDK's\/RookAuthenticationSDK\/RookAppleHealth\/Source\/Extraction\/Data\/Event\/ActivityEvent\/Entities\/RookCaloriesDataEvent.swift",
       "kind": "StringLiteral",
-      "offset": 1068,
+      "offset": 1074,
       "length": 48,
       "value": "\"carbohydrate_percentage_of_calories_percentage\""
     },
     {
       "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/Rook\/SDK's\/RookAuthenticationSDK\/RookAppleHealth\/Source\/Extraction\/Data\/Event\/ActivityEvent\/Entities\/RookCaloriesDataEvent.swift",
       "kind": "StringLiteral",
-      "offset": 1166,
+      "offset": 1172,
       "length": 43,
       "value": "\"protein_percentage_of_calories_percentage\""
     },
@@ -68834,98 +68834,98 @@
     {
       "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/Rook\/SDK's\/RookAuthenticationSDK\/RookAppleHealth\/Source\/Extraction\/Objc\/Entities\/Activity\/RookExtractionCaloriesDataEventObjc.swift",
       "kind": "StringLiteral",
-      "offset": 1569,
+      "offset": 1623,
       "length": 34,
       "value": "\"calories_net_intake_kilocalories\""
     },
     {
       "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/Rook\/SDK's\/RookAuthenticationSDK\/RookAppleHealth\/Source\/Extraction\/Objc\/Entities\/Activity\/RookExtractionCaloriesDataEventObjc.swift",
       "kind": "StringLiteral",
-      "offset": 1647,
+      "offset": 1701,
       "length": 35,
       "value": "\"calories_expenditure_kilocalories\""
     },
     {
       "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/Rook\/SDK's\/RookAuthenticationSDK\/RookAppleHealth\/Source\/Extraction\/Objc\/Entities\/Activity\/RookExtractionCaloriesDataEventObjc.swift",
       "kind": "StringLiteral",
-      "offset": 1724,
+      "offset": 1778,
       "length": 34,
       "value": "\"calories_net_active_kilocalories\""
     },
     {
       "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/Rook\/SDK's\/RookAuthenticationSDK\/RookAppleHealth\/Source\/Extraction\/Objc\/Entities\/Activity\/RookExtractionCaloriesDataEventObjc.swift",
       "kind": "StringLiteral",
-      "offset": 1809,
+      "offset": 1863,
       "length": 44,
       "value": "\"calories_basal_metabolic_rate_kilocalories\""
     },
     {
       "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/Rook\/SDK's\/RookAuthenticationSDK\/RookAppleHealth\/Source\/Extraction\/Objc\/Entities\/Activity\/RookExtractionCaloriesDataEventObjc.swift",
       "kind": "StringLiteral",
-      "offset": 1899,
+      "offset": 1953,
       "length": 39,
       "value": "\"fat_percentage_of_calories_percentage\""
     },
     {
       "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/Rook\/SDK's\/RookAuthenticationSDK\/RookAppleHealth\/Source\/Extraction\/Objc\/Entities\/Activity\/RookExtractionCaloriesDataEventObjc.swift",
       "kind": "StringLiteral",
-      "offset": 1993,
+      "offset": 2047,
       "length": 48,
       "value": "\"carbohydrate_percentage_of_calories_percentage\""
     },
     {
       "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/Rook\/SDK's\/RookAuthenticationSDK\/RookAppleHealth\/Source\/Extraction\/Objc\/Entities\/Activity\/RookExtractionCaloriesDataEventObjc.swift",
       "kind": "StringLiteral",
-      "offset": 2091,
+      "offset": 2145,
       "length": 43,
       "value": "\"protein_percentage_of_calories_percentage\""
     },
     {
       "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/Rook\/SDK's\/RookAuthenticationSDK\/RookAppleHealth\/Source\/Extraction\/Objc\/Entities\/Activity\/RookExtractionCaloriesDataEventObjc.swift",
       "kind": "StringLiteral",
-      "offset": 1569,
+      "offset": 1623,
       "length": 34,
       "value": "\"calories_net_intake_kilocalories\""
     },
     {
       "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/Rook\/SDK's\/RookAuthenticationSDK\/RookAppleHealth\/Source\/Extraction\/Objc\/Entities\/Activity\/RookExtractionCaloriesDataEventObjc.swift",
       "kind": "StringLiteral",
-      "offset": 1647,
+      "offset": 1701,
       "length": 35,
       "value": "\"calories_expenditure_kilocalories\""
     },
     {
       "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/Rook\/SDK's\/RookAuthenticationSDK\/RookAppleHealth\/Source\/Extraction\/Objc\/Entities\/Activity\/RookExtractionCaloriesDataEventObjc.swift",
       "kind": "StringLiteral",
-      "offset": 1724,
+      "offset": 1778,
       "length": 34,
       "value": "\"calories_net_active_kilocalories\""
     },
     {
       "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/Rook\/SDK's\/RookAuthenticationSDK\/RookAppleHealth\/Source\/Extraction\/Objc\/Entities\/Activity\/RookExtractionCaloriesDataEventObjc.swift",
       "kind": "StringLiteral",
-      "offset": 1809,
+      "offset": 1863,
       "length": 44,
       "value": "\"calories_basal_metabolic_rate_kilocalories\""
     },
     {
       "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/Rook\/SDK's\/RookAuthenticationSDK\/RookAppleHealth\/Source\/Extraction\/Objc\/Entities\/Activity\/RookExtractionCaloriesDataEventObjc.swift",
       "kind": "StringLiteral",
-      "offset": 1899,
+      "offset": 1953,
       "length": 39,
       "value": "\"fat_percentage_of_calories_percentage\""
     },
     {
       "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/Rook\/SDK's\/RookAuthenticationSDK\/RookAppleHealth\/Source\/Extraction\/Objc\/Entities\/Activity\/RookExtractionCaloriesDataEventObjc.swift",
       "kind": "StringLiteral",
-      "offset": 1993,
+      "offset": 2047,
       "length": 48,
       "value": "\"carbohydrate_percentage_of_calories_percentage\""
     },
     {
       "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/Rook\/SDK's\/RookAuthenticationSDK\/RookAppleHealth\/Source\/Extraction\/Objc\/Entities\/Activity\/RookExtractionCaloriesDataEventObjc.swift",
       "kind": "StringLiteral",
-      "offset": 2091,
+      "offset": 2145,
       "length": 43,
       "value": "\"protein_percentage_of_calories_percentage\""
     },
@@ -70453,7 +70453,7 @@
       "kind": "StringLiteral",
       "offset": 642,
       "length": 7,
-      "value": "\"1.3.0\""
+      "value": "\"1.3.2\""
     },
     {
       "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/Rook\/SDK's\/RookAuthenticationSDK\/RookAppleHealth\/Source\/Configuration\/RookAuthAppleHealth.swift",
