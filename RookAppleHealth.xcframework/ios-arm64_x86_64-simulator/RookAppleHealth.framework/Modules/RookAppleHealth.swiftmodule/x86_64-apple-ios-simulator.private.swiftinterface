@@ -1230,6 +1230,7 @@ public struct RookDistanceData : Swift.Codable {
   public var elevationGranularDataMeters: [RookAppleHealth.ElevationGranularDataMeter]?
   public var swimmingStrokesNumber: Swift.Int?, swimmingNumLapsNumber: Swift.Int?, swimmingPoolLengthMeters: Swift.Int?, swimmingTotalDistanceMeters: Swift.Int?
   public var swimmingDistanceGranularDataMeters: [RookAppleHealth.SwimmingDistanceGranularDataMeter]?
+  public var distanceCyclingMeters: Swift.Int?
   public func encode(to encoder: Swift.Encoder) throws
   public init(from decoder: Swift.Decoder) throws
 }
