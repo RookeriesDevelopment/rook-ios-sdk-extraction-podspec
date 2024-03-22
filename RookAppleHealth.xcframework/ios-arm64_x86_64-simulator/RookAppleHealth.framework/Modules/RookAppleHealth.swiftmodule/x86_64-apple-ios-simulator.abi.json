@@ -13743,6 +13743,43 @@
             "moduleName": "RookAppleHealth"
           },
           {
+            "kind": "Var",
+            "name": "eventsBackGroundExtractionEnable",
+            "printedName": "eventsBackGroundExtractionEnable",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(RookAppleHealth.BackGroundStorageTypes.Type) -> RookAppleHealth.BackGroundStorageTypes",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BackGroundStorageTypes",
+                    "printedName": "RookAppleHealth.BackGroundStorageTypes",
+                    "usr": "s:15RookAppleHealth22BackGroundStorageTypesO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "RookAppleHealth.BackGroundStorageTypes.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BackGroundStorageTypes",
+                        "printedName": "RookAppleHealth.BackGroundStorageTypes",
+                        "usr": "s:15RookAppleHealth22BackGroundStorageTypesO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15RookAppleHealth22BackGroundStorageTypesO06eventsdE16ExtractionEnableyA2CmF",
+            "mangledName": "$s15RookAppleHealth22BackGroundStorageTypesO06eventsdE16ExtractionEnableyA2CmF",
+            "moduleName": "RookAppleHealth"
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init(rawValue:)",
@@ -71305,6 +71342,13 @@
     {
       "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/Rook\/SDK's\/RookAuthenticationSDK\/RookAppleHealth\/Source\/Extraction\/VariableExtraction\/Constants\/BackGroundStorageConstants.swift",
       "kind": "StringLiteral",
+      "offset": 971,
+      "length": 45,
+      "value": "\"rook_is_events_background_extraction_enable\""
+    },
+    {
+      "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/Rook\/SDK's\/RookAuthenticationSDK\/RookAppleHealth\/Source\/Extraction\/VariableExtraction\/Constants\/BackGroundStorageConstants.swift",
+      "kind": "StringLiteral",
       "offset": 229,
       "length": 44,
       "value": "\"rook_is_steps_background_extraction_enable\""
@@ -71357,6 +71401,13 @@
       "offset": 874,
       "length": 54,
       "value": "\"rook_is_activity_events_background_extraction_enable\""
+    },
+    {
+      "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/Rook\/SDK's\/RookAuthenticationSDK\/RookAppleHealth\/Source\/Extraction\/VariableExtraction\/Constants\/BackGroundStorageConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 971,
+      "length": 45,
+      "value": "\"rook_is_events_background_extraction_enable\""
     },
     {
       "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/Rook\/SDK's\/RookAuthenticationSDK\/RookAppleHealth\/Source\/Extraction\/Entities\/Common\/RookPowerData.swift",
@@ -72175,7 +72226,7 @@
       "kind": "StringLiteral",
       "offset": 1264,
       "length": 7,
-      "value": "\"1.3.4\""
+      "value": "\"1.5.1\""
     },
     {
       "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/Rook\/SDK's\/RookAuthenticationSDK\/RookAppleHealth\/Source\/Configuration\/RookAuthAppleHealth.swift",
